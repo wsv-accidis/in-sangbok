@@ -1,7 +1,6 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
-    <option name="myLocal" value="true" />
-    <inspection_tool class="AndroidLintContentDescription" enabled="true" level="UNUSED ENTRY" enabled_by_default="true" />
+    <inspection_tool class="AndroidLintContentDescription" enabled="false" level="WARNING" enabled_by_default="false" />
   </profile>
 </component>
