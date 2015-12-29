@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sångbok IN</string>
+    <string name="app_name">IN-sektionens sångbok</string>
+    <string name="app_short_name">IN-sångbok</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
