@@ -43,7 +43,6 @@
 				Vi är här och framtiden är vår!
 			</verse>
 		</text>
-		<safe>true</safe>
 	</song>
 
 	<song name="Dance macabre"
@@ -75,7 +74,6 @@
 				dille det blir din lott.
 			</verse>
 		</text>
-		<safe>true</safe>
 	</song>
 
 	<song name="Porthos visa"
