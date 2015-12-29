@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <songs>
-    <song>
-        <name>Moder Kista</name>
-        <composer>Otto Lindblad</composer>
-        <author>David Larsson</author>
-        <melody>Längtan till landet</melody>
-        <category>Gasque</category>
+    <song name="Moder Kista"
+          author="David Larsson"
+          category="Gasque"
+          composer="Otto Lindblad"
+          melody="Längtan till landet">
         <text>
             <verse>
                 Ack för Kista brinner våra hjärtan,
@@ -47,10 +46,9 @@
         <safe>true</safe>
     </song>
 
-    <song>
-        <name>Dance macabre</name>
-        <melody>Vårvindar friska</melody>
-        <category>Gasque</category>
+    <song name="Dance macabre"
+          category="Gasque"
+          melody="Vårvindar friska">
         <text>
             <verse>
                 Runt kring vår stuga smådjävlar sluga,
@@ -80,10 +78,9 @@
         <safe>true</safe>
     </song>
 
-    <song>
-        <name>Porthos visa</name>
-        <melody>You can’t get a man with a gun (ungefär)</melody>
-        <category>Gasque</category>
+    <song name="Porthos visa"
+          category="Gasque"
+          melody="You can’t get a man with a gun (ungefär)">
         <text>
             <verse>
                 Jag vill börja gasqua,
@@ -114,10 +111,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Jag ska festa</name>
-        <melody>Bamsesången</melody>
-        <category>Gasque</category>
+    <song name="Jag ska festa"
+          category="Gasque"
+          melody="Bamsesången">
         <text>
             <verse>
                 Jag ska festa, ta det lungt med spriten.
@@ -152,10 +148,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Lyft ditt välförsedda glas</name>
-        <melody>Ding dong merrily on high</melody>
-        <category>Gasque</category>
+    <song name="Lyft ditt välförsedda glas"
+          category="Gasque"
+          melody="Ding dong merrily on high">
         <text>
             <verse>
                 Lyft ditt välförsedda glas,
@@ -183,11 +178,10 @@
         </text>
     </song>
 
-    <song>
-        <name>Fredmans sång nr. 21</name>
-        <composer>Carl Michael Bellman</composer>
-        <author>Carl Michael Bellman</author>
-        <category>Gasque</category>
+    <song name="Fredmans sång nr. 21"
+          author="Carl Michael Bellman"
+          category="Gasque"
+          composer="Carl Michael Bellman">
         <text>
             <verse>
                 Så lunka vi så småningom
@@ -318,10 +312,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Härjarevisan</name>
-        <melody>Gärdebylåten, från Lundaspexet “Djingis Khan”, 1954</melody>
-        <category>Gasque</category>
+    <song name="Härjarevisan"
+          category="Gasque"
+          melody="Gärdebylåten, från Lundaspexet “Djingis Khan”, 1954">
         <text>
             <verse>
                 Liksom våra fäder vikingarna i Norden
@@ -378,10 +371,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Köttet kommer</name>
-        <melody>Punschen kommer</melody>
-        <category>Gasque</category>
+    <song name="Köttet kommer"
+          category="Gasque"
+          melody="Punschen kommer">
         <text>
             <verse>
                 Köttet kommer, köttet kommer,
@@ -398,22 +390,21 @@
         </text>
     </song>
 
-    <song>
-        <name>Système International</name>
-        <melody>Studentsången</melody>
-        <category>Gasque</category>
+    <song name="Système International"
+          category="Gasque"
+          melody="Studentsången">
         <text>
             <verse>
                 W kg m Wb s
             </verse>
             <verse>
-                O m T A rad
+                Ω m T A rad
             </verse>
             <verse>
                 Cd S N s
             </verse>
             <verse>
-                O A m Lx dB
+                Ω A m Lx dB
             </verse>
             <verse>
                 °C W/m²
@@ -433,10 +424,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Jag har aldrig...</name>
-        <melody>O hur saligt att få vandra</melody>
-        <category>Gasque</category>
+    <song name="Jag har aldrig..."
+          category="Gasque"
+          melody="O hur saligt att få vandra">
         <text>
             <verse>
                 Jag har aldrig vart på snusen,
@@ -565,10 +555,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Jag var full en gång...</name>
-        <melody>Flottarkärlek</melody>
-        <category>Gasque</category>
+    <song name="Jag var full en gång..."
+          category="Gasque"
+          melody="Flottarkärlek">
         <text>
             <verse>
                 Jag var full en gång för länge sen,
@@ -621,9 +610,8 @@
         </text>
     </song>
 
-    <song>
-        <name>Kalmarevisan</name>
-        <category>Gasque</category>
+    <song name="Kalmarevisan"
+          category="Gasque">
         <startComment>Endast sångledaren sjunger rader som börjar med "*"</startComment>
         <text>
             <verse>
@@ -762,10 +750,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Lille Olle</name>
-        <melody>Katjuscha</melody>
-        <category>Gasque</category>
+    <song name="Lille Olle"
+          category="Gasque"
+          melody="Katjuscha">
         <text>
             <verse>
                 Lille Olle skulle gå på disco,
@@ -815,10 +802,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Siffervisan</name>
-        <melody>Ritsch, ratsch, filibom</melody>
-        <category>Gasque</category>
+    <song name="Siffervisan"
+          category="Gasque"
+          melody="Ritsch, ratsch, filibom">
         <text>
             <verse>
                 1, 2, 75, 6, 7, 75, 6, 7, 75, 6, 7
@@ -830,10 +816,9 @@
         </text>
     </song>
 
-    <song>
-        <name>När jag är fuller</name>
-        <melody>När månen vandrar</melody>
-        <category>Gasque</category>
+    <song name="När jag är fuller"
+          category="Gasque"
+          melody="När månen vandrar">
         <text>
             <verse>
                 När jag är fuller då är jag glad,
@@ -886,10 +871,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Störthärligt full</name>
-        <melody>Fat Mammy Brown</melody>
-        <category>Gasque</category>
+    <song name="Störthärligt full"
+          category="Gasque"
+          melody="Fat Mammy Brown">
         <text>
             <verse>
                 Nu har alla lämnat festen
@@ -964,11 +948,10 @@
         </text>
     </song>
 
-    <song>
-        <name>Bort allt vad oro gör</name>
-        <composer>Carl Michael Bellman</composer>
-        <author>Carl Michael Bellman</author>
-        <category>Gasque</category>
+    <song name="Bort allt vad oro gör"
+          author="Carl Michael Bellman"
+          category="Gasque"
+          composer="Carl Michael Bellman">
         <text>
             <verse>
                 Bort allt vad oro gör,
@@ -1001,9 +984,8 @@
         </text>
     </song>
 
-    <song>
-        <name>Hoppe Hare</name>
-        <category>Gasque</category>
+    <song name="Hoppe Hare"
+          category="Gasque">
         <text>
             <verse>
                 Hoppe Hoppe Hare,
@@ -1032,10 +1014,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Dom som är nyktra</name>
-        <melody>Du är den ende</melody>
-        <category>Gasque</category>
+    <song name="Dom som är nyktra"
+          category="Gasque"
+          melody="Du är den ende">
         <text>
             <verse>
                 Dom som är nyktra
@@ -1065,9 +1046,8 @@
         </text>
     </song>
 
-    <song>
-        <name>Gums visa</name>
-        <category>Gasque</category>
+    <song name="Gums visa"
+          category="Gasque">
         <text>
             <verse>
                 Skål kamrater, ty livet är glatt
@@ -1086,9 +1066,8 @@
         </text>
     </song>
 
-    <song>
-        <name>Hederssång</name>
-        <category>Gasque</category>
+    <song name="Hederssång"
+          category="Gasque">
         <text>
             <verse>
                 För det var i vår ungdoms fagraste vår,
@@ -1109,10 +1088,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Rövarvisan</name>
-        <melody>Rövarnas visa</melody>
-        <category>Gasque</category>
+    <song name="Rövarvisan"
+          category="Gasque"
+          melody="Rövarnas visa">
         <text>
             <verse>
                 Nu drar vi ut på rövarstråt,
@@ -1163,10 +1141,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Ode till Treo</name>
-        <melody>Längtan till landet</melody>
-        <category>Gasque</category>
+    <song name="Ode till Treo"
+          category="Gasque"
+          melody="Längtan till landet">
         <text>
             <verse>
                 Morgonstund med smak av döda bävrar,
@@ -1183,10 +1160,9 @@
         </text>
     </song>
 
-    <song>
-        <name>En pilsnerdrickare</name>
-        <melody>En sockerbagare</melody>
-        <category>Öhl</category>
+    <song name="En pilsnerdrickare"
+          category="Öhl"
+          melody="En sockerbagare">
         <text>
             <verse>
                 En pilsnerdrickare här bor i staden,
@@ -1203,10 +1179,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Ju mera öl vi dricker</name>
-        <melody>Ju mer vi är tillsammans</melody>
-        <category>Öhl</category>
+    <song name="Ju mera öl vi dricker"
+          category="Öhl"
+          melody="Ju mer vi är tillsammans">
         <text>
             <verse>
                 Ju mera öl vi dricker,
@@ -1223,10 +1198,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Min pilser</name>
-        <melody>My Bonnie</melody>
-        <category>Öhl</category>
+    <song name="Min pilser"
+          category="Öhl"
+          melody="My Bonnie">
         <text>
             <verse>
                 Min pilsner skall svalka min tunga,
@@ -1243,10 +1217,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Öl, öl, öl i glas</name>
-        <melody>Row, row, row your boat</melody>
-        <category>Öhl</category>
+    <song name="Öl, öl, öl i glas"
+          category="Öhl"
+          melody="Row, row, row your boat">
         <startComment>Kan sjungas i kanon</startComment>
         <text>
             <verse>
@@ -1258,10 +1231,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Pripps</name>
-        <melody>O Tannenbaum</melody>
-        <category>Öhl</category>
+    <song name="Pripps"
+          category="Öhl"
+          melody="O Tannenbaum">
         <text>
             <verse>
                 En Pripps klass I, en Pripps klass I,
@@ -1290,10 +1262,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Strejk på Pripps (I)</name>
-        <melody>I natt jag drömde</melody>
-        <category>Öhl</category>
+    <song name="Strejk på Pripps (I)"
+          category="Öhl"
+          melody="I natt jag drömde">
         <text>
             <verse>
                 I natt jag drömde något som
@@ -1322,10 +1293,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Strejk på Pripps (II)</name>
-        <melody>I natt jag drömde</melody>
-        <category>Öhl</category>
+    <song name="Strejk på Pripps (II)"
+          category="Öhl"
+          melody="I natt jag drömde">
         <text>
             <verse>
                 I natt jag drömde något som,
@@ -1350,10 +1320,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Vi älskar öl</name>
-        <melody>Ser du stjärnan i det blå</melody>
-        <category>Öhl</category>
+    <song name="Vi älskar öl"
+          category="Öhl"
+          melody="Ser du stjärnan i det blå">
         <text>
             <verse>
                 Täckt av silver sejdeln full,
@@ -1374,10 +1343,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Ode till ölet</name>
-        <melody>Trampa på gasen</melody>
-        <category>Öhl</category>
+    <song name="Ode till ölet"
+          category="Öhl"
+          melody="Trampa på gasen">
         <text>
             <verse>
                 Tu tu tu Tuborg
@@ -1406,10 +1374,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Var nöjd med ölen</name>
-        <melody>Var nöjd med allt vad livet ger</melody>
-        <category>Öhl</category>
+    <song name="Var nöjd med ölen"
+          category="Öhl"
+          melody="Var nöjd med allt vad livet ger">
         <text>
             <verse>
                 Var nöjd med allt som ölen ger,
@@ -1424,10 +1391,9 @@
     </song>
 
 
-    <song>
-        <name>Trivsel</name>
-        <melody>Öppna Landskap</melody>
-        <category>Öhl</category>
+    <song name="Trivsel"
+          category="Öhl"
+          melody="Öppna Landskap">
         <text>
             <verse>
                 Jag trivs bäst med öl i magen,
@@ -1454,10 +1420,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Ölvisa från TKK</name>
-        <melody>Staffan var en stalledräng</melody>
-        <category>Öhl</category>
+    <song name="Ölvisa från TKK"
+          category="Öhl"
+          melody="Staffan var en stalledräng">
         <text>
             <verse>
                 Hos TMEIT är det fest ikväll,
@@ -1482,10 +1447,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Bamsehäf</name>
-        <melody>Bamse</melody>
-        <category>Öhl</category>
+    <song name="Bamsehäf"
+          category="Öhl"
+          melody="Bamse">
         <text>
             <verse>
                 Vi skall festa, hela da’n till nästa,
@@ -1508,10 +1472,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Bordeaux, bordeaux</name>
-        <melody>I sommarens soliga dagar</melody>
-        <category>Wihn</category>
+    <song name="Bordeaux, bordeaux"
+          category="Wihn"
+          melody="I sommarens soliga dagar">
         <text>
             <verse>
                 Jag minns än idag hur min fader,
@@ -1532,10 +1495,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Vinvisa</name>
-        <melody>Gubben Noak</melody>
-        <category>Wihn</category>
+    <song name="Vinvisa"
+          category="Wihn"
+          melody="Gubben Noak">
         <text>
             <verse>
                 Vinet väntar, vinet väntar,
@@ -1553,10 +1515,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Festen kan börja</name>
-        <melody>Vårvindar friska</melody>
-        <category>Wihn</category>
+    <song name="Festen kan börja"
+          category="Wihn"
+          melody="Vårvindar friska">
         <text>
             <verse>
                 Festen kan börja, ingen får sörja
@@ -1573,10 +1534,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Feta fransyskor</name>
-        <melody>Marche Militaire</melody>
-        <category>Wihn</category>
+    <song name="Feta fransyskor"
+          category="Wihn"
+          melody="Marche Militaire">
         <startComment>D sjunges av damer; H av herrar</startComment>
         <text>
             <verse>
@@ -1607,10 +1567,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Elysisk längtan</name>
-        <melody>An die Freude (Ode to Joy)</melody>
-        <category>Wihn</category>
+    <song name="Elysisk längtan"
+          category="Wihn"
+          melody="An die Freude (Ode to Joy)">
         <text>
             <verse>
                 Aftonrodnan svalka sprider,
@@ -1628,10 +1587,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Vinets sång</name>
-        <melody>Längtan till landet</melody>
-        <category>Wihn</category>
+    <song name="Vinets sång"
+          category="Wihn"
+          melody="Längtan till landet">
         <text>
             <verse>
                 Goda vänner, låt oss fatta glaset,
@@ -1648,10 +1606,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Röd vitamin</name>
-        <melody>My Bonnie</melody>
-        <category>Wihn</category>
+    <song name="Röd vitamin"
+          category="Wihn"
+          melody="My Bonnie">
         <text>
             <verse>
                 Hur badar man bäst på en kurort?
@@ -1677,10 +1634,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Så länge</name>
-        <melody>Så länge skutan kan gå</melody>
-        <category>Wihn</category>
+    <song name="Så länge"
+          category="Wihn"
+          melody="Så länge skutan kan gå">
         <text>
             <verse>
                 Så länge rösten är mild,
@@ -1705,10 +1661,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Crassus’ vinsång</name>
-        <melody>Mors lille olle</melody>
-        <category>Wihn</category>
+    <song name="Crassus’ vinsång"
+          category="Wihn"
+          melody="Mors lille olle">
         <text>
             <verse>
                 Kom alla vänner, drick ur era glas.
@@ -1741,10 +1696,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Vin är gudagott att dricka</name>
-        <melody>Här är gudagott att vara</melody>
-        <category>Wihn</category>
+    <song name="Vin är gudagott att dricka"
+          category="Wihn"
+          melody="Här är gudagott att vara">
         <text>
             <verse>
                 Vin är gudagott att dricka!
@@ -1761,11 +1715,10 @@
         </text>
     </song>
 
-    <song>
-        <name>Längtan till landet</name>
-        <composer>Herman Sätherberg och Otto Lindblad</composer>
-        <author>Herman Sätherberg och Otto Lindblad</author>
-        <category>Wihn</category>
+    <song name="Längtan till landet"
+          author="Herman Sätherberg och Otto Lindblad"
+          category="Wihn"
+          composer="Herman Sätherberg och Otto Lindblad">
         <text>
             <verse>
                 Vintern rasat ut bland våra fjällar,
@@ -1789,10 +1742,9 @@
             </verse>
         </text>
     </song>
-    <song>
-        <name>Tjugotre</name>
-        <melody>Amanda Lundbom</melody>
-        <category>Brännvin</category>
+    <song name="Tjugotre"
+          category="Brännvin"
+          melody="Amanda Lundbom">
         <text>
             <verse>
                 Tjugotre är Bäska Droppar,
@@ -1821,10 +1773,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Brännvin är jävligt gott</name>
-        <melody>Karl-Alfred Boy</melody>
-        <category>Brännvin</category>
+    <song name="Brännvin är jävligt gott"
+          category="Brännvin"
+          melody="Karl-Alfred Boy">
         <startComment>Dunka två gånger i bordet på "!"</startComment>
         <text>
             <verse>
@@ -1837,10 +1788,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Mitt lilla lån</name>
-        <melody>Hej tomtegubbar</melody>
-        <category>Brännvin</category>
+    <song name="Mitt lilla lån"
+          category="Brännvin"
+          melody="Hej tomtegubbar">
         <text>
             <verse>
                 //: Mitt lilla lån det räcker inte,
@@ -1853,10 +1803,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Denna thaft</name>
-        <melody>Helan går</melody>
-        <category>Brännvin</category>
+    <song name="Denna thaft"
+          category="Brännvin"
+          melody="Helan går">
         <text>
             <verse>
                 Denna thaft,
@@ -1873,10 +1822,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Lång finsk supvisa</name>
-        <melody>Nej.</melody>
-        <category>Brännvin</category>
+    <song name="Lång finsk supvisa"
+          category="Brännvin"
+          melody="Nej.">
         <text>
             <verse>
                 Int’ nu, men ... Nu!
@@ -1884,10 +1832,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Mera brännvin</name>
-        <melody>Internationalen</melody>
-        <category>Brännvin</category>
+    <song name="Mera brännvin"
+          category="Brännvin"
+          melody="Internationalen">
         <startComment>Ibland sjunger man bara sista hälften.</startComment>
         <text>
             <verse>
@@ -1917,10 +1864,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Septen</name>
-        <melody>Nu ska vi skörda linet</melody>
-        <category>Brännvin</category>
+    <song name="Septen"
+          category="Brännvin"
+          melody="Nu ska vi skörda linet">
         <text>
             <verse>
                 klämma en trudelutt om de’ går.
@@ -1937,10 +1883,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Måsen</name>
-        <melody>När månen vandrar</melody>
-        <category>Brännvin</category>
+    <song name="Måsen"
+          category="Brännvin"
+          melody="När månen vandrar">
         <startComment>
             Vers 3 förekommer även som en egen sång, “När månen vandrat sin tysta ban”.
         </startComment>
@@ -2006,10 +1951,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Planksaft</name>
-        <melody>Längtan till landet</melody>
-        <category>Brännvin</category>
+    <song name="Planksaft"
+          category="Brännvin"
+          melody="Längtan till landet">
         <text>
             <verse>
                 Törsten rasar uti våra strupar,
@@ -2050,9 +1994,8 @@
         </text>
     </song>
 
-    <song>
-        <name>Hyfsvisa</name>
-        <category>Brännvin</category>
+    <song name="Hyfsvisa"
+          category="Brännvin">
         <text>
             <verse>
                 Kors i allsin dar!
@@ -2064,10 +2007,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Tänk om jag hade</name>
-        <melody>Hej tomtegubbar</melody>
-        <category>Brännvin</category>
+    <song name="Tänk om jag hade"
+          category="Brännvin"
+          melody="Hej tomtegubbar">
         <text>
             <verse>
                 //: Tänk om jag hade lilla nubben
@@ -2080,10 +2022,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Livet är härligt</name>
-        <melody>Röda kavalleriet (Polyushko-Pole)</melody>
-        <category>Brännvin</category>
+    <song name="Livet är härligt"
+          category="Brännvin"
+          melody="Röda kavalleriet (Polyushko-Pole)">
         <text>
             <verse>
                 (sjungs tyst:)
@@ -2118,10 +2059,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Vikingen</name>
-        <melody>When Johnny comes marching</melody>
-        <category>Brännvin</category>
+    <song name="Vikingen"
+          category="Brännvin"
+          melody="When Johnny comes marching">
         <startComment>Från Sångarstriden 1981</startComment>
         <text>
             <verse>
@@ -2153,11 +2093,10 @@
         </text>
     </song>
 
-    <song>
-        <name>En gång däran</name>
-        <composer>Evert Taube</composer>
-        <author>Evert Taube</author>
-        <category>Brännvin</category>
+    <song name="En gång däran"
+          author="Evert Taube"
+          category="Brännvin"
+          composer="Evert Taube">
         <text>
             <verse>
                 Än en gång däran bröder, än en gång däran,
@@ -2198,9 +2137,8 @@
         </text>
     </song>
 
-    <song>
-        <name>Helan går</name>
-        <category>Brännvin</category>
+    <song name="Helan går"
+          category="Brännvin">
         <text>
             <verse>
                 Helan går,
@@ -2217,10 +2155,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Hell and gore</name>
-        <melody>Helan går</melody>
-        <category>Brännvin</category>
+    <song name="Hell and gore"
+          category="Brännvin"
+          melody="Helan går">
         <text>
             <verse>
                 Hell and gore,
@@ -2237,10 +2174,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Helangorakatt</name>
-        <melody>Vi går över daggstänkta berg</melody>
-        <category>Brännvin</category>
+    <song name="Helangorakatt"
+          category="Brännvin"
+          melody="Vi går över daggstänkta berg">
         <text>
             <verse>
                 Det var en gång en
@@ -2255,10 +2191,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Imbelupet</name>
-        <melody>Kors på Idas grav</melody>
-        <category>Brännvin</category>
+    <song name="Imbelupet"
+          category="Brännvin"
+          melody="Kors på Idas grav">
         <text>
             <verse>
                 Imbelupet glaset står på bräcklig fot,
@@ -2306,10 +2241,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Byssan full</name>
-        <melody>Byssan lull</melody>
-        <category>Brännvin</category>
+    <song name="Byssan full"
+          category="Brännvin"
+          melody="Byssan lull">
         <text>
             <verse>
                 Byssan lull,
@@ -2322,10 +2256,9 @@
         </text>
     </song>
 
-    <song>
-        <name>En liten droppe i glaset blev kvar</name>
-        <melody>Fru Musica</melody>
-        <category>Brännvin</category>
+    <song name="En liten droppe i glaset blev kvar"
+          category="Brännvin"
+          melody="Fru Musica">
         <text>
             <verse>
                 En liten droppe i glaset blev kvar.
@@ -2337,10 +2270,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Gräv ur tundran</name>
-        <melody>Katjuscha</melody>
-        <category>Brännvin</category>
+    <song name="Gräv ur tundran"
+          category="Brännvin"
+          melody="Katjuscha">
         <text>
             <verse>
                 (Sjung tyst:)
@@ -2379,10 +2311,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Uti min mage</name>
-        <melody>Uti vår hage</melody>
-        <category>Brännvin</category>
+    <song name="Uti min mage"
+          category="Brännvin"
+          melody="Uti vår hage">
         <text>
             <verse>
                 Uti min mage en längtan mig tär.
@@ -2416,10 +2347,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Jag tror, jag tror</name>
-        <melody>Jag tror på sommaren</melody>
-        <category>Brännvin</category>
+    <song name="Jag tror, jag tror"
+          category="Brännvin"
+          melody="Jag tror på sommaren">
         <text>
             <verse>
                 Jag tror, jag tror på akvavit.
@@ -2436,10 +2366,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Wenngarn</name>
-        <melody>Kors på Idas grav</melody>
-        <category>Brännvin</category>
+    <song name="Wenngarn"
+          category="Brännvin"
+          melody="Kors på Idas grav">
         <text>
             <verse>
                 Säg, vad vore livet utan alkohol?
@@ -2461,10 +2390,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Om man bara tar en smutt</name>
-        <melody>Nu är glada julen slut</melody>
-        <category>Brännvin</category>
+    <song name="Om man bara tar en smutt"
+          category="Brännvin"
+          melody="Nu är glada julen slut">
         <text>
             <verse>
                 Om man bara tar en
@@ -2477,11 +2405,10 @@
         </text>
     </song>
 
-    <song>
-        <name>Häv, häv detta glas</name>
-        <author>Erik Rålenius</author>
-        <melody>Bä, bä vita lamm</melody>
-        <category>Brännvin</category>
+    <song name="Häv, häv detta glas"
+          author="Erik Rålenius"
+          category="Brännvin"
+          melody="Bä, bä vita lamm">
         <text>
             <verse>
                 Häv, häv detta glas, nu är det kalas.
@@ -2493,10 +2420,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Punschen kommer</name>
-        <melody>Vals ur Glada änkan</melody>
-        <category>Punch</category>
+    <song name="Punschen kommer"
+          category="Punch"
+          melody="Vals ur Glada änkan">
         <text>
             <verse>
                 Punschen kommer,
@@ -2525,10 +2451,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Djungelpunsch</name>
-        <melody>Var nöjd med allt som livet ger</melody>
-        <category>Punch</category>
+    <song name="Djungelpunsch"
+          category="Punch"
+          melody="Var nöjd med allt som livet ger">
         <text>
             <verse>
                 Jag gillar alla tiders punsch,
@@ -2545,10 +2470,9 @@
         </text>
     </song>
 
-    <song>
-        <name>FESTU:s punschvisa</name>
-        <melody>Tomtarnas vinternatt</melody>
-        <category>Punch</category>
+    <song name="FESTU:s punschvisa"
+          category="Punch"
+          melody="Tomtarnas vinternatt">
         <text>
             <verse>
                 Punschen, punschen,
@@ -2561,9 +2485,8 @@
         </text>
     </song>
 
-    <song>
-        <name>Jag gillar punschen</name>
-        <category>Punch</category>
+    <song name="Jag gillar punschen"
+          category="Punch">
         <text>
             <verse>
                 Länge har jag tänkt,
@@ -2586,10 +2509,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Guling, guling</name>
-        <melody>Tomtarnas julnatt</melody>
-        <category>Punch</category>
+    <song name="Guling, guling"
+          category="Punch"
+          melody="Tomtarnas julnatt">
         <text>
             <verse>
                 Guling, guling.
@@ -2599,10 +2521,9 @@
         </text>
     </song>
 
-    <song>
-        <name>När supen vandrat hädan</name>
-        <melody>Jag gick mig ut i skogen</melody>
-        <category>Punch</category>
+    <song name="När supen vandrat hädan"
+          category="Punch"
+          melody="Jag gick mig ut i skogen">
         <startComment>Den stämma som slutar samtidigt som den andra, vinner.</startComment>
         <text>
             <verse>
@@ -2636,10 +2557,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Punsch, punsch</name>
-        <melody>Ritsch, ratsch, filibom</melody>
-        <category>Punch</category>
+    <song name="Punsch, punsch"
+          category="Punch"
+          melody="Ritsch, ratsch, filibom">
         <text>
             <verse>
                 //: Punsch, punsch fillibombombom,
@@ -2659,10 +2579,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Studiemedelsrondo</name>
-        <melody>Ösa sand</melody>
-        <category>Punch</category>
+    <song name="Studiemedelsrondo"
+          category="Punch"
+          melody="Ösa sand">
         <text>
             <verse>
                 //: Vi dricker punsch, till lunch,
@@ -2673,10 +2592,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Punschens lov</name>
-        <melody>Rövarvisan</melody>
-        <category>Punch</category>
+    <song name="Punschens lov"
+          category="Punch"
+          melody="Rövarvisan">
         <text>
             <verse>
                 Punschen är och punschen var
@@ -2694,10 +2612,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Tucks punschvisa</name>
-        <melody>Jag fångade en räv en dag</melody>
-        <category>Punch</category>
+    <song name="Tucks punschvisa"
+          category="Punch"
+          melody="Jag fångade en räv en dag">
         <text>
             <verse>
                 Jag hällde upp en punsch en dag,
@@ -2714,10 +2631,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Visa vid torsdagskväll</name>
-        <melody>Visa vid midsommartid</melody>
-        <category>Punch</category>
+    <song name="Visa vid torsdagskväll"
+          category="Punch"
+          melody="Visa vid midsommartid">
         <text>
             <verse>
                 Du häller ur flaskan en gyllene tår,
@@ -2735,10 +2651,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Vädjan till punschen</name>
-        <melody>Sov du lilla videung</melody>
-        <category>Punch</category>
+    <song name="Vädjan till punschen"
+          category="Punch"
+          melody="Sov du lilla videung">
         <text>
             <verse>
                 Kom nu lilla punschen min,
@@ -2757,10 +2672,9 @@
         </text>
     </song>
 
-    <song>
-        <name>P.U.S.S.:s punschvisa</name>
-        <melody>Öppna din dörr</melody>
-        <category>Punch</category>
+    <song name="P.U.S.S.:s punschvisa"
+          category="Punch"
+          melody="Öppna din dörr">
         <text>
             <verse>
                 Den första gång jag provåt dig,
@@ -2803,10 +2717,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Skönheten och odjuret</name>
-        <melody>Kostervalsen</melody>
-        <category>Punch</category>
+    <song name="Skönheten och odjuret"
+          category="Punch"
+          melody="Kostervalsen">
         <text>
             <verse>
                 Johansson är ful,
@@ -2826,10 +2739,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Änglapunsch</name>
-        <melody>Änglamark</melody>
-        <category>Punch</category>
+    <song name="Änglapunsch"
+          category="Punch"
+          melody="Änglamark">
         <text>
             <verse>
                 Kalla den gudagåva eller himlanektar, vad du vill.
@@ -2858,10 +2770,9 @@
         </text>
     </song>
 
-    <song>
-        <name>När kaffet är serverat</name>
-        <melody>Mössens julafton</melody>
-        <category>Punch</category>
+    <song name="När kaffet är serverat"
+          category="Punch"
+          melody="Mössens julafton">
         <text>
             <verse>
                 När kaffet är serverat,
@@ -2888,10 +2799,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Sista punschvisan</name>
-        <melody>Auld lang syne</melody>
-        <category>Punch</category>
+    <song name="Sista punschvisan"
+          category="Punch"
+          melody="Auld lang syne">
         <text>
             <verse>
                 När punschen småningom är slut
@@ -2913,12 +2823,12 @@
         </text>
     </song>
 
-    <song>
-        <name>Barrett’s Privateers</name>
-        <melody>Stan Rogers</melody>
-        <category>Utländskt</category>
+    <song name="Barrett’s Privateers"
+          category="Utländskt"
+          melody="Stan Rogers">
         <startComment>
-            Kan sjungas med sångledare, då sjunger alla raderna som börjar med "*", sångledaren i övrigt solo.
+            Kan sjungas med sångledare, då sjunger alla raderna som börjar med "*", sångledaren i
+            övrigt solo.
         </startComment>
         <text>
             <verse>
@@ -2998,9 +2908,8 @@
         </text>
     </song>
 
-    <song>
-        <name>Seven drunken nights</name>
-        <category>Utländskt</category>
+    <song name="Seven drunken nights"
+          category="Utländskt">
         <text>
             <verse>
                 As I went home on Monday night
@@ -3136,9 +3045,8 @@
         </text>
     </song>
 
-    <song>
-        <name>The Wild Rover</name>
-        <category>Utländskt</category>
+    <song name="The Wild Rover"
+          category="Utländskt">
         <text>
             <verse>
                 I’ve been a wild rover for many’s the year,
@@ -3189,9 +3097,8 @@
         </text>
     </song>
 
-    <song>
-        <name>What shall we do with the drunken sailor?</name>
-        <category>Utländskt</category>
+    <song name="What shall we do with the drunken sailor?"
+          category="Utländskt">
         <text>
             <verse>
                 //: What shall we do with the drunken sailor? :// (x3)
@@ -3227,9 +3134,8 @@
         </text>
     </song>
 
-    <song>
-        <name>Under the Scotsman’s Kilt</name>
-        <category>Utländskt</category>
+    <song name="Under the Scotsman’s Kilt"
+          category="Utländskt">
         <text>
             <verse>
                 Well, a Scotsman clad in kilt
@@ -3311,10 +3217,9 @@
         </text>
     </song>
 
-    <song>
-        <name>En matematiker</name>
-        <melody>En sockerbagare</melody>
-        <category>Nördigt</category>
+    <song name="En matematiker"
+          category="Nördigt"
+          melody="En sockerbagare">
         <text>
             <verse>
                 En matematiker här bor i staden,
@@ -3342,10 +3247,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Yesterday</name>
-        <melody>Yesterday</melody>
-        <category>Nördigt</category>
+    <song name="Yesterday"
+          category="Nördigt"
+          melody="Yesterday">
         <text>
             <verse>
                 Yesterday,
@@ -3374,11 +3278,10 @@
         </text>
     </song>
 
-    <song>
-        <name>Unix Man</name>
-        <author>Bran Morrison</author>
-        <melody>Nowhere Man</melody>
-        <category>Nördigt</category>
+    <song name="Unix Man"
+          author="Bran Morrison"
+          category="Nördigt"
+          melody="Nowhere Man">
         <text>
             <verse>
                 He’s a real UNIX Man,
@@ -3409,11 +3312,10 @@
         </text>
     </song>
 
-    <song>
-        <name>Man ska ha Linux</name>
-        <author>Erik Rålenius</author>
-        <melody>Man ska ha husvagn</melody>
-        <category>Nördigt</category>
+    <song name="Man ska ha Linux"
+          author="Erik Rålenius"
+          category="Nördigt"
+          melody="Man ska ha husvagn">
         <text>
             <verse>
                 Jag har prövat alla operativ som finnas kan:
@@ -3470,11 +3372,10 @@
         </text>
     </song>
 
-    <song>
-        <name>Om Emacs</name>
-        <author>Ingemar Ragnemalm</author>
-        <melody>Kovan kommer, kovan går</melody>
-        <category>Nördigt</category>
+    <song name="Om Emacs"
+          author="Ingemar Ragnemalm"
+          category="Nördigt"
+          melody="Kovan kommer, kovan går">
         <text>
             <verse>
                 Emacs är en stor koloss, tugga på, tugga på.
@@ -3503,10 +3404,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Pop opp i topp</name>
-        <author>Thore Skogman, 1965</author>
-        <category>Esoterica</category>
+    <song name="Pop opp i topp"
+          author="Thore Skogman, 1965"
+          category="Esoterica">
         <text>
             <verse>
                 Pop opp i topp, det är toppen i år!
@@ -3561,11 +3461,10 @@
     </song>
 
 
-    <song>
-        <name>PRAOs visa</name>
-        <author>Niklas Söderlund och Wilhelm Svenselius</author>
-        <melody>När monen vandrar</melody>
-        <category>Esoterica</category>
+    <song name="PRAOs visa"
+          author="Niklas Söderlund och Wilhelm Svenselius"
+          category="Esoterica"
+          melody="När monen vandrar">
         <text>
             <verse>
                 Nu har vi tvingats att skriva spex,
@@ -3581,11 +3480,10 @@
     </song>
 
 
-    <song>
-        <name>Vår flygpilot</name>
-        <author>Dain Nilsson</author>
-        <melody>Oh Tannenbaum</melody>
-        <category>Esoterica</category>
+    <song name="Vår flygpilot"
+          author="Dain Nilsson"
+          category="Esoterica"
+          melody="Oh Tannenbaum">
         <text>
             <verse>
                 //: Vår flygpilot, vår flygpilot,
@@ -3598,11 +3496,10 @@
         </text>
     </song>
 
-    <song>
-        <name>Farväl till IT-sektionen</name>
-        <melody>Uti vår hage</melody>
-        <author>Dain Nilsson och Erik Rålenius</author>
-        <category>Esoterica</category>
+    <song name="Farväl till IT-sektionen"
+          author="Dain Nilsson och Erik Rålenius"
+          category="Esoterica"
+          melody="Uti vår hage">
         <text>
             <verse>
                 IT-sektionen den finns inte mer,
@@ -3635,11 +3532,10 @@
     </song>
 
 
-    <song>
-        <name>IN-sektionen</name>
-        <author>Dain Nilsson och Erik Rålenius</author>
-        <melody>Rysslands nationalsång</melody>
-        <category>Esoterica</category>
+    <song name="IN-sektionen"
+          author="Dain Nilsson och Erik Rålenius"
+          category="Esoterica"
+          melody="Rysslands nationalsång">
         <text>
             <verse>
                 IN-sektionen, nya unionen.
@@ -3658,11 +3554,10 @@
         </text>
     </song>
 
-    <song>
-        <name>Faddersången 2001</name>
-        <author>Kjell Ahlström</author>
-        <melody>SJ, SJ, gamle vän</melody>
-        <category>Esoterica</category>
+    <song name="Faddersången 2001"
+          author="Kjell Ahlström"
+          category="Esoterica"
+          melody="SJ, SJ, gamle vän">
         <text>
             <verse>
                 Nu ska vi till Barnens Ö,
@@ -3696,11 +3591,10 @@
     </song>
 
 
-    <song>
-        <name>Läs inte på Handels</name>
-        <author>Kjell Ahlström</author>
-        <melody>Alex Ellgren och Oscar Frick</melody>
-        <category>Esoterica</category>
+    <song name="Läs inte på Handels"
+          author="Kjell Ahlström"
+          category="Esoterica"
+          melody="Alex Ellgren och Oscar Frick">
         <startComment>Sångledaren läser raderna som startar med "*"</startComment>
         <text>
             <verse>
@@ -3759,11 +3653,10 @@
     </song>
 
 
-    <song>
-        <name>Sång till Stor-MUX</name>
-        <melody>Balladen om Theobald Thor</melody>
-        <author>Erik Lundberg och Wilhelm Svenselius</author>
-        <category>Esoterica</category>
+    <song name="Sång till Stor-MUX"
+          author="Erik Lundberg och Wilhelm Svenselius"
+          category="Esoterica"
+          melody="Balladen om Theobald Thor">
         <text>
             <verse>
                 En MUX som hette Ann-Sofi Åhn,
@@ -3826,11 +3719,10 @@
     </song>
 
 
-    <song>
-        <name>Bacchivisan</name>
-        <author>Kjell Ahlström</author>
-        <melody>Agadoo (ungefär)</melody>
-        <category>Esoterica</category>
+    <song name="Bacchivisan"
+          author="Kjell Ahlström"
+          category="Esoterica"
+          melody="Agadoo (ungefär)">
         <text>
             <verse>
                 När jag slutade 9:an,
@@ -3909,11 +3801,10 @@
         </text>
     </song>
 
-    <song>
-        <name>Tentavakten</name>
-        <author>Erik Rålenius</author>
-        <melody>Du gamla, du fria</melody>
-        <category>Esoterica</category>
+    <song name="Tentavakten"
+          author="Erik Rålenius"
+          category="Esoterica"
+          melody="Du gamla, du fria">
         <text>
             <verse>
                 Du gamla du fina du stolta tentavakt.
@@ -3934,11 +3825,10 @@
         </text>
     </song>
 
-    <song>
-        <name>Vart tog den schlema lilla nØllan vägen?</name>
-        <author>Kjell Ahlström</author>
-        <melody>Vart tog den söta lilla flickan vägen</melody>
-        <category>Esoterica</category>
+    <song name="Vart tog den schlema lilla nØllan vägen?"
+          author="Kjell Ahlström"
+          category="Esoterica"
+          melody="Vart tog den söta lilla flickan vägen">
         <startComment>
             “Du Konglig?”
             “Ja?”
@@ -4015,10 +3905,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Starke Arvid</name>
-        <author>Ola, Frukt och Flingor, 1979</author>
-        <category>Esoterica</category>
+    <song name="Starke Arvid"
+          author="Ola, Frukt och Flingor, 1979"
+          category="Esoterica">
         <text>
             <verse>
                 Som liten var Arvid rätt svag
@@ -4067,11 +3956,10 @@
         </text>
     </song>
 
-    <song>
-        <name>Man ska gå ME</name>
-        <melody>Man ska ha husvagn</melody>
-        <author>Viktor Åberg</author>
-        <category>Esoterica</category>
+    <song name="Man ska gå ME"
+          author="Viktor Åberg"
+          category="Esoterica"
+          melody="Man ska ha husvagn">
         <text>
             <verse>
                 Jag har kört nästan alla kurser jag provat på.
@@ -4099,11 +3987,10 @@
         </endComment>
     </song>
 
-    <song>
-        <name>invITensången</name>
-        <melody>Kungssången</melody>
-        <author>Daniel Byström</author>
-        <category>Högtidligt</category>
+    <song name="invITensången"
+          author="Daniel Byström"
+          category="Högtidligt"
+          melody="Kungssången">
         <text>
             <verse>
                 invITen ståtlig, ack så vis,
@@ -4128,10 +4015,9 @@
         </text>
     </song>
 
-    <song>
-        <name>Kungssången</name>
-        <author>C.V.A.Strandberg och Otto Lindblad, 1844</author>
-        <category>Högtidligt</category>
+    <song name="Kungssången"
+          author="C.V.A.Strandberg och Otto Lindblad, 1844"
+          category="Högtidligt">
         <text>
             <verse>
                 Ur svenska hjärtans djup en gång
@@ -4149,10 +4035,9 @@
     </song>
 
 
-    <song>
-        <name>Du gamla, du fria</name>
-        <melody>Richard Dybeck, 1844</melody>
-        <category>Högtidligt</category>
+    <song name="Du gamla, du fria"
+          category="Högtidligt"
+          melody="Richard Dybeck, 1844">
         <text>
             <verse>
                 Du gamla, du fria, du fjällhöga Nord,
@@ -4173,12 +4058,11 @@
         </text>
     </song>
 
-    <song>
-        <name>O, gamla klang- och jubeltid!</name>
-        <melody>O alte Burschenherrlichkeit</melody>
-        <composer>Eugen Höfling, 1825 (tyskt original)</composer>
-        <author>August Lindh, 1921 (svensk översättn.)</author>
-        <category>Högtidligt</category>
+    <song name="O, gamla klang- och jubeltid!"
+          author="August Lindh, 1921 (svensk översättn.)"
+          category="Högtidligt"
+          composer="Eugen Höfling, 1825 (tyskt original)"
+          melody="O alte Burschenherrlichkeit">
         <text>
             <verse>
                 O gamla klang- och jubeltid
@@ -4236,10 +4120,8 @@
         </text>
     </song>
 
-    <song>
-        <name>En liten blå förgätmigej</name>
-        <category>Gasque</category>
-        <category>Högtidligt</category>
+    <song name="En liten blå förgätmigej"
+          category="Gasque">
         <startComment>Sjunges alltid som gasquens sista sång.</startComment>
         <text>
             <verse>
