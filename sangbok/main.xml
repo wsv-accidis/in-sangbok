@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<songs>
+<sonsgs>
   <song name="Moder Kista"
 	author="David Larsson"
 	category="Gasque"
 	composer="Otto Lindblad"
 	melody="Längtan till landet">
     <text>
-      <verse>
+      <p>
 	Ack för Kista brinner våra hjärtan,
 	centrum för vår I-Teknologi.
 	Alla sorger sopas under mattan,
 	när vårt Kista vi flanerar i.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Sjung för alla stolta basstationer,
 	sjung för Forums vackra arkitektur.
 	Låt oss därför celebrera vår moder:
 	Kista, du förstärker vår bravur!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ifrån Kista trampas nya stigar,
 	morgondagsteknik är vår gebit.
 	År för år, vi fortsätter att vara
 	blickfång för global teknikelit.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Här föds många nya forskningsgenier,
 	skarpa sinnen väcks och strålar med glans.
 	Nu har turen blivit vår att stoltsera,
 	nu är tiden här att ta vår chans.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ack för Kista brinner våra hjärtan,
 	allas stämmor, klara höjs mot skyn.
 	Högt från ovan science tower tronar i sin prakt;
 	det är en ståtlig syn.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Nu system och minnen byggas på kisel,
 	stora ingenjörer följer vårt spår.
 	Så med styrka vi för världen nu visar:
 	Vi är här och framtiden är vår!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -49,30 +49,30 @@
 	category="Gasque"
 	melody="Vårvindar friska">
     <text>
-      <verse>
+      <p>
 	Runt kring vår stuga smådjävlar sluga,
 	tassa så tyst med bockfot och svans.
 	Varulvar yla, isande kyla,
 	sveper i dimman fanstygens dans.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Bäva, o broder, lyssna och hör,
 	vrålen från gast, som osalig dör.
 	Satan han skrattar, flaskan han fattar,
 	super tills dagen gryr.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Gastar och spöken skymtar i kröken,
 	dödingar släpa ruttnande lik.
 	Benrangel skramla, spökhänder famla,
 	kväva din strupes rosslande skrik.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Helvetes alla fasor släpps loss,
 	Fan rider här med hela sin tross.
 	Göm dig i stugan, du har fått flugan,
 	dille det blir din lott.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -80,32 +80,32 @@
 	category="Gasque"
 	melody="You can’t get a man with a gun (ungefär)">
     <text>
-      <verse>
+      <p>
 	Jag vill börja gasqua,
 	vart fan är min flaska?
 	Vem i helvete stal min butelj?
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ska törsten mig tvinga,
 	en TT börja svinga?
 	Nej för fan, bara blunda och svälj!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Vilken smörja! Får jag spörja?
 	Vem för fan tror att jag är en älg?
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Till England vi rider,
 	och sedan vad det lider
 	träffar vi välan på någon pub?
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och där ska vi festa,
 	blott dricka av det bästa:
 	Utav whiskey och portvin,
 	jag tänker gå hårt in
 	för att prova på rubb och stubb!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -113,36 +113,36 @@
 	category="Gasque"
 	melody="Bamsesången">
     <text>
-      <verse>
+      <p>
 	Jag ska festa, ta det lungt med spriten.
 	Ha det roligt utan att bli full.
 	Inte krypa runt med festeliten.
 	Ta det varligt för min egen skull.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Först en öl i torra stupen,
 	efter det så kommer supen,
 	ner med vinet, i med punschen,
 	sist en groggbuffé.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag är skitfull, däckar först av alla
 	Missar festen, men vad gör väl det?
 	Blandar hejdlöst öl och gammal filmjölk.
 	Kastar upp på bordsdamen breve’!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Först en öl i torra strupen,
 	efter det så kommer supen,
 	ner med vinet, i med punschen,
 	sist en groggbuffé.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Spyan rinner ner för ylleslipsen,
 	raviolin torkar i mitt hår.
 	Vem har lagt mig här i pissoaren,
 	vems är gaffeln i mitt högra lår?
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -150,29 +150,29 @@
 	category="Gasque"
 	melody="Ding dong merrily on high">
     <text>
-      <verse>
+      <p>
 	Lyft ditt välförsedda glas,
 	det är en härlig börda!
 	Nu har grabbarna kalas,
 	vi segern snart skall skörda!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Dinge dingedingedinge
 	dingedingedinge dingedingeding
 	dong dong, imorgon är det lördag. ://
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Sätt nu glaset till din mun,
 	se döden på dig väntar!
 	Nu har grabbarna kalas,
 	hör liemannen flämtar!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Dinge dingedingedinge
 	dingedingedinge dingedingeding
 	dong dong, begravningsklockor
 	klämtar. ://
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -181,132 +181,132 @@
 	category="Gasque"
 	composer="Carl Michael Bellman">
     <text>
-      <verse>
+      <p>
 	Så lunka vi så småningom
 	från Bacchi buller och tumult,
 	när döden ropar, Granne kom,
 	ditt timglas är nu fullt.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Du Gubbe fäll din krycka ner,
 	och du, du yngling, lyd min lag:
 	Den skönsta nymf som åt dig ler
 	inunder armen tag.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tycker du att graven är för djup,
 	nå välan så tag dig då en sup,
 	tag dig sen dito en, dito två,
 	dito tre, så dör du nöjdare.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Du vid din remmare och press,
 	rödbrusig och med hatt på sned,
 	snart skrider fram din likprocess
 	I några svarta led;
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och du som pratar där så stort,
 	med band och stjärnor på din rock:
 	Re’n snickarn kistan färdig gjort,
 	och hyvlar på des lock.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tycker du...
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Men du som med en trumpen min,
 	bland reglar, galler, järn och lås,
 	dig vilar på ditt penningskrin,
 	inom ditt stängda bås;
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och du som svartsjuk slår i kras
 	buteljer, speglar och pokal;
 	Bjud nu god natt, drick ur ditt glas,
 	och hälsa din rival:
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tycker du ...
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och du som under titlars klang
 	din tiggarstav förgyllt vart år,
 	som knappast har, med all din rang,
 	en skilling till din bår;
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och du som ilsken, feg och lat,
 	fördömer vaggan som dig välvt,
 	och ändå dagligt är plakat
 	till glasets sista hälft;
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tycker du ...
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Du som vid Martis fältbasun
 	I blodig skjorta sträckt ditt steg;
 	Och du som tumlar i paulun,
 	I Chloris armar feg;
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och du som med din gyllne bok
 	vid templets genljud reser dig,
 	som rister huvud lärd och klok,
 	och för mot avgrund krig;
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tycker du att graven är för djup,
 	nå välan så tag dig då en sup,
 	tag dig sen dito en, dito två,
 	dito tre, så dör du nöjdare.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Men du som med en ärlig min
 	plär dina vänner häda jämt,
 	och dem förtalar vid ditt vin,
 	och det liksom på skämt;
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och du som ej försvarar dem,
 	fastän ur deras flaskor du,
 	du väl kan slicka dina fem,
 	vad svarar du väl nu?
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tycker du ...
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Men du som till din återfärd,
 	ifrån det du till bordet gick,
 	Ej klingat för din raska värd,
 	fastän han ropar: Drick!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Driv sådan gäst från mat och vin,
 	kör honom med sitt anhang ut,
 	Och sen med en ovänlig min,
 	ryck remmarn ur hans trut!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tycker du ...
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Säg är du nöjd? Min granne säg,
 	så prisa värden nu till slut;
 	Om vi ha en och samma väg,
 	så följoms åt; drick ut!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Men först med vinet rött och vitt
 	för vår värdinna bugom oss,
 	och halkom sen i grafven fritt,
 	vid aftonstjärnans bloss!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tycker du ...
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -314,58 +314,58 @@
 	category="Gasque"
 	melody="Gärdebylåten, från Lundaspexet Djingis Khan, 1954">
     <text>
-      <verse>
+      <p>
 	Liksom våra fäder vikingarna i Norden
 	drar vi landet runt och super oss under borden.
 	Brännvinet har blitt ett elexir
 	för kropp såväl som själ!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Känner du dig liten och ynklig på jorden,
 	växer du med supen och blir stor uti orden,
 	slår dig för ditt håriga bröst
 	och blir en man från hår till häl!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ja, nu skall vi ut och härja
 	supa och slåss och svärja
 	bränna röda stugor, slå små barn
 	och säga fula ord!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Med blod skall vi stäppen färga
 	Nu änteligen lär ja’
 	kunna dra nå’n verklig nytta
 	av min Hermodskurs i mord.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Hurra, nu skall man äntligen få röra på benen,
 	hela stammen jublar och det spritter i grenen,
 	tänk att än en gång få spränga fram
 	på Brunte i galopp!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Din doft, o kära Brunte, är trots brist i hygienen,
 	för en vild mongol minst lika ljuv som syrenen.
 	Tänk, att på din rygg få rida runt i stan och spela topp!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ja, nu skall vi ut ...
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ja, mordbränder är klämmiga, ta fram fotogenen!
 	Eftersläckningen tillhör just de fenomenen
 	inom brandmansyrket, som jag tycker är nån nytta med.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag målar för mitt inre upp den härliga scenen:
 	Blodrött mitt i brandgult,
 	ej ens prins Eugen en lika mustig vy kan måla,
 	ens om han målade med sked!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ja, nu ska vi ut...
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -373,18 +373,18 @@
 	category="Gasque"
 	melody="Punschen kommer">
     <text>
-      <verse>
+      <p>
 	Köttet kommer, köttet kommer,
 	mört och rött.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Gnäggar inte, springer inte,
 	det är dörr. [sic]
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Skål för alla oxar, skål för varje säl!
 	Skål för alla hästar som vi slått ihjäl.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -392,33 +392,33 @@
 	category="Gasque"
 	melody="Studentsången">
     <text>
-      <verse>
+      <p>
 	W kg m Wb s
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ω m T A rad
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Cd S N s
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ω A m Lx dB
-      </verse>
-      <verse>
+      </p>
+      <p>
 	°C W/m²
-      </verse>
-      <verse>
+      </p>
+      <p>
 	J/kg H V C
-      </verse>
-      <verse>
+      </p>
+      <p>
 	kg/m³ mol
-      </verse>
-      <verse>
+      </p>
+      <p>
 	m/s² m/s²
-      </verse>
-      <verse>
+      </p>
+      <p>
 	F!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -426,130 +426,130 @@
 	category="Gasque"
 	melody="O hur saligt att få vandra">
     <text>
-      <verse>
+      <p>
 	Jag har aldrig vart på snusen,
 	aldrig rökat en cigarr, halleluja!
 	Mina dygder äro tusen,
 	inga syndiga laster jag har.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag har aldrig sett nåt naket,
 	inte ens ett litet nyfött barn!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Mina blickar går mot taket,
 	därmed undgår jag frestarens garn!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Halleluja! Halleluja!
 	Halleluja! Halleluja!
 	Halleluja! Halleluja!
 	Halleluja-a-ah! ://
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Bacchus spelar på gitarren,
 	Satan spelar på sitt handklaver!
 	Alla djävlar dansar tango,
 	säg vad kan man väl önska sig mer?
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jo! Att alla bäckar vore brännvin,
 	Riddarfjärden full av bayerskt öl.
 	Konjak i varenda rännsten
 	och punsch i varendaste pöl!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Och mera öl! Vomera öl!
 	Och mera öl! Vomera öl!
 	Och mera öl! Vomera öl!
 	Och mera ö-ö-öl! ://
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Handelsvisan
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag vill aldrig gå på Handels,
 	aldrig tenta företagsekonomi!
 	Deras IQ är ju Mandels,
 	och förståndet det har gjort sorti.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Dom har jätteusla snören,
 	i sitt jätteusla draperi.
 	Dom kan bara räkna ören,
 	hela Handels är ett jävla aperi!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Handels är skit! Jag vill ej dit!
 	Handels är skit! Jag vill ej dit!
 	Handels är skit! Jag vill ej dit!
 	Handels är ski-i-it! ://
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Mammas pojkar är dom alla,
 	pappas flickor är dom likaså.
 	Går och tror att dom e’ balla,
 	fastän dom inget alls ju förstå.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Hela Handels borde rivas,
 	detta anser hela vårat lag.
 	Då skull’ Osqurulda trivas,
 	uppå denna Handels ljuva domedag.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Och vilket drag! På denna dag!
 	Och vilket drag! På denna dag!
 	Och vilket drag! På denna dag!
 	Och vilket dra-a-ag! ://
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Fysikvisan
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag vill aldrig gå på Fysik,
 	aldrig tenta termometerdynamik.
 	Jag vill inte höra syntmusik
 	eller festa som en jävla mattegeek!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Dom ser ut som televerket
 	i sin jättefula overall.
 	Dom kan bara räkna kvarkar
 	nu hyllar vi Data med en skål!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Fysik är torrt! Jag vill ju bort!
 	Fysik är torrt! Jag vill ju bort!
 	Fysik är torrt! Jag vill ju bort!
 	Fysik är to-o-orrt! ://
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Einsteins pojkar är dom alla,
 	Handels flickor kan dom aldrig få.
 	Går och tror att dom har ballar,
 	det får bli på egen hand om det ska gå!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Nu ska hela Sing-Sing rivas,
 	arkitekt är med på Datas lag.
 	Televerket ska fördrivas,
 	uppå konsulatets ljuva domedag.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Och nubbedrag! På denna dag!
 	Och nubbedrag! På denna dag!
 	Och nubbedrag! På denna dag!
 	Och nubbedra-a-ag! ://
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Extravers för Kistastudenter
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag vill aldrig gå i Kista,
 	aldrig tenta programmeringsmetodik.
 	//: Vi kan bara iterera... :// (in abs.)
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -557,54 +557,54 @@
 	category="Gasque"
 	melody="Flottarkärlek">
     <text>
-      <verse>
+      <p>
 	Jag var full en gång för länge sen,
 	på knäna kröp jag hem.
 	Varje dike var för mig ett vilohem,
 	vilohem!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	I varje hörn och varje vrå,
 	hade jag en liten vän,
 	ifrån renat upp till nittosex procent,
 	-sex procent!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag var full en gång för länge sen,
 	på knäna kröp jag hem,
 	och i sällskap hade jag en elefant,
 	elefant!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Elefanten spruta’ vatten,
 	och jag trodde det var öl,
 	sedan dess har alla kallat mig för knöl.
 	Mera öl!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag var full en gång för länge sen,
 	på knäna kröp jag hem,
 	och i sällskap hade jag en elefant,
 	elefant!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Elefanten spruta’ vatten,
 	och jag trodde det var vin,
 	sedan dess har alla kallat mig för svin.
 	Mera vin!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag var full en gång för länge sen,
 	på knäna kröp jag hem,
 	och i sällskap hade jag en elefant,
 	elefant!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Elefanten spruta’ vatten,
 	och jag trodde det var sprit,
 	sedan dess har alla kallat mig för skit.
 	Mera sprit!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -612,138 +612,138 @@
 	category="Gasque">
     <startComment>Endast sångledaren sjunger rader som börjar med "*"</startComment>
     <text>
-      <verse>
+      <p>
 	*För uti Kalmare stad,
 	*ja där finns det ingen kvast,
 	förrän lördagen!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Hej dick
 	Hej dack!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Jag slog i,
 	och vi drack!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Hej dickom dickom dack,
 	hej dickom dickom dack.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	För uti Kalmare stad,
 	ja där finns det ingen kvast,
 	förrän lördagen.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: *När som bonden kommer hem,
 	kommer bondekvinnan ut ://
 	och är stor i sin trut.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Hej dick
 	Hej dack!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Jag slog i,
 	och vi drack!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Hej dickom dickom dack,
 	hej dickom dickom dack.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	För uti Kalmare stad,
 	ja där finns det ingen kvast,
 	förrän lördagen.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: *Var är pengarna du fått?
 	Jo, dom har jag supit opp ://
 	Uppå Kalmare slott.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Hej dick
 	Hej dack!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Jag slog i,
 	och vi drack!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Hej dickom dickom dack,
 	hej dickom dickom dack.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	För uti Kalmare stad,
 	ja där finns det ingen kvast,
 	förrän lördagen.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: *Jag ska mäla dig an,
 	för vår kronbefallningsman!://
 	Och du skall få skamm!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Hej dick
 	Hej dack!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Jag slog i,
 	och vi drack!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Hej dickom dickom dack,
 	hej dickom dickom dack.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	För uti Kalmare stad,
 	ja där finns det ingen kvast,
 	förrän lördagen.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: *Kronbefallningsmannen vår,
 	satt på krogen i går. ://
 	Och var full som ett får.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Hej dick
 	Hej dack!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Jag slog i,
 	och vi drack!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Hej dickom dickom dack,
 	hej dickom dickom dack.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	För uti Kalmare stad,
 	ja där finns det ingen kvast,
 	förrän lördagen.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: *Vad ska bonden få till mat,
 	sura sillar och potat’? ://
 	Det blir sillsallat!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Hej dick
 	Hej dack!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Jag slog i,
 	och vi drack!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*Hej dickom dickom dack,
 	hej dickom dickom dack.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	För uti Kalmare stad,
 	ja där finns det ingen kvast,
 	förrän lördagen.
-      </verse>
+      </p>
 
     </text>
   </song>
@@ -752,51 +752,51 @@
 	category="Gasque"
 	melody="Katjuscha">
     <text>
-      <verse>
+      <p>
 	Lille Olle skulle gå på disco,
 	men han hade inte någon sprit.
 	Lille Olle skaffa’ lite hembränt.
 	Lille Olle gick då på en nit.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	La lala la la ...
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Lille Olle skulle börja festa.
 	Spriten blandade han ut med Mer.
 	Lille Olle drack upp hela bålen.
 	Lille Olle ser nu inte mer.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	La lala la la ...
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Lille Olle skaffa sig en ledhund,
 	den var ful och ganska trind.
 	Olles ledhund drack upp 15 flaskor.
 	Olles ledhund är nu också blind.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	La lala la la ...
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Lille Olle började med droger,
 	blanda’ ut sin LSD med juice.
 	Lille Olles hjärna står i lågor.
 	Lille Olle dog av överdos.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	La lala la la ...
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Lille Olle sitter nu i himlen,
 	festa kan man även göra där.
 	Lille Olle skaffade en ölback.
 	Capsar nu med Gud och Sankte Per.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	La lala la la ...
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -804,13 +804,13 @@
 	category="Gasque"
 	melody="Ritsch, ratsch, filibom">
     <text>
-      <verse>
+      <p>
 	1, 2, 75, 6, 7, 75, 6, 7, 75, 6, 7
 	1, 2, 75, 6, 7, 75, 6, 7, 73
 	107, 103, 102, 107, 6, 19, 27!
 	17, 18, 16, 15, 13, 19, 14, 17,
 	19, 16, 15, 11, 8, 47!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -818,54 +818,54 @@
 	category="Gasque"
 	melody="När månen vandrar">
     <text>
-      <verse>
+      <p>
 	När jag är fuller då är jag glad,
 	fan vet om jag ej är vacker.
 	Jag vandrar kring i vår lilla stad,
 	ibland lyxhus och baracker.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag sjunger ljuvligt en serenad.
 	det gör jag bara när jag är glad
 	och full och vacker,
 	och full och vacker.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	När jag är fuller då är jag stark,
 	fan vet om jag ej är modig.
 	Då kan jag slå vem som helst i mark,
 	så han blir trasig och blodig.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag välter träden i våran park.
 	det gör jag bara när jag är stark
 	och full och modig,
 	och full och modig.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	När jag är fuller då år jag rik
 	fan vet om jag ej är snille.
 	Och dör jag blir jag ett vackert lik,
 	begravs med gravöl och gille.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	I himlen möts jag av hornmusik,
 	det gör man bara när man är rik
 	och är ett snille,
 	och är ett snille.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Men när jag vaknar upp nästa dag,
 	uppå ett enkelrum med galler.
 	Då känner jag mig så rysligt svag,
 	och hatar bråk och kravaller.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Min mage krånglar och är ur lag,
 	nog fan så vet jag att jag idag
 	är bakom galler,
 	är bakom galler.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -873,31 +873,31 @@
 	category="Gasque"
 	melody="Fat Mammy Brown">
     <text>
-      <verse>
+      <p>
 	Nu har alla lämnat festen
 	och jag sitter ensam kvar
 	ibland groggar, pilsnerflaskor
 	i en sönderslagen bar.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Sista pilsnerflaskan tog jag
 	till min frukost klockan fem
 	och nu sitter jag och väntar
 	på att få bli buren hem.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	För jag är störthärligt full
 	och jag ramlar mest omkull.
 	Jag ser rosa elefanter
 	som har jättekonstig ull.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ja, jag är störthärligt full
 	och jag ramlar mest omkull.
 	Det är präktigt, härligt,
 	supa och va’ full.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ifrån fester minns jag inget,
 	men mitt öga blev visst blått.
 	Och det måste jag ha fått
@@ -906,43 +906,43 @@
 	och en okammad peruk,
 	eller också när jag stod
 	i moraklockan och var sjuk.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	För jag är störthärligt full
 	och jag ramlar mest omkull.
 	Jag ser rosa elefanter
 	som har jättekonstig ull.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ja, jag är störthärligt full
 	och jag ramlar mest omkull.
 	Det är präktigt, härligt,
 	supa och va’ full.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Nästa morgon när jag vaknar
 	med en bergsborr i min kropp.
 	Sandpapper på tungan
 	och jag vill ej stiga opp.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Mina armar dom känns tunga
 	och min näsa den är sned.
 	Så jag raglar ut till köket
 	för en återställare.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	För jag är störthärligt full
 	och jag ramlar mest omkull.
 	Jag ser rosa elefanter
 	som har jättekonstig ull.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ja, jag är störthärligt full
 	och jag ramlar mest omkull.
 	Det är präktigt, härligt,
 	supa och va’ full.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -951,64 +951,64 @@
 	category="Gasque"
 	composer="Carl Michael Bellman">
     <text>
-      <verse>
+      <p>
 	Bort allt vad oro gör,
 	bort allt vad hjärtat kväljer!
 	Bäst att man väljer
 	bland dessa buteljer
 	sin maglikör.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Granne, gör du just som jag gör!
 	Vet, denna oljan ger humör.
 	Vad det var läckert!
 	Vad var det? Rhenskt bleckert?
 	"Oui, monseigneur!" ://
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Bort allt vad oro gör,
 	allt är ju stoft och aska.
 	Låt oss bli raska
 	och tömma vår flaska
 	bland bröderna!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Granne, gör du just som jag gör!
 	Vet, denna oljan ger humör.
 	Vad det var mäktigt!
 	Vad var det? "Jo, präktigt!"
 	Malaga? "Ja!" ://
-      </verse>
+      </p>
     </text>
   </song>
 
   <song name="Hoppe Hare"
 	category="Gasque">
     <text>
-      <verse>
+      <p>
 	Hoppe Hoppe Hare,
 	satt och mumsa’ bär.
 	Klappa’ sig på magen:
 	"Det var gott det här!"
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Fram smyger räven
 	tänker Hoppe ta.
 	Men Hoppe Hoppe Hare
 	hoppar ju så bra.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Hoppe Hoppe Hare
 	hoppar mot en sten
 	stuka’ lilla tassen,
 	bröt sitt långa ben.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Fram smyger räven,
 	knäcker Hoppes hals!
 	Hoppe Hoppe Hare
 	hoppar inte alls.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1016,15 +1016,15 @@
 	category="Gasque"
 	melody="Du är den ende">
     <text>
-      <verse>
+      <p>
 	Dom som är nyktra
 	har inte så roligt
 	dom har bara ansvar
 	och alls inget tjolitt-an-lej-faderullan,
 	men vi som är fulla
 	vi har bara kul nästan jämt.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Det sägs att en mänska
 	kan va´ utan brännvin.
 	Det stämmer måhända
@@ -1032,57 +1032,57 @@
 	som pryder en absolutist
 	den är jävligt trist,
 	därför vi sjunger som så:
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Dom som är nyktra
 	har inte så roligt
 	dom har bara ansvar
 	och alls inget tjolitt-an-lej-faderullan,
 	men vi som är fulla
 	vi har bara kul nästan jämt.
-      </verse>
+      </p>
     </text>
   </song>
 
   <song name="Gums visa"
 	category="Gasque">
     <text>
-      <verse>
+      <p>
 	Skål kamrater, ty livet är glatt
 	och snart förgäta vi sorgen.
 	Vi söpo igår, vi supa idag
 	och ta’ en sjujäkel imorgon.
 	Skål, skål, skål, skål!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Skål, go’vänner i vinet en skål,
 	den hjälper oss sorgerna glömma.
 	För glädjen idag, i vännernas lag
 	för detta vi glaset tömma.
 	Skål, skål, skål, skål!
-      </verse>
+      </p>
     </text>
   </song>
 
   <song name="Hederssång"
 	category="Gasque">
     <text>
-      <verse>
+      <p>
 	För det var i vår ungdoms fagraste vår,
 	vi drack varandra till och vi sade: "Gutår!"
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och alla så dricka vi nu ### till...
-      </verse>
-      <verse>
+      </p>
+      <p>
 	(Den hedrade svarar:)
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och ### säger inte nej därtill!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	För det var i vår ungdoms...
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1090,52 +1090,52 @@
 	category="Gasque"
 	melody="Rövarnas visa">
     <text>
-      <verse>
+      <p>
 	Nu drar vi ut på rövarstråt,
 	ja vi skall ut och röva,
 	men bara sånt vi dricka kan,
 	och sånt som gör oss döva.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Nu är det mörkt i stad och land,
 	Nu sover folk så gott de kan.
 	Nu drar vi iväg med vår alkoholtörst:
 	Både Kasper och Jesper och Jonathan.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Vi går till Kamomilla stad,
 	till alkoholbutiken,
 	och rövar punsch och akvavit,
 	så ingen blir besviken.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Det händer nog att Jonathan,
 	vill ha en whiskeyhutt ibland,
 	men annars så tar vi så lite vi kan,
 	både Kasper och Jesper och Jonathan.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Vi vet så väl vad vi vill ha,
 	det finns så många sorter,
 	hos alko tar vi äppelvin
 	och Polens bästa porter.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och Gordon’s gin är gott minsann
 	och rysk champagne går också an,
 	men annars så tar vi så lite vi kan,
 	både Kasper och Jesper och Jonathan.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Men vi behöver också öl, det tjuvar vi om natten,
 	och när vi druckit korgen tom så är vi mitt i hatten.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	När Tuborg, Carlsberg runnit ner,
 	då vi ej mera gatan ser.
 	men annars så tar vi så lite vi kan,
 	både Kasper och Jesper och Jonathan.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1143,18 +1143,18 @@
 	category="Gasque"
 	melody="Längtan till landet">
     <text>
-      <verse>
+      <p>
 	Morgonstund med smak av döda bävrar,
 	frukostmorgonen är över oss.
 	Hur vi stretar, hur vi alla vägrar,
 	så går solen likt förbannat opp.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Snart är dagen här med hemska plågor,
 	huvudvärk och ångest, elände, men
 	det finns faktiskt ett glas som dig kan rädda:
 	Treo-comp, vår frälsare och vän.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1162,18 +1162,18 @@
 	category="Öhl"
 	melody="En sockerbagare">
     <text>
-      <verse>
+      <p>
 	En pilsnerdrickare här bor i staden,
 	han dricker pilsner mest hela dagen,
 	han dricker gröna, han dricker blå,
 	han dricker några med renat på.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och i hans fönster hänga tomma glasen,
 	och alla burkarna ifrån kalasen,
 	och är han nykter så kan han gå
 	ner till butiken och fylla på.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1181,18 +1181,18 @@
 	category="Öhl"
 	melody="Ju mer vi är tillsammans">
     <text>
-      <verse>
+      <p>
 	Ju mera öl vi dricker,
 	vi dricker, vi dricker,
 	ju mera öl vi dricker,
 	ju rundare vi blir.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	För rundare är sundare
 	och sundare är rundare.
 	Ju mera öl vi dricker,
 	ju rundare vi blir.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1200,18 +1200,18 @@
 	category="Öhl"
 	melody="My Bonnie">
     <text>
-      <verse>
+      <p>
 	Min pilsner skall svalka min tunga,
 	min pilsner skall duscha min gom.
 	Min pilsner skall få mig att sjunga,
 	och ser jag att flaskan är tom.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Pilsner! Pilsner!
 	Hämta en pilsner till mig, till mig.
 	Pilsner! Pilsner!
 	Hämta en pilsner till mig!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1220,12 +1220,12 @@
 	melody="Row, row, row your boat">
     <startComment>Kan sjungas i kanon</startComment>
     <text>
-      <verse>
+      <p>
 	//: Öl, öl, öl i glas eller i butelj.
 	Skummande, skummande,
 	skummande, skummande.
 	Ta en klunk och svälj. ://
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1233,30 +1233,30 @@
 	category="Öhl"
 	melody="O Tannenbaum">
     <text>
-      <verse>
+      <p>
 	En Pripps klass I, en Pripps klass I,
 	den blir man inte full på lätt,
 	och blir man full på Pripps klass I
 	då är det fel på något sätt.
 	En Pripps klass I, en Pripps klass I,
 	den blir man inte full på lätt.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	En raggarblå, en raggarblå,
 	den kan man alltid lita på,
 	och blir man inte full på två,
 	så får man dricka fler ändå,
 	En raggarblå, en raggarblå,
 	den kan man alltid lita på.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	En Pripps klass III, en Pripps klass III,
 	då går det mycket snabbare,
 	och blir man inte full på de’
 	då kan man dricka renat me’
 	En Pripps klass III, en Pripps klass III,
 	då går det mycket snabbare.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1264,30 +1264,30 @@
 	category="Öhl"
 	melody="I natt jag drömde">
     <text>
-      <verse>
+      <p>
 	I natt jag drömde något som
 	jag aldrig drömt förut:
 	Jag drömde det var strejk på Pripps,
 	och alla ölen var slut.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag drömde om en jättesal
 	där alla satt på rad,
 	så kom där in en bryggare
 	som harkla sig och sa:
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Det finns inga blå burkar mer,
 	inte en enda bärs.
 	Och dom som hörde på honom
 	sa: detta blir nog en pärs.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	På gatorna gick folk omkring
 	och drog från krog till krog,
 	och alla vråla’ dom av törst
 	och svimmade och dog.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1295,26 +1295,26 @@
 	category="Öhl"
 	melody="I natt jag drömde">
     <text>
-      <verse>
+      <p>
 	I natt jag drömde något som,
 	jag aldrig drömt förut.
 	Jag drömde det var strejk på Pripps
 	och alla ölen var slut.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag drömde om en jättesal
 	där ölen stod på rad.
 	Jag drack så där ett tjugotal
 	och reste mig och sa:
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Armen i vinkel!
 	Blicken i skyn!
 	Så var det menat!
 	Whisky och renat!
 	Vårt mål alkohol!
 	För dem som tål! Skål!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1322,22 +1322,22 @@
 	category="Öhl"
 	melody="Ser du stjärnan i det blå">
     <text>
-      <verse>
+      <p>
 	Täckt av silver sejdeln full,
 	gnistrar mot oss med sitt guld.
 	Humle, malt är livets salt, vi älskar öl.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Källarsval så bärs den in,
 	för att glädja gommen din
 	släcka törsten, stärka rösten,
 	till dess lov.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Knubbig blir du, men so what?
 	Gott och roligt har du fått.
 	Extraturen, rensat njuren, öl är gott.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1345,30 +1345,30 @@
 	category="Öhl"
 	melody="Trampa på gasen">
     <text>
-      <verse>
+      <p>
 	Tu tu tu Tuborg
 	och ca ca ca Carlsberg
 	det är den bästa
 	pi pi pi pilsnern som jag vet!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tu tu tu Carlsberg
 	och ca ca ca Tuborg
 	det är det bästa
 	pi pi pi ölet som jag vet!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tu tu tu Ölberg
 	och ca ca ca Pilsborg
 	det är den bästa
 	pi pi pi biran som jag vet!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tu ca pi Ölsner och
 	pi ta ca Bira
 	det är den bästa
 	ca pi tu lering som jag gjort!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1376,7 +1376,7 @@
 	category="Öhl"
 	melody="Var nöjd med allt vad livet ger">
     <text>
-      <verse>
+      <p>
 	Var nöjd med allt som ölen ger,
 	och även om du dubbelt ser.
 	Glöm bort bekymmmer,
@@ -1384,7 +1384,7 @@
 	Var glad och nöjd för vet du vad,
 	en folköl gör ju ingen glad.
 	Var nöjd med ölen som vi dricker här.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1392,28 +1392,28 @@
 	category="Öhl"
 	melody="Öppna Landskap">
     <text>
-      <verse>
+      <p>
 	Jag trivs bäst med öl i magen,
 	nära puben vill jag bo.
 	Ett par liter om dagen,
 	så att själen kan få ro.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag trivs bäst på plats i baren,
 	med en pilsner i min hand.
 	Här är jag erfaren.
 	Det är mitt rike, och mitt land.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Här börjar jag historier
 	och kryddar med min fantasi.
 	I öl finns kalorier,
 	men det skiter jag väl i.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag trivs bäst med öl i magen,
 	nära puben vill jag bo.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1421,22 +1421,22 @@
 	category="Öhl"
 	melody="Staffan var en stalledräng">
     <text>
-      <verse>
+      <p>
 	Hos TMEIT är det fest ikväll,
 	och ölet det skall flöda.
 	Så tag ditt öl och i dig häll,
 	och alla sorger döda.
 	Ingen droppe finnes kvar,
 	vi vet hur vårt ölet ska behandlas.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Vi vet hur vårt öl skall tas.
 	vi fattar tag i flaskan.
 	Vi bugar för vår Svatta* strax,
 	och sveper sedan vätskan.
 	Ingen droppe skall bli kvar,
 	vi vet hur vår Svatta* skall behandlas.
-      </verse>
+      </p>
       <endComment>* Damer sjunger "Svakar", herrar sjunger "Svatta".
 	Orden motsvarar "Osquar" resp. "Osqulda"
 	på tekniska högskolan i Helsingfors (TKK).
@@ -1448,24 +1448,24 @@
 	category="Öhl"
 	melody="Bamse">
     <text>
-      <verse>
+      <p>
 	Vi skall festa, hela da’n till nästa,
 	kanske börja om på nytt igen.
 	Vi tar drycken, godast utav alla,
 	Fram med ölen, nu så är det dags!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tuborg, Carlsberg, Stella, Åbro,
 	Spendrups, Falcon, Pripps och Sol,
 	Corona, Norrlands, TT
 	och en jätte Elefant!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ölen flödat, tomglasen är många,
 	Schmecken håller huvudet på plats!
 	Samlar flaskor, sveper alla slattar,
 	öl för panten, börja om på nytt!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1473,14 +1473,14 @@
 	category="Wihn"
 	melody="I sommarens soliga dagar">
     <text>
-      <verse>
+      <p>
 	Jag minns än idag hur min fader,
 	kom hem ifrån staden så glader,
 	och rada’ upp flaskor i rader,
 	och sade nöjd som så:
 	"Bordeaux, Bordeaux!"
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Han drack ett glas, kom i extas,
 	och sedan blev det stort kalas.
 	Och vi små glin, ja vi drack vin,
@@ -1488,7 +1488,7 @@
 	Och vi dansade runt där på golvet,
 	och skrek så vi blev blå:
 	"Bordeaux, Bordeaux!"
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1496,19 +1496,19 @@
 	category="Wihn"
 	melody="Gubben Noak">
     <text>
-      <verse>
+      <p>
 	Vinet väntar, vinet väntar,
 	på att drucket bli.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Det är smått förläget,
 	känner ej till vägen.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Sträck fram handen,
 	fukta tanden,
 	så går vinet ner.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1516,18 +1516,18 @@
 	category="Wihn"
 	melody="Vårvindar friska">
     <text>
-      <verse>
+      <p>
 	Festen kan börja, ingen får sörja
 	här finns ju både rödvin och mat.
 	Vinet skall tömmas, sorgerna glömmas,
 	ingen får vara tråkig kamrat.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Klappa mitt hjärta, fröjdas min själ,
 	vinet serveras genast nåväl.
 	Fatta nu glaset, börja kalaset,
 	skål allesammans, skål!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1536,31 +1536,31 @@
 	melody="Marche Militaire">
     <startComment>D sjunges av damer; H av herrar</startComment>
     <text>
-      <verse>
+      <p>
 	Feta fransyskor
 	som svettas om fötterna,
 	de trampar druvor
 	som sedan ska jäsas till vin.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Transpirationen viktig e’,
 	ty den ge, fin bouquet.
 	Vårtor och svampar följer me’
 	men vad gör väl de’?
-      </verse>
-      <verse>
+      </p>
+      <p>
 	För vi vill ha vin,
 	vill ha vin,
 	vill ha mera vin,
 	även om följderna blir
 	att vi få lida pin.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	D: Flaskan och glaset gått i sin.
 	H: Hit med vin, mera vin!
 	D: Tror ni att vi är fyllesvin?
 	H: Ja! (Fast större!)
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1568,18 +1568,18 @@
 	category="Wihn"
 	melody="An die Freude (Ode to Joy)">
     <text>
-      <verse>
+      <p>
 	Aftonrodnan svalka sprider,
 	skymningen sig sänker fin,
 	och likt dimridåer sprider,
 	doften av det rena vin.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Låt det hjälpa mig till att segla
 	rakt in i rusets röda tröst.
 	Natten flyr på gryningsvingar,
 	värmen flammar i mitt bröst. ://
-      </verse>
+      </p>
 
     </text>
   </song>
@@ -1588,18 +1588,18 @@
 	category="Wihn"
 	melody="Längtan till landet">
     <text>
-      <verse>
+      <p>
 	Goda vänner, låt oss fatta glaset,
 	stämma upp en ljuvlig hyllningssång.
 	Frid och fröjd skall råda på kalaset,
 	glädjen varar hela kvällen lång.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Må det glada skämtet alltid trivas,
 	här i detta sällskaps glada lag.
 	Låtom oss av druvans safter livas,
 	spara vattnet till en annan dag.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1607,27 +1607,27 @@
 	category="Wihn"
 	melody="My Bonnie">
     <text>
-      <verse>
+      <p>
 	Hur badar man bäst på en kurort?
 	Jo, om man har fyllt en bassäng
 	med vätskan som snart skall besjungas
 	när vi kommit fram till refräng.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Rödvin, rödvin
 	rödvin är fin hälsokost, kost, kost.
 	Rödvin, rödvin,
 	rödvin vår bästa flaskpost.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Man får vitaminer från rödvin,
 	man piggnar ju till på en gång.
 	När glaset har tömts uti botten
 	så stämmer vi upp till en sång.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Rödvin, rödvin ...
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1635,26 +1635,26 @@
 	category="Wihn"
 	melody="Så länge skutan kan gå">
     <text>
-      <verse>
+      <p>
 	Så länge rösten är mild,
 	så länge ingen är vild,
 	så länge spegeln på väggen
 	ger en halvskaplig bild.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Så länge alla kan stå,
 	så länge alla kan gå,
 	så länge alla kan tralla
 	så fyller vi på.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	För vem har sagt att just du kom med storken,
 	för att bli glad av att lukta på korken?
 	Men kring vårt bord här nånstans
 	vi höjer bägaren med glans,
 	och låter vinet gå ner med en
 	yrande dans.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1662,34 +1662,34 @@
 	category="Wihn"
 	melody="Mors lille olle">
     <text>
-      <verse>
+      <p>
 	Kom alla vänner, drick ur era glas.
 	Ni vet väl alla, hur vinet skall tas?
 	Först med din näsa,
 	du känner bouquén,
 	Då kan du skilja det röda från rose´n.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Sen med din tunga du läppjar ditt vin.
 	Vad sägs om aromen,
 	nog är den väl fin?
 	Sedan du munnen med saften har blött,
 	Då kan du svälja det vin som är rött.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Efter ett glas eller två mår du bra.
 	Du sjunger och skrålar,
 	att mer vill du ha!
 	Alla kan se, att du börjar bli sne.
 	Synd att du dricker en billig Chatelet.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Så lyften nu glasen upp till en skål.
 	För resten i kupan nog säkert du tål.
 	Det är vad vi kallar dryckeskultur:
 	Seså, krök nu armen,
 	ja drickom, drick ur!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1697,18 +1697,18 @@
 	category="Wihn"
 	melody="Här är gudagott att vara">
     <text>
-      <verse>
+      <p>
 	Vin är gudagott att dricka!
 	Ack, vad vindrycken dock är skön.
 	Dricka vin med älskad flicka
 	bättre än likören grön.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Humlan surrar, flickan strålar,
 	nu går jag och slår en drill,
 	lättad, törstig sedan jag skålar
 	i gott vin min flicka till.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1717,7 +1717,7 @@
 	category="Wihn"
 	composer="Herman Sätherberg och Otto Lindblad">
     <text>
-      <verse>
+      <p>
 	Vintern rasat ut bland våra fjällar,
 	drivans blommor smälta ned och dö.
 	Himlen ler i vårens ljusa kvällar,
@@ -1726,8 +1726,8 @@
 	guldbelagda, azurskiftande,
 	ligga ängarne i dagens lågor,
 	och i lunden dansa källorne.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ja, jag kommer! Hälsen glada vindar,
 	ut till landet, ut till fåglarne,
 	att jag älskar dem, till björk och lindar,
@@ -1736,37 +1736,37 @@
 	följa bäckens dans till klarnad sjö.
 	Trastens sång i furuskogens lunder,
 	vattenfågelns lek kring fjärd och ö.
-      </verse>
+      </p>
     </text>
   </song>
   <song name="Tjugotre"
 	category="Brännvin"
 	melody="Amanda Lundbom">
     <text>
-      <verse>
+      <p>
 	Tjugotre är Bäska Droppar,
 	bomfaderi, bomfaderalleralla.
 	Skänker liv åt döda kroppar,
 	bomfaderi, faderallanlej.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Slå en sup i död mans kropp,
 	bomfaderi faderallanlej, hugg i!
 	Så vacklar han ur graven opp,
 	bomfaderi, faderallanlej.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jesus visste att de döda,
 	bomfaderi, bomfaderalleralla,
 	kunde väckas utan möda,
 	bomfaderi, faderallanlej.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Bäska droppar nyttja han,
 	bomfaderi faderallanlej, hugg i!
 	Och Lazarus spratt till minsann,
 	bomfaderi, faderallanlej.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1775,13 +1775,13 @@
 	melody="Karl-Alfred Boy">
     <startComment>Dunka två gånger i bordet på "!"</startComment>
     <text>
-      <verse>
+      <p>
 	//: För brännvin är jävligt gott!
 	Bättre ju mer man fått!
 	Men går man i golvet,
 	så där framåt tolv-ett,
 	så slår man sig jävligt hårt! :// (in abs.)
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1789,14 +1789,14 @@
 	category="Brännvin"
 	melody="Hej tomtegubbar">
     <text>
-      <verse>
+      <p>
 	//: Mitt lilla lån det räcker inte,
 	det går till öl och till brännvin! ://
 	Till öl och brännvin går det åt,
 	och till små flickor emellanåt.
 	Mitt lilla lån det räcker inte,
 	det går till öl och till brännvin!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1804,18 +1804,18 @@
 	category="Brännvin"
 	melody="Helan går">
     <text>
-      <verse>
+      <p>
 	Denna thaft,
 	äv den bäfta thaft thythlemet haft.
 	Denna thaft,
 	äv den bäfta thaft dom haft.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och den thom inte hav nån kvaft,
 	han dvicka thkall av denna thaft.
 	Denna thaft, till landth,
 	till thjöth, till havth!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1823,9 +1823,9 @@
 	category="Brännvin"
 	melody="Nej.">
     <text>
-      <verse>
+      <p>
 	Int’ nu, men ... Nu!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1834,30 +1834,30 @@
 	melody="Internationalen">
     <startComment>Ibland sjunger man bara sista hälften.</startComment>
     <text>
-      <verse>
+      <p>
 	Nu är det dags att taga supen,
 	den stärker varje svag fysik.
 	Den rinner ner igenom strupen,
 	river gott som en tolvtums spik.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Den är vårt hopp mot gula faran,
 	vår tröst vid varje bleklagd sorg.
 	Den stärker oss mot mask i magen,
 	starkare än Sveaborg.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Mera brännvin i glasen,
 	mera glas på vårt bord,
 	mera bord på kalasen,
 	mer kalas på vår jord.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Mera jordar kring månen,
 	mera månar kring mars,
 	mera marscher till Skåne,
 	mera Skåne gud bevars!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1865,7 +1865,7 @@
 	category="Brännvin"
 	melody="Nu ska vi skörda linet">
     <text>
-      <verse>
+      <p>
 	klämma en trudelutt om de’ går.
 	Tjosan Mohammed snart är det vår!
 	Julafton är en torsdag!*
@@ -1873,7 +1873,7 @@
 	blanda och ge, blanda och ge,
 	abrakadabra klunk,
 	julafton är en torsdag!* :// (in abs.)
-      </verse>
+      </p>
       <endComment>
 	* 2014 onsdag, 2015 torsdag, 2016 lördag, 2017 söndag, 2018 måndag, 2019 tisdag.
       </endComment>
@@ -1887,64 +1887,64 @@
       Vers 3 förekommer även som en egen sång, "När månen vandrat sin tysta ban".
     </startComment>
     <text>
-      <verse>
+      <p>
 	Det satt en mås på en klyvarbom,
 	och tom i krävan var kräket.
 	Och tungan lådde i skepparns gom
 	där han satt uti bleket.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	"Jag vill ha sill!" hördes måsen rope,
 	och skepparn svarte: "Jag vill ha OP,
 	om blott jag får, om blott jag får".
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Nu lyfter måsen från klyvarbom
 	och vinden spelar i tågen.
 	OP’n svalkat har skepparns gom.
 	Jag önskar blott att jag såg ’en.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Så nöjd och lycklig, den arme saten,
 	han sätter storsegel den krabaten.
 	Till sjöss han far, och halvan tar.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	När månen vandrat sin tysta ban,
 	och tittar in genom rutan.
 	Då tänker jag att på ljusa dan,
 	då kan jag klara mig utan.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Då kan jag klara mig utan måne,
 	men utan renat och utan Skåne.
 	Det vete fan, det vete fan.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Den mås som satt på en klyvarbom,
 	han är nu död och begraven.
 	Och skepparn som drack en flaska rom
 	han har nu druknat i haven.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Så kan det gå om man fått för mycket,
 	om man för brännvin har fattat tycke.
 	Vi som har kvar, vi resten tar.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	JAS:en
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Där flög en JAS över Västerbron,
 	men styrsystemet var trasigt.
 	Piloten utsköt sig med kanon,
 	ty planet svängde så knasigt.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Han ville uppåt, han ville mer,
 	men planet svarte: "Jag vill nu ner,
 	mot alla hjon, på Västerbron."
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -1952,54 +1952,54 @@
 	category="Brännvin"
 	melody="Längtan till landet">
     <text>
-      <verse>
+      <p>
 	Törsten rasar uti våra strupar,
 	tungan hänger torr och styv och stel.
 	Men snart vankas stora långa supar,
 	var och en får sin beskärda del.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Snapsen kommer, den vi vilja tömma,
 	denna nektar lik Olympens saft,
 	kommer oss att våra sorger glömma;
 	Snapsen skänker hälsa, liv och kraft!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Fordom odlade man vindruvsrankor,
 	av vars saft man bryggde ädelt vin.
 	Nu man pressar saften ur en planka,
 	doftande av äkta terpentin.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Höj nu bägaren o broder, syster.
 	Låt den svenska skogen rinna kall.
 	Ner i strupen och om du är dyster,
 	låt oss dricka opp en liten tall!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Helan tänder helig eld i själen,
 	halvan rosar livet som en sky,
 	tersen känns från hjässan ned i hälen,
 	kvarten gör en som en männska ny.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Låt oss skåla med varann, go’ vänner!
 	Skål för vår levnads glada hopp!
 	Törstens eld på nytt i strupen bränner,
 	leve livet, skål och botten opp!
-      </verse>
+      </p>
     </text>
   </song>
 
   <song name="Hyfsvisa"
 	category="Brännvin">
     <text>
-      <verse>
+      <p>
 	Kors i allsin dar!
 	Har du brännvin kvar?
 	Är du sparsam eller snål?
 	Skål!
-      </verse>
+      </p>
       <endComment>Sparsamma sjunger "Snål!" istället</endComment>
     </text>
   </song>
@@ -2008,14 +2008,14 @@
 	category="Brännvin"
 	melody="Hej tomtegubbar">
     <text>
-      <verse>
+      <p>
 	//: Tänk om jag hade lilla nubben
 	uppå ett snöre i halsen! ://
 	Jag skulle dra den upp och ner
 	så att den kändes som många fler.
 	Tänk om jag hade lilla nubben
 	uppå ett snöre i halsen!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2023,36 +2023,36 @@
 	category="Brännvin"
 	melody="Röda kavalleriet (Polyushko-Pole)">
     <text>
-      <verse>
+      <p>
 	(sjungs tyst:)
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Livet är härligt!
 	Tavaritj, vårt liv är härligt!
 	Vi alla våra små bekymmer glömmer
 	När vi har fått en tår på tanden, skål!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tag dig en vodka!
 	Tavaritj, en liten vodka!
 	Glasen i botten vi tillsammans tömmer!
 	Det kommer mera efter h-a-and.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	(Sjung högt:)
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Livet är härligt!
 	Tavaritj, vårt liv är härligt!
 	Vi alla våra små bekymmer glömmer
 	När vi har fått en tår på tanden, skål!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tag dig en vodka!
 	Tavaritj, en liten vodka!
 	Glasen i botten vi tillsammans tömmer!
 	Det kommer mera efter handen, skål!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2061,32 +2061,32 @@
 	melody="When Johnny comes marching">
     <startComment>Från Sångarstriden 1981</startComment>
     <text>
-      <verse>
+      <p>
 	En viking älskar livets vann,
 	hurra, hurra!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Som hastigt i hans svalg försvann,
 	hurra, hurra!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Till kalv, till oxe, till fisk, till fläsk,
 	när kärringar bara dricker läsk,
 	ja då vill alla vikingar ha en bäsk!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	När bäsken småningom är slut:
 	Tragik, TRAGIK!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Då bäres varje viking ut
 	som lik, sig lik!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Å’ sen när vi vaknar vi sjunger en bit,
 	så korkar vi upp Skånes Akvavit.
 	Skål för alla vikingar som kom hit!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2095,60 +2095,60 @@
 	category="Brännvin"
 	composer="Evert Taube">
     <text>
-      <verse>
+      <p>
 	Än en gång däran bröder, än en gång däran,
 	följom den urgamla seden.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	In till sista man, bröder, in till sista man,
 	trotsa vi hatet och vreden!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Blankare vapen sågs aldrig i en här,
 	än dessa glasen, kamrater: I gevär!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Än en gång däran, bröder,
 	än en gång däran.
 	Svenska hjärtans djup, här är din sup!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Livet är så kort, bröder,
 	livet är så kort.
 	Lek det ej bort, nej var redo!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Kämpa mot allt torrt bröder,
 	kämpa mot allt torrt.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Tänk på de gamle som skredo
 	fram, utan tvekan i floder av champagne,
 	styrkta från början av brännvin från vårt land!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Kämpa mot allt torrt, bröder,
 	kämpa mot allt torrt.
 	Svenska hjärtans djup, här är din sup!
-      </verse>
+      </p>
     </text>
   </song>
 
   <song name="Helan går"
 	category="Brännvin">
     <text>
-      <verse>
+      <p>
 	Helan går,
 	sjung hopp faderallan-lallan-lej.
 	Helan går,
 	sjung hopp-faderallan-lej.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och den som inte Helan tar,
 	han heller inte Halvan får!
 	Helan gå-å-år!
 	Sjung hopp-faderallan-lej!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2156,18 +2156,18 @@
 	category="Brännvin"
 	melody="Helan går">
     <text>
-      <verse>
+      <p>
 	Hell and gore,
 	chung-hop father Allan Allan ley.
 	Hell and gore,
 	chung-hop father Allan ley.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Oh handsome in the hell and tar
 	and hell are in the half and four.
 	Hell and go-o-ore,
 	chung-hop father Allan ley!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2175,7 +2175,7 @@
 	category="Brännvin"
 	melody="Vi går över daggstänkta berg">
     <text>
-      <verse>
+      <p>
 	Det var en gång en
 	helangorakatt, fallera!
 	Som älskade en vanlig
@@ -2184,7 +2184,7 @@
 	fast den blev mycket tamare,
 	för den var bara
 	halvan-går-akatt, fallera!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2192,49 +2192,49 @@
 	category="Brännvin"
 	melody="Kors på Idas grav">
     <text>
-      <verse>
+      <p>
 	Imbelupet glaset står på bräcklig fot,
 	tomma pilsnerflaskor luta sig därmot,
 	men där nere, miserere, uti magens avgrundsdjup,
 	sitter djävulen och väntar på en sup!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Imbelupet glaset står på bräcklig fot,
 	kalla pilsnerpavor luta sig därmot,
 	men där nere, miserere, uti magens dunkla valv,
 	vankar djävulen i väntan på en halv!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Imbelupet glaset står på bräcklig fot,
 	importerat bajerskt luta sig därmot,
 	men där nere, miserere, uti magen kors och tvärs,
 	knallar djävulen och väntar på en ters!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Imbelupet glaset står på bräcklig fot,
 	klena lättölspavor luta sig därmot,
 	men där nere, miserere, uti magen djup och svart,
 	rusar djävulen och väntar på en kvart!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Imbelupet glaset står på bräcklig fot,
 	ljumma starkölsflaskor luta sig därmot,
 	men där nere, miserere, uti magens labyrint,
 	irrar djävulen i väntan på en kvint!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Imbelupet glaset står på bräcklig fot,
 	glömda folkölsburkar luta sig därmot,
 	men därnere, miserere, uti magens slingerväxt,
 	sitter själve fan och väntar på en sext!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Imbelupet glaset står på bräcklig fot,
 	kalla pilsnerhalvor luta sig därmot,
 	men därnere, miserere, sitter allas våran far,
 	det är fan och han vill ha det som är kvar!
 	(Låt han få’t!)
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2242,14 +2242,14 @@
 	category="Brännvin"
 	melody="Byssan lull">
     <text>
-      <verse>
+      <p>
 	Byssan lull,
 	utav brännvin blir man full,
 	och slipsen man doppar i smöret.
 	Och näsan den blir röd,
 	och ögonen får glöd,
 	men tusan så bra blir humöret!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2257,13 +2257,13 @@
 	category="Brännvin"
 	melody="Fru Musica">
     <text>
-      <verse>
+      <p>
 	En liten droppe i glaset blev kvar.
 	En liten droppe i glaset blev kvar.
 	Den lilla droppen i,
 	den lilla droppen i
 	Den lilla droppen i magen nu far!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2271,35 +2271,35 @@
 	category="Brännvin"
 	melody="Katjuscha">
     <text>
-      <verse>
+      <p>
 	(Sjung tyst:)
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Gräv ur tundran två dussin potäter,
 	låt dem jäsa uti fjorton dar.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Modersmjölken för ryssar och sovjeter,
 	brännes i babusjkans samovar. ://
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Kyl sen drycken i sibiriens tjäle,
 	tappa upp på immiga små glas.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	(Sjung högt:)
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Höj sen glasen för fosterlandets välgång, HEJ!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Sjung "na zdrowie" med en mäktig
 	bas, bas, bas, bas!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Höj sen glasen för fosterlandets välgång,
 	sjung "na zdrowie", låt glasen gå i kras!
-      </verse>
+      </p>
       <endComment>
 	Krossa eller släng nubbeglaset efter skålen, dock endast plastglas.
 	Vid glasglas sjung "låt glasen vara kvar"
@@ -2312,7 +2312,7 @@
 	category="Brännvin"
 	melody="Uti vår hage">
     <text>
-      <verse>
+      <p>
 	Uti min mage en längtan mig tär.
 	Kom hjärtans fröjd!
 	Där råder en hunger som ropar så här:
@@ -2320,19 +2320,19 @@
 	kom brännvin och quantum satis,
 	kom allt som kan drickas,
 	kom hjärtans fröjd.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Uti mitt hjärta en längtan mig tär.
 	Kom hjärtans fröjd!
 	Där råder en hunger som ropar så här:
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Kom famnande lena armar,
 	kom läppar och sköna barmar,
 	kom fagraste kvinnor,
 	kom hjärtans fröjd!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Uti min mage där växa begär.
 	Kom hjärtans kär!
 	Vill du mig något så träffas vi där.
@@ -2340,7 +2340,7 @@
 	kom OP och allt vad sprit e’,
 	kom ljuva Genever,
 	kom Överste!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2348,18 +2348,18 @@
 	category="Brännvin"
 	melody="Jag tror på sommaren">
     <text>
-      <verse>
+      <p>
 	Jag tror, jag tror på akvavit.
 	Jag tror, jag tror på dynamit.
 	Den ger en kraft att sjunga ut,
 	och inga krämpor blir akut.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Man glömmer vardagslivets jäkt,
 	och känner stundens ruseffekt.
 	En snaps, en skål, en truddelutt,
 	och sen så tar vi våran hutt.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2367,15 +2367,15 @@
 	category="Brännvin"
 	melody="Kors på Idas grav">
     <text>
-      <verse>
+      <p>
 	Säg, vad vore livet utan alkohol?
 	För ju mer man dricker,
 	desto mer man tål!
 	Wenngarn väntar på oss alla,
 	vi skall mötas där en dag
 	med försupna och kulörta anletsdrag.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Varför sörja nu,
 	för det som komma skall?
 	Lev för ruset när du salig är, och knall.
@@ -2383,7 +2383,7 @@
 	ögat vattnas, kran blir blå.
 	Men det supes ur ändå,
 	spill på, spill på!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2391,14 +2391,14 @@
 	category="Brännvin"
 	melody="Nu är glada julen slut">
     <text>
-      <verse>
+      <p>
 	Om man bara tar en
 	smutt, smutt, smutt
 	Utav denna lilla hutt, hutt, hutt,
 	har man ganska mycket kvar,
 	men se den som spar han har.
 	Inte särskilt roligt!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2407,13 +2407,13 @@
 	category="Brännvin"
 	melody="Bä, bä vita lamm">
     <text>
-      <verse>
+      <p>
 	Häv, häv detta glas, nu är det kalas.
 	Nä, nä, vet du va’, jag ska inget ha’
 	För om jag dricker opp,
 	och inte säger stopp,
 	så slutar jag nog som ett minne blott.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2421,26 +2421,26 @@
 	category="Punch"
 	melody="Vals ur Glada änkan">
     <text>
-      <verse>
+      <p>
 	Punschen kommer,
 	punschen kommer,
 	ljuv och sval.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Glasen imma,
 	röster stimma,
 	i vår sal.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Skål för glada minnen!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Skål för varje vår
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Inga sorger finnas mer
 	när punsch vi får.
-      </verse>
+      </p>
       <endComment>
 	Repeteras in abs. tills punschen är serverad.
 	Endast de som inte har fått sjunger.
@@ -2452,18 +2452,18 @@
 	category="Punch"
 	melody="Var nöjd med allt som livet ger">
     <text>
-      <verse>
+      <p>
 	Jag gillar alla tiders punsch,
 	en punsch till frukost,
 	punsch till lunch,
 	en punsch till förrätt,
 	varmrätt och dessert!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag gillar punsch för vet du va’
 	rent kaffe gör ju ingen gla’.
 	Så punsch för fulla muggar jag vill ha!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2471,21 +2471,21 @@
 	category="Punch"
 	melody="Tomtarnas vinternatt">
     <text>
-      <verse>
+      <p>
 	Punschen, punschen,
 	rinner genom strupen, ner i djupen.
 	Blandas, konfronteras
 	där med supen, där med supen.
 	Gula droppar, stärker våra kroppar,
 	punsch, punsch, punsch!
-      </verse>
+      </p>
     </text>
   </song>
 
   <song name="Jag gillar punschen"
 	category="Punch">
     <text>
-      <verse>
+      <p>
 	Länge har jag tänkt,
 	att punschen övergiva.
 	Men det blir aldrig av,
@@ -2494,15 +2494,15 @@
 	så står det på min grav:
 	"Här vilar en som Svenska
 	punschen gillat har!"
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag gillar, jag gillar punschen,
 	jag gillar den som punschen skapat har.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag gillar, jag gillar punschen,
 	jag gillar punschen och dess far!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2510,11 +2510,11 @@
 	category="Punch"
 	melody="Tomtarnas julnatt">
     <text>
-      <verse>
+      <p>
 	Guling, guling.
 	Kom din lilla fuling.
 	Punsch, punsch, punsch!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2523,17 +2523,17 @@
 	melody="Jag gick mig ut i skogen">
     <startComment>Den stämma som slutar samtidigt som den andra, vinner.</startComment>
     <text>
-      <verse>
+      <p>
 	(Stämma 1:)
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Punsch, punsch, punsch, punsch,
 	punsch, punsch, alla sorters... ://
-      </verse>
-      <verse>
+      </p>
+      <p>
 	(Stämma 2:)
-      </verse>
-      <verse>
+      </p>
+      <p>
 	När supen vandrat hädan
 	och maten lagts därpå,
 	och kaffet står på bordet,
@@ -2541,8 +2541,8 @@
 
 	//: Jo, punsch och punsch och ännu
 	mera punsch. ://
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ja, den föll oss i smaken,
 	nu ropar vi gutår,
 	och koppen står där naken
@@ -2550,7 +2550,7 @@
 
 	//: Å punsch och punsch och ännu
 	mera punsch. ://
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2558,21 +2558,21 @@
 	category="Punch"
 	melody="Ritsch, ratsch, filibom">
     <text>
-      <verse>
+      <p>
 	//: Punsch, punsch fillibombombom,
 	fillibombombom fillibombombom. ://
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Vi har ju både Cederlunds och
 	Carlshamns flagg, Grönstedts blå
 	och lilla Caloric.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Det duger ej med sodavatten,
 	sodavatten, sodavatten.
 	Det duger ej med sodavatten,
 	ge mig lite punsch! ://
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2580,12 +2580,12 @@
 	category="Punch"
 	melody="Ösa sand">
     <text>
-      <verse>
+      <p>
 	//: Vi dricker punsch, till lunch,
 	när vi har fått avin.
 	Vi lunchar hela dagen
 	tills kassan gått i sin. :// (in abs.)
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2593,19 +2593,19 @@
 	category="Punch"
 	melody="Rövarvisan">
     <text>
-      <verse>
+      <p>
 	Punschen är och punschen var
 	och punschen skall förbliva,
 	en lidelse vi alla har
 	som ingen kan fördriva.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ja, punschen tinar upp så väl
 	och svalkar både kropp och själ.
 	Den botar begären
 	och lindrar besvären.
 	Ja, punschen den gör både gott och väl!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2613,18 +2613,18 @@
 	category="Punch"
 	melody="Jag fångade en räv en dag">
     <text>
-      <verse>
+      <p>
 	Jag hällde upp en punsch en dag,
 	den punschen den var frusen.
 	Men jag blev varm i buk och tarm
 	och knoppen blev på snusen.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Åh, vad man kan bli glad
 	av punschen ljuv och sval!
 	Så nu vill jag ha en till
 	och lyckan blir total.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2632,19 +2632,19 @@
 	category="Punch"
 	melody="Visa vid midsommartid">
     <text>
-      <verse>
+      <p>
 	Du häller ur flaskan en gyllene tår,
 	av punsch ifrån Cederlund.
 	Du lyfter sen bägarn och väl du förstår,
 	att föra den till din mun.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	I kväll skall du dricka ditt livselixir
 	och känna den ljuva punschen
 	liksom ett vår-björkeskir.
 	I natt skall du bäras av Osquar på bår,
 	och kallas för fyllehund.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2652,20 +2652,20 @@
 	category="Punch"
 	melody="Sov du lilla videung">
     <text>
-      <verse>
+      <p>
 	Kom nu lilla punschen min,
 	följ nu efter supen.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Snart skall du åka in
 	ner igenom strupen.
 	Till mitt stora magpalats,
 	där det finns så mycket plats.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Kom nu lilla punschen,
 	följ nu efter supen.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2673,44 +2673,44 @@
 	category="Punch"
 	melody="Öppna din dörr">
     <text>
-      <verse>
+      <p>
 	Den första gång jag provåt dig,
 	och kände hur du kom i mig.
 	Då föll allting jag trott var sant.
 	Nästa gång var det likadant.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Du är så sliskig så,
 	som nåt jag aldrig provat på,
 	och hjärtat slår ett slag,
 	för var förlorad dag.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Jag gömde mig i fantasi.
 	långt bort från vardan’s tråkeri.
 	Och var gång som jag hade dig,
 	så väcktes skönsång uti mig.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Nu står jag här idag,
 	med allt jag nånsin velat ha.
 	Och hjärtat slår ett slag,
 	för var förlorad dag.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Öppna din kork,
 	och låt mig sedan dricka dig.
 	Snälla du säg inte inte nej!
 	Du vet att jag vill.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och jag ska öppna din kork.
 	Med punsch blir var dag till kalas.
 	Jag ska fylla upp mitt glas,
 	och jag ska sjunga till.
 
 	Så öppna din kork.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2718,21 +2718,21 @@
 	category="Punch"
 	melody="Kostervalsen">
     <text>
-      <verse>
+      <p>
 	Johansson är ful,
 	han får gömma sig i ett skjul.
 	Ful är Perssons mor,
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Persson själv har förträngt var hon bor.
 	Ja, fulhet gör mig trött,
 	ge mig snabbt någonting som är sött!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Ge mig punsch,
 	ett glas med punsch,
 	nej, en flaska med punsch!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2740,30 +2740,30 @@
 	category="Punch"
 	melody="Änglamark">
     <text>
-      <verse>
+      <p>
 	Kalla den gudagåva eller himlanektar, vad du vill.
 	Punschen den gyllene, de gamle oss skänkte.
 	Vet att så länge som punschen nånsin funnits till,
 	glädjen den höjde och sorgerna dränkte!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Blunda, och dröm om en blommande sommarnatt.
 	Svala bersåer där punschen står immig.
 	Eller en höstdag när Nordan har lekt tafatt.
 	Varm punsch som ångar och ärtsoppa simmig.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Punschen den älskas ju av alla och envar.
 	Låt festen börja, låt punschen få flöda.
 	Skål alla vänner som har nå’t i glaset kvar.
 	Hedra nu minnet av gamle kung Oscars da’r!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Kalla den gudagåva eller himlanektar, vad du vill.
 	Punschen den gyllene, som får oss att drömma.
 	Fukta din strupe, låt inte flaskan få stå still.
 	Skåla för punschen och glasen vi tömma!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -2771,26 +2771,26 @@
 	category="Punch"
 	melody="Mössens julafton">
     <text>
-      <verse>
+      <p>
 	När kaffet är serverat,
 	och maten tagit slut,
 	och alla dom som blivit
 	alltför fulla kastats ut.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Då vill vi ha ett nytt glas
 	med något gult och kallt.
 	Som höjer och förbättrar
 	vår promillehalt:
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Arrak, etanol och sackaros.
 	Med salt och vatten blir
 	den bästa blandning som kan fås.
 	Söt och smetig, rent utav viskös.
 	En sexton, sjutton glas nånting
 	så blir du medvetslös.
-      </verse>
+      </p>
 
     </text>
   </song>
@@ -2799,18 +2799,18 @@
 	category="Punch"
 	melody="Auld lang syne">
     <text>
-      <verse>
+      <p>
 	När punschen småningom är slut
 	och vår flaska blivit tom.
 	Då vänder vi den upp och ner,
 	till dess inget rinner ur.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Så slickar vi, så slickar vi,
 	båd’ utanpå och i.*
 	Och finns det ändå något kvar
 	får det va’ till sämre dar. ://
-      </verse>
+      </p>
       <endComment>
 	* Ett vanligt symptom av sektionspatriotism är att man vrålar sin sektions
 	namn i mellanrummet: "båd’ utanpå och i .. IN!!!"
@@ -2827,13 +2827,13 @@
       övrigt solo.
     </startComment>
     <text>
-      <verse>
+      <p>
 	O the year was 17-78!
 	*How I wish I was in Sherbrooke now!
 	A letter of marque came from the king,
 	to the scummiest vessel I’d ever seen!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	*God damn them all!
 	*I was told we’d cruise the seas for american gold!
 	*We’d fire no guns, shed no tears!
@@ -2900,20 +2900,20 @@
 	and I just made Halifax yesterday.
 
 	*God damn them all ...
-      </verse>
+      </p>
     </text>
   </song>
 
   <song name="Seven drunken nights"
 	category="Utländskt">
     <text>
-      <verse>
+      <p>
 	As I went home on Monday night
 	as drunk as drunk could be,
 	I saw a horse outside the door
 	where my old horse should be.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Well, I called me wife and I said to her:
 	Will you kindly tell to me,
 	who owns that horse outside the door
@@ -3037,18 +3037,18 @@
 	a hundred miles or more,
 	but a hammer with a head like that
 	sure I never saw before.
-      </verse>
+      </p>
     </text>
   </song>
 
   <song name="The Wild Rover"
 	category="Utländskt">
     <text>
-      <verse>
+      <p>
 	I’ve been a wild rover for many’s the year,
 	I’ve spent all me money on whiskey and beer.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	But now I’m returning with gold in great store,
 	and I never will play the wild rover no more.
 
@@ -3089,18 +3089,18 @@
 	I never will play the wild rover no more.
 
 	And it’s no, nay, never ...
-      </verse>
+      </p>
     </text>
   </song>
 
   <song name="What shall we do with the drunken sailor?"
 	category="Utländskt">
     <text>
-      <verse>
+      <p>
 	//: What shall we do with the drunken sailor? :// (x3)
 	Early in the morning!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Put him in the longboat til’ he’s sober ... :// (x3)
 	Early in the morning!
 
@@ -3126,20 +3126,20 @@
 	Put him in the hull with an angry weasel...
 
 	Hang him from the yardarm til’ he dangles...
-      </verse>
+      </p>
     </text>
   </song>
 
   <song name="Under the Scotsman’s Kilt"
 	category="Utländskt">
     <text>
-      <verse>
+      <p>
 	Well, a Scotsman clad in kilt
 	left the bar one evening fair,
 	and one could tell by how he walked
 	that he’d drunk more than his share.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	He fumbled round until he
 	could no longer keep his feet,
 	then stumbled off into the grass
@@ -3209,7 +3209,7 @@
 	ring di diddle i o.
 	Aw, "Lad I don’t know where you’ve
 	been but I see you won first prize!"
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3217,13 +3217,13 @@
 	category="Nördigt"
 	melody="En sockerbagare">
     <text>
-      <verse>
+      <p>
 	En matematiker här bor i staden,
 	han räknar matte mest hela dagen.
 	Han räknar primtal, stora och små,
 	han tycker om x upphöjt i två.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Och i hans fönster hänger
 	skumma saker,
 	Där finns det sfärer, ibland kvadrater,
@@ -3239,7 +3239,7 @@
 	och han gör uppgifter till massa tentor.
 	Och är han snäller blir svaret två,
 	men är han stygger så blir det Rho.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3247,30 +3247,30 @@
 	category="Nördigt"
 	melody="Yesterday">
     <text>
-      <verse>
+      <p>
 	Yesterday,
 	all those backups seemed a waste of pay.
 	Now my database has gone away.
 	Oh I believe in yesterday.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Suddenly,
 	There’s not half the files there used to be,
 	and there’s a milestone hanging over me.
 	The system crashed so suddenly.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	I pushed something wrong,
 	what it was I could not say.
 	All my data’s gone,
 	and I long for yesterday-ay-ay-ay.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Yesterday,
 	The need for back-ups seemed so far away.
 	I knew my data was all here to stay,
 	now I believe in yesterday.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3279,13 +3279,13 @@
 	category="Nördigt"
 	melody="Nowhere Man">
     <text>
-      <verse>
+      <p>
 	He’s a real UNIX Man,
 	sitting in his UNIX LAN,
 	making all his UNIX .plans
 	for nobody.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Knows the blocksize from ‘du’.
 	Cares not where /dev/null goes to.
 	Isn’t he a bit like you and me?
@@ -3304,7 +3304,7 @@
 	My printout is missin’.
 	UNIX Man,
 	the wo-o-o-orld is your ‘at’ command.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3313,15 +3313,15 @@
 	category="Nördigt"
 	melody="Man ska ha husvagn">
     <text>
-      <verse>
+      <p>
 	Jag har prövat alla operativ som finnas kan:
 	Windows, OS/X, Amiga-OS, och Symbian.
 	Jag har klickat runt på skärmen
 	tills jag drypit helt av svett
 	och äntligen har jag hittat
 	systemet som är rätt:
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Man ska ha Linux,
 	då kan ens dator vara klen.
 	Man ska ha Linux,
@@ -3364,7 +3364,7 @@
 	och slippa datahaveri.
 	Man ska ha Linux,
 	då är man riktigt fri!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3373,30 +3373,30 @@
 	category="Nördigt"
 	melody="Kovan kommer, kovan går">
     <text>
-      <verse>
+      <p>
 	Emacs är en stor koloss, tugga på, tugga på.
 	Verkar aldrig komma loss, tugga på, tugga på.
 	För att flytta på ett tecken
 	går två meg i garbage-säcken.
 	Ner i skärmens undre rand
 	står: garbage collecting, done!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Väntar på’n till min pension, tugga på, tugga på.
 	Emacs gör en Sparcstation, tugga på, tugga på.
 	Snabb som en ABC-80.
 	Högprestanda blir så smått i
 	Emacs, den ser säkert till
 	ingen dödtid blir förspilld!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Emacs skriven är i Lisp, tugga på, tugga på.
 	Inget rimmar alls på Lisp, tugga på, tugga på.
 	Om du in i kärnan trevar
 	finn en gnu som motorn vevar.
 	Den drar Emacs runt för hand!
 	Klart att det går trögt ibland!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3404,13 +3404,13 @@
 	author="Thore Skogman, 1965"
 	category="Esoterica">
     <text>
-      <verse>
+      <p>
 	Pop opp i topp, det är toppen i år!
 	Pop, pop, pop opp i topp-opp!
 	Pop opp i topp så att pulsarna slår,
 	pop opp i topp-opp!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Pop opp i topp, melodi-radio-dax,
 	pop, pop, pop opp i topp-opp!
 	Pop opp i topp och man smälter som vax,
@@ -3452,7 +3452,7 @@
 	Strömmen blir bruten och då blir det stopp,
 	pop, pop, pop i topp-opp,
 	pop, pop, pop i topp-opp!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3461,7 +3461,7 @@
 	category="Esoterica"
 	melody="När monen vandrar">
     <text>
-      <verse>
+      <p>
 	Nu har vi tvingats att skriva spex,
 	men idéerna tryter.
 	Vi har fått leva på luft och kex,
@@ -3470,7 +3470,7 @@
 	Och praoen svarte:
 	"Jag vill bli invald,
 	om blott jag får, om blott jag får."
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3479,14 +3479,14 @@
 	category="Esoterica"
 	melody="Oh Tannenbaum">
     <text>
-      <verse>
+      <p>
 	//: Vår flygpilot, vår flygpilot,
 	får inte va nån’ idiot. ://
 	För om han är en idiot,
 	så kan vi bli en hög med skrot.
 	Vår flygpilot, vår flygpilot,
 	får inte va nån’ idiot.
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3495,7 +3495,7 @@
 	category="Esoterica"
 	melody="Uti vår hage">
     <text>
-      <verse>
+      <p>
 	IT-sektionen den finns inte mer,
 	vi minns den väl.
 	Tillbaks till det gamla,
@@ -3504,16 +3504,16 @@
 	hela IP har blivit kolsvart.
 	Hujeda mina vänner,
 	det var bättre förr!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	IT-sektionen den finns inte mer,
 	NULL-pekare!
 	Klubbmästeriet hur vi saknar er.
 	Kräftskiva och annat festligt,
 	vi kan räkna ut betygssnitt.
 	Nu har ni bokstäver, va’ fan är det?
-      </verse>
-      <verse>
+      </p>
+      <p>
 	IN-sektionen en framtid vi ser,
 	ett helvete!
 	Och tjejer i skolan, ni blir fler och fler!
@@ -3521,7 +3521,7 @@
 	och detta var inte planen,
 	och vem fan är Rönngren?
 	Det var bättre förr!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3530,20 +3530,20 @@
 	category="Esoterica"
 	melody="Rysslands nationalsång">
     <text>
-      <verse>
+      <p>
 	IN-sektionen, nya unionen.
 	Alla är vänner och gör allt ihop.
 	Man skålar och skrattar
 	och vaktis han krattar.
 	Alla kan dela på allt som är bra.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	IN-sektionen, värsta expansionen.
 	Nu är den kommen, framtiden är här.
 	Vi fattar våra händer
 	och ser vad som händer.
 	IN-sektionen lös alla problem!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3552,30 +3552,30 @@
 	category="Esoterica"
 	melody="SJ, SJ, gamle vän">
     <text>
-      <verse>
+      <p>
 	Nu ska vi till Barnens Ö,
 	festa, skoja, tills vi dö!
 	Mycket kul för billig peng
 	med vårat faddergäng.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	nØllan dum och vilsen är,
 	alla faddrar nØllan lär,
 	hur man ingen tenta kör
 	och att man gasuqa bör.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	När vi lärt dem allt vi kan,
 	uppgraderas hon och han.
 	Till en etta ruskigt fort
 	med lap och wavelankort!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Kista kallas vår nation,
 	tydlig gräns är dess station.
 	Bron den utgör gränsens strand
 	till farligt ghettoland.
-      </verse>
+      </p>
       <endComment>Den sista versen delades ut på separata
 	lappar i bussen och skall därför betraktas
 	som inofficiell.
@@ -3589,13 +3589,13 @@
 	melody="Alex Ellgren och Oscar Frick">
     <startComment>Sångledaren läser raderna som startar med "*"</startComment>
     <text>
-      <verse>
+      <p>
 	Studenter se det är som så,
 	jag är nyss fyllda 18 år.
 	Så vilken skola är av bästa klass?
 	Jag vill inte ses som kass!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Läs inte på Komvux, nej nej!
 	Läs inte på Handels, nej nej!
 	Läs inte på Chalmers,
@@ -3640,7 +3640,7 @@
 	ge mig pappren till CSN!
 	Jag har pluggat och slitit i många år.
 	Nu till KTH jag går!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3649,13 +3649,13 @@
 	category="Esoterica"
 	melody="Balladen om Theobald Thor">
     <text>
-      <verse>
+      <p>
 	En MUX som hette Ann-Sofi Åhn,
 	hon hade en stekpanna av Teflon,
 	I den la’ hon sin mobiltelefon
 	som genast sprängdes med schwung!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Det var ett stort schwung!
 	Långt, kraftigt och tungt!
 	Från dess topp till dess rot, var det tre fyra fot
@@ -3705,7 +3705,7 @@
 	sen skänkte vi den till vår MUX!
 
 	Det var en stor MUX...
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3714,13 +3714,13 @@
 	category="Esoterica"
 	melody="Agadoo (ungefär)">
     <text>
-      <verse>
+      <p>
 	När jag slutade 9:an,
 	ja då tänkte jag som så.
 	Jag skall ej bliva lodis,
 	jag skall gå på KTH.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Så i spårval jag valde
 	att i nördars fotspår gå
 	Läsa teknikers linje
@@ -3787,7 +3787,7 @@
 	och se schmecken den satt på!
 	Ja man borde ha anat, han
 	har gått på KTH!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3796,21 +3796,21 @@
 	category="Esoterica"
 	melody="Du gamla, du fria">
     <text>
-      <verse>
+      <p>
 	Du gamla du fina du stolta tentavakt.
 	Du vakar över skrivande studenter.
 	Du önskar att allt kunde
 	bli som det var,
 	på ljuva 1920-talet.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Du fuktar ditt finger
 	och räknar mina blad,
 	och ser till att jag fyllt försättsbladet,
 	och drömmer dig bort
 	och önskar att du åter var
 	student på 1920-talet.
-      </verse>
+      </p>
 
     </text>
   </song>
@@ -3826,11 +3826,11 @@
       "Mm, så är det."
     </startComment>
     <text>
-      <verse>
+      <p>
 	//: Vart tog den schlema lilla nØllan vägen? :// (3x)
 	Ingen som vet, ingen som vet!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	//: Vart tog den schlema lilla nØllan vägen? :// (3x)
 	Ingen som vet, ingen som vet!
 
@@ -3890,7 +3890,7 @@
 	Vem fan är det som tullar
 	i Kongligs egen bar?
 	BOOM!
-      </verse>
+      </p>
       <endComment>"Så går det för den nØllan som ambrosiak tar!"</endComment>
     </text>
   </song>
@@ -3899,13 +3899,13 @@
 	author="Ola, Frukt och Flingor, 1979"
 	category="Esoterica">
     <text>
-      <verse>
+      <p>
 	Som liten var Arvid rätt svag
 	han led utav blodbrist vad dag.
 	I skolan han hade det trist,
 	i idrott han alltid blev sist.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Men nu är han vuxen, minsann.
 	En sjutusan till karl, stor och grann.
 	För nu käkar han massor av mat,
@@ -3942,7 +3942,7 @@
 	en stor konkurrent.
 
 	Starke Arvid han kan lyfta...
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -3951,24 +3951,24 @@
 	category="Esoterica"
 	melody="Man ska ha husvagn">
     <text>
-      <verse>
+      <p>
 	Jag har kört nästan alla kurser jag provat på.
 	I termo och i våg och i matten likaså.
 	Jag va osäker men nu vet jag att jag har
 	valt ett bra program som jag aldrig klarar av
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Man ska gå ME, så att man sliter sig isär,
 	man ska gå ME, utan fritid blir allt bra.
 	Man ska gå ME, då blir det inget dagsljus nej,
 	man ska gå ME, här finns inga tjejer.*
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Fem minuter kvant och fem minuter termo,
 	fem minuter TET och fem minuter bärvåg,
 	fem minuter vin och fem minuter fest,
 	fem minuters sömn i soffan på plan 6.
-      </verse>
+      </p>
 
     </text>
     <endComment>
@@ -3982,18 +3982,18 @@
 	category="Högtidligt"
 	melody="Kungssången">
     <text>
-      <verse>
+      <p>
 	invITen ståtlig, ack så vis,
 	vi skänka eder vårt bevis
 	på I-Teknologins makt.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	De står med stolthet och bravur,
 	de kämpar mot lågkonjunktur.
 	Anammar äkta hack-kultur
 	du stolta ingenjör!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Du stolta IT-fana så,
 	vår gud med glädje lysa så:
 	invITen träder fram!
@@ -4001,7 +4001,7 @@
 	stoltserar fint i prakt och flärd,
 	förbättrar världen med teknik.
 	Ja, glädje skapas då!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -4009,17 +4009,17 @@
 	author="C.V.A.Strandberg och Otto Lindblad, 1844"
 	category="Högtidligt">
     <text>
-      <verse>
+      <p>
 	Ur svenska hjärtans djup en gång
 	en samfälld och en enkel sång,
 	som går till Kungen fram!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Var Honom trofast och Hans ätt,
 	gör kronan på Hans hjässa lätt,
 	och all din tro till Honom sätt,
 	du folk av frejdad stam!
-      </verse>
+      </p>
 
     </text>
   </song>
@@ -4028,22 +4028,22 @@
 	category="Högtidligt"
 	melody="Richard Dybeck, 1844">
     <text>
-      <verse>
+      <p>
 	Du gamla, du fria, du fjällhöga Nord,
 	du tysta, du glädjerika sköna!
 	Jag hälsar dig, vänaste land uppå jord.
 
 	//: Din sol, din himmel,
 	dina ängder gröna! ://
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Du tronar på minnen från fornstora dar,
 	då ärat ditt namn flög över jorden.
 	Jag vet att du är och du blir vad du var.
 
 	//: Ja, jag vill leva,
 	jag vill dö i Norden! ://
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -4053,30 +4053,30 @@
 	composer="Eugen Höfling, 1825 (tyskt original)"
 	melody="O alte Burschenherrlichkeit">
     <text>
-      <verse>
+      <p>
 	O gamla klang- och jubeltid
 	ditt minne skall förbliva
 	och än åt livets bistra strid,
 	ett rosigt skimmer giva.
 	Snart tystnar allt vårt yra skämt,
 	vår sång blir stum, vårt glam förstämt.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	O, jerum, jerum, jerum.
 	O, quae mutatio rerum!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Var äro de som kunde allt,
 	blott ej sin ära svika.
 	Som voro män av äkta halt
 	och världens herrar lika?
 	De drogo bort från vin och sång
 	till vardagslivets tråk och tvång.
-      </verse>
-      <verse>
+      </p>
+      <p>
 	O, jerum...
-      </verse>
-      <verse>
+      </p>
+      <p>
 	En tämjer forsens vilda fall,
 	en annan ger oss papper.
 	En idkar maskinistens kall,
@@ -4105,7 +4105,7 @@
 	De gamla gudar leva än,
 	bland skålar och pokaler,
 	bland skålar och pokaler!
-      </verse>
+      </p>
     </text>
   </song>
 
@@ -4113,15 +4113,15 @@
 	category="Gasque">
     <startComment>Sjunges alltid som gasquens sista sång.</startComment>
     <text>
-      <verse>
+      <p>
 	Hur gärna ville jag ej vara,
 	en liten blå förgätmigej,
 	en liten blå förgätmigej!
-      </verse>
-      <verse>
+      </p>
+      <p>
 	Då skulle jag för dig förklara,
 	hur innerligt jag älskar dig!
-      </verse>
+      </p>
     </text>
   </song>
-</songs>
+</sonsgs>
