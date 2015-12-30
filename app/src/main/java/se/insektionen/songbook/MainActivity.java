@@ -7,11 +7,17 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import se.insektionen.songbook.model.Songbook;
+import se.insektionen.songbook.services.Repository;
+import se.insektionen.songbook.services.RepositoryResultHandler;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    private final static String TAG = MainActivity.class.getSimpleName();
 
     @Override
     public void onBackPressed() {
@@ -71,7 +77,9 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(R.string.app_name);
+        if (null != getSupportActionBar()) {
+            getSupportActionBar().setTitle(R.string.app_name);
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -81,5 +89,23 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        Repository repository = new Repository();
+        repository.getSongbook(new RepositoryResultHandler<Songbook>() {
+            @Override
+            public void onError(int errorMessage) {
+                Log.d(TAG, "Got error!");
+            }
+
+            @Override
+            public void onSuccess(Songbook songbook) {
+                Log.d(TAG, "Got songbook!");
+            }
+        }, false);
     }
 }

@@ -14,10 +14,9 @@ import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.IOException;
 import java.io.Reader;
-import java.util.List;
 
 import se.insektionen.songbook.R;
-import se.insektionen.songbook.model.Song;
+import se.insektionen.songbook.model.Songbook;
 
 /**
  * Repository which provides an abstraction layer against the underlying web requests.
@@ -25,30 +24,29 @@ import se.insektionen.songbook.model.Song;
 public final class Repository {
 	private static final String TAG = Repository.class.getSimpleName();
 
-	public void getSongs(RepositoryResultHandler<List<Song>> resultHandler, boolean noCache) {
+	public void getSongbook(RepositoryResultHandler<Songbook> resultHandler, boolean noCache) {
 		Request.Builder requestBuilder = new Request.Builder()
 				.url(SongbookConfig.SONGBOOK_DEFAULT_URL);
 		if (noCache) {
 			requestBuilder.cacheControl(CacheControl.FORCE_NETWORK);
 		}
-		SharedHttpClient.getInstance().enqueueRequest(requestBuilder.build(), new GetSongsCallback(resultHandler));
+		SharedHttpClient.getInstance().enqueueRequest(requestBuilder.build(), new GetSongbookCallback(resultHandler));
 	}
 
-	private final class GetSongsCallback extends GetResultCallback<List<Song>> {
-		protected GetSongsCallback(RepositoryResultHandler<List<Song>> resultHandler) {
+	private final class GetSongbookCallback extends GetResultCallback<Songbook> {
+		protected GetSongbookCallback(RepositoryResultHandler<Songbook> resultHandler) {
 			super(resultHandler);
 		}
 
 		@Override
-		protected List<Song> getResult(ResponseBody responseBody) throws Exception {
+		protected Songbook getResult(ResponseBody responseBody) throws Exception {
 			Reader streamReader = null;
 			try {
 				XmlPullParserFactory xmlParserFactory = XmlPullParserFactory.newInstance();
 				XmlPullParser xmlParser = xmlParserFactory.newPullParser();
 				streamReader = responseBody.charStream();
 				xmlParser.setInput(streamReader);
-
-return null;
+				return SongbookXmlParser.parseSongbook(xmlParser);
 			} finally {
 				if (null != streamReader) {
 					streamReader.close();
@@ -85,6 +83,7 @@ return null;
 					ResponseBody responseBody = response.body();
 					TResult result = getResult(responseBody);
 					mResultHandler.onSuccess(result);
+					Log.e(TAG, "Downloading data completed.");
 				} else {
 					mResultHandler.onError(R.string.repository_error_unspecified_protocol);
 				}
