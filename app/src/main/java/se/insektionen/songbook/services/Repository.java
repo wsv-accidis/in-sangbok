@@ -42,11 +42,8 @@ public final class Repository {
 		protected Songbook getResult(ResponseBody responseBody) throws Exception {
 			Reader streamReader = null;
 			try {
-				XmlPullParserFactory xmlParserFactory = XmlPullParserFactory.newInstance();
-				XmlPullParser xmlParser = xmlParserFactory.newPullParser();
 				streamReader = responseBody.charStream();
-				xmlParser.setInput(streamReader);
-				return SongbookXmlParser.parseSongbook(xmlParser);
+				return SongbookXmlParser.parseSongbook(streamReader);
 			} finally {
 				if (null != streamReader) {
 					streamReader.close();
