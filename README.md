@@ -42,7 +42,9 @@ I sista hand kan du kontakta [administratören](https://github.com/wsv-accidis) 
 Appen har inte publicerats.
 
 ## Behörigheter
-Den här appen kräver inga behörigheter.
+Den här appen kräver följande behörigheter:
+
+* INTERNET - För att hämta sångboken från Internet.
 
 ## Licensiering
 Sångbok IN distribueras i enlighet med licensvillkoren i **Apache License version 2.0**.
