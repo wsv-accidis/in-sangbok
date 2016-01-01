@@ -28,6 +28,21 @@
 		<item name="android:singleLine">true</item>
 		<item name="android:textColor">@color/darkgray</item>
 		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">italic</item>l
+	</style>
+
+	<style name="SongHeading" parent="TextAppearance.AppCompat.Large">
+		<item name="android:layout_marginTop">3dp</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+
+	<style name="SongCategory" parent="TextAppearance.AppCompat.Small">
+		<item name="android:textColor">@color/darkgray</item>
 		<item name="android:textStyle">italic</item>
+	</style>
+
+	<style name="SongInfo" parent="TextAppearance.AppCompat.Small">
+		<item name="android:layout_marginTop">5dp</item>
+		<item name="android:textColor">@android:color/primary_text_light</item>
 	</style>
 </resources>

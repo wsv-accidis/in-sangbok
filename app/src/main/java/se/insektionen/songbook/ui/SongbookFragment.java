@@ -95,9 +95,14 @@ public final class SongbookFragment extends ListFragment {
 
     private final class SongbookLoadedHandler implements RepositoryResultHandler<Songbook> {
         @Override
-        public void onError(int errorMessage) {
-            Toast toast = Toast.makeText(getContext(), errorMessage, Toast.LENGTH_LONG);
-            toast.show();
+        public void onError(final int errorMessage) {
+            mHandler.post(new Runnable() {
+                @Override
+                public void run() {
+                    Toast toast = Toast.makeText(getContext(), errorMessage, Toast.LENGTH_LONG);
+                    toast.show();
+                }
+            });
         }
 
         @Override

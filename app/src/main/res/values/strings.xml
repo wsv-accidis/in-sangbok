@@ -10,5 +10,8 @@
 	<string name="repository_error_unspecified_protocol">Sångboken kunde inte hämtas. Försök igen. Kontrollera att du har nätåtkomst och försök sedan igen. Om felet kvarstår, kontakta utvecklaren.</string>
 	<string name="repository_error_xml_parse_error">Sångboken kunde inte läsas in. Kontrollera att du har nätåtkomst och att du har senaste versionen av appen. Försök sedan igen. Om felet kvarstår, kontakta utvecklaren.</string>
 
+	<string name="song_melody">Melodi:</string>
+	<string name="song_melody_composer_format">%1$s (%2$s)</string>
+
 	<string name="songbook_list_empty">Inget funnet.</string>
 </resources>

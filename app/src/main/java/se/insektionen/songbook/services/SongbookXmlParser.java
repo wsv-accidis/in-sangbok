@@ -36,15 +36,6 @@ public final class SongbookXmlParser {
         return instance.doParse();
     }
 
-    static String readAttribute(XmlPullParser xmlParser, String name) {
-        for (int i = 0; i < xmlParser.getAttributeCount(); i++) {
-            if (name.equals(xmlParser.getAttributeName(i))) {
-                return xmlParser.getAttributeValue(i).trim();
-            }
-        }
-        return null;
-    }
-
     private Songbook doParse() throws XmlPullParserException, IOException {
         // Read the top-level <songs> element and make sure it's nothing else
         mXml.next();
@@ -124,6 +115,15 @@ public final class SongbookXmlParser {
     private boolean isAtEndOfDocument() throws XmlPullParserException {
         int parsingEvent = mXml.getEventType();
         return XmlPullParser.END_DOCUMENT == parsingEvent || (XmlPullParser.END_TAG == parsingEvent && Elements.SONGS.equals(mXml.getName()));
+    }
+
+    static String readAttribute(XmlPullParser xmlParser, String name) {
+        for (int i = 0; i < xmlParser.getAttributeCount(); i++) {
+            if (name.equals(xmlParser.getAttributeName(i))) {
+                return xmlParser.getAttributeValue(i).trim();
+            }
+        }
+        return null;
     }
 
     private void skip() throws XmlPullParserException, IOException {
@@ -209,6 +209,9 @@ public final class SongbookXmlParser {
         public static final String MELODY = "melody";
         public static final String NAME = "name";
         public static final String UPDATED = "updated";
+
+        private Attributes() {
+        }
     }
 
     static class Elements {
@@ -217,5 +220,8 @@ public final class SongbookXmlParser {
         public static final String P = "p";
         public static final String SONG = "song";
         public static final String SONGS = "songs";
+
+        private Elements() {
+        }
     }
 }
