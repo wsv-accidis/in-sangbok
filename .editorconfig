@@ -1,2 +1,5 @@
+root = true
+
+[*.{java,xml}]
 indent_style = tab
 indent_size = 4
