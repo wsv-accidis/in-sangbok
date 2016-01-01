@@ -1,12 +1,16 @@
 package se.insektionen.songbook.ui;
 
 import android.content.Context;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import se.insektionen.songbook.R;
@@ -15,26 +19,34 @@ import se.insektionen.songbook.model.Song;
 /**
  * List adapter for the list of songs in a songbook.
  */
-public final class SongbookListAdapter extends BaseAdapter {
+public final class SongbookListAdapter extends BaseAdapter implements Filterable {
     private static final String ELLIPISIS = "...";
     private static final String[] TRIM_END = new String[]{".", ",", "!", "?"};
     private static final String[] TRIM_START = new String[]{"*", "//:"};
     private final LayoutInflater mInflater;
     private final List<Song> mList;
+    private Filter mFilter = new SongbookListFilter();
+    private List<Song> mFilteredList;
 
     public SongbookListAdapter(Context context, List<Song> list) {
         mList = list;
+        mFilteredList = list;
         mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
     @Override
     public int getCount() {
-        return mList.size();
+        return mFilteredList.size();
+    }
+
+    @Override
+    public Filter getFilter() {
+        return mFilter;
     }
 
     @Override
     public Object getItem(int position) {
-        return mList.get(position);
+        return mFilteredList.get(position);
     }
 
     @Override
@@ -51,7 +63,7 @@ public final class SongbookListAdapter extends BaseAdapter {
             view = convertView;
         }
 
-        Song song = mList.get(position);
+        Song song = mFilteredList.get(position);
 
         TextView nameText = (TextView) view.findViewById(R.id.song_list_primary);
         nameText.setText(song.getName());
@@ -78,5 +90,39 @@ public final class SongbookListAdapter extends BaseAdapter {
         }
 
         return line.trim().concat(ELLIPISIS);
+    }
+
+    private final class SongbookListFilter extends Filter {
+        @Override
+        protected FilterResults performFiltering(CharSequence constraint) {
+            FilterResults results = new FilterResults();
+            List<Song> filteredList;
+
+            if (TextUtils.isEmpty(constraint)) {
+                filteredList = mList;
+            } else {
+                filteredList = new ArrayList<>();
+                for (Song s : mList) {
+                    if (s.getName().toLowerCase().contains(constraint)) {
+                        filteredList.add(s);
+                    }
+                }
+            }
+
+            results.values = filteredList;
+            results.count = filteredList.size();
+            return results;
+        }
+
+        @Override
+        protected void publishResults(CharSequence constraint, FilterResults results) {
+            //noinspection unchecked
+            mFilteredList = (List<Song>) results.values;
+            if (results.count > 0) {
+                notifyDataSetChanged();
+            } else {
+                notifyDataSetInvalidated();
+            }
+        }
     }
 }
