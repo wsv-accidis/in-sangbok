@@ -41,8 +41,8 @@ public final class SongbookXmlParser {
         mXml.next();
         mXml.require(XmlPullParser.START_TAG, null, Elements.SONGS);
 
-        String updated = readAttribute(mXml, Attributes.UPDATED);
-        String description = readAttribute(mXml, Attributes.DESCRIPTION);
+        String updated = mXml.getAttributeValue(null, Attributes.UPDATED);
+        String description = mXml.getAttributeValue(null, Attributes.DESCRIPTION);
 
         List<Song> songs = new ArrayList<>();
         do {
@@ -117,15 +117,6 @@ public final class SongbookXmlParser {
         return XmlPullParser.END_DOCUMENT == parsingEvent || (XmlPullParser.END_TAG == parsingEvent && Elements.SONGS.equals(mXml.getName()));
     }
 
-    static String readAttribute(XmlPullParser xmlParser, String name) {
-        for (int i = 0; i < xmlParser.getAttributeCount(); i++) {
-            if (name.equals(xmlParser.getAttributeName(i))) {
-                return xmlParser.getAttributeValue(i).trim();
-            }
-        }
-        return null;
-    }
-
     private void skip() throws XmlPullParserException, IOException {
         if (XmlPullParser.START_TAG != mXml.getEventType()) {
             return;
@@ -150,11 +141,11 @@ public final class SongbookXmlParser {
             mXml.require(XmlPullParser.START_TAG, null, Elements.SONG);
 
             // Read and validate attributes
-            String author = readAttribute(mXml, Attributes.AUTHOR);
-            String category = readAttribute(mXml, Attributes.CATEGORY);
-            String composer = readAttribute(mXml, Attributes.COMPOSER);
-            String melody = readAttribute(mXml, Attributes.MELODY);
-            String name = readAttribute(mXml, Attributes.NAME);
+            String author = mXml.getAttributeValue(null, Attributes.AUTHOR);
+            String category = mXml.getAttributeValue(null, Attributes.CATEGORY);
+            String composer = mXml.getAttributeValue(null, Attributes.COMPOSER);
+            String melody = mXml.getAttributeValue(null, Attributes.MELODY);
+            String name = mXml.getAttributeValue(null, Attributes.NAME);
 
             if (TextUtils.isEmpty(name) || TextUtils.isEmpty(category)) {
                 throw new XmlPullParserException("Missing required attribute " + Attributes.NAME + " and/or " + Attributes.CATEGORY + ".");
