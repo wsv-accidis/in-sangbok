@@ -8,16 +8,26 @@
 				android:paddingTop="9dp">
 
 	<TextView
-		android:id="@+id/song_title"
+		android:id="@+id/song_list_primary"
 		style="@style/SongListItemPrimary"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:drawablePadding="4dp"/>
 
 	<TextView
-		android:id="@+id/song_subtitle"
+		android:id="@+id/song_list_tertiary"
+		style="@style/SongListItemSecondary"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginLeft="20dp"/>
+
+	<TextView
+		android:id="@+id/song_list_secondary"
 		style="@style/SongListItemSecondary"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_alignParentBottom="true"/>
+		android:layout_alignParentBottom="true"
+		android:layout_toLeftOf="@id/song_list_tertiary"/>
 </RelativeLayout>

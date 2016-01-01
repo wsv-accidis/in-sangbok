@@ -6,6 +6,6 @@
 	<dimen name="nav_header_vertical_spacing">16dp</dimen>
 	<dimen name="nav_header_height">160dp</dimen>
 
-	<dimen name="song_part_top_margin">5dp</dimen>
-	<dimen name="song_part_text_size">14sp</dimen>
+	<dimen name="song_part_top_margin">8dp</dimen>
+	<dimen name="song_part_text_size">16sp</dimen>
 </resources>

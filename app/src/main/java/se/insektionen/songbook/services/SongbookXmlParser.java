@@ -20,6 +20,7 @@ import se.insektionen.songbook.model.Songbook;
  * Parses XML into model objects.
  */
 public final class SongbookXmlParser {
+    public static final String LINE_BREAK_REGEX = "\\s*\\r?\\n\\s*";
     private static final String TAG = SongbookXmlParser.class.getSimpleName();
     private XmlPullParser mXml;
 
@@ -187,12 +188,18 @@ public final class SongbookXmlParser {
             return null;
         }
 
-        // Eliminate whitespace caused by indentation but keep the line breaks internal to the text
-        text = text.replaceAll("\\s*\\r?\\n\\s*", "\n");
+        if (SongPart.TYPE_PARAGRAPH == type) {
+            // Eliminate whitespace caused by indentation but keep the line breaks internal to the text
+            text = text.replaceAll(LINE_BREAK_REGEX, "\n");
+        } else {
+            // Eliminate whitespace caused by indentation and strip linebreaks
+            text = text.replaceAll(LINE_BREAK_REGEX, " ");
+        }
+
         return new SongPart(type, text);
     }
 
-    static class Attributes {
+    private static class Attributes {
         public static final String AUTHOR = "author";
         public static final String CATEGORY = "category";
         public static final String COMPOSER = "composer";
@@ -205,7 +212,7 @@ public final class SongbookXmlParser {
         }
     }
 
-    static class Elements {
+    private static class Elements {
         public static final String COMMENT = "comment";
         public static final String HEADER = "header";
         public static final String P = "p";

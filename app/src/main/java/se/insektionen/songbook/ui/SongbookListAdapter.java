@@ -53,11 +53,14 @@ public final class SongbookListAdapter extends BaseAdapter {
 
         Song song = mList.get(position);
 
-        TextView titleText = (TextView) view.findViewById(R.id.song_title);
-        titleText.setText(song.getName());
+        TextView nameText = (TextView) view.findViewById(R.id.song_list_primary);
+        nameText.setText(song.getName());
 
-        TextView subTitleText = (TextView) view.findViewById(R.id.song_subtitle);
-        subTitleText.setText(formatFirstLineOfSong(song.getFirstLineOfSong()));
+        TextView firstLineText = (TextView) view.findViewById(R.id.song_list_secondary);
+        firstLineText.setText(formatFirstLineOfSong(song.getFirstLineOfSong()));
+
+        TextView categoryText = (TextView) view.findViewById(R.id.song_list_tertiary);
+        categoryText.setText(song.getCategory());
 
         return view;
     }

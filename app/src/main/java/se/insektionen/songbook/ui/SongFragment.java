@@ -26,6 +26,7 @@ import java.util.List;
 import se.insektionen.songbook.R;
 import se.insektionen.songbook.model.Song;
 import se.insektionen.songbook.model.SongPart;
+import se.insektionen.songbook.services.Preferences;
 
 /**
  * Fragment which displays a single song.
@@ -33,11 +34,12 @@ import se.insektionen.songbook.model.SongPart;
 public final class SongFragment extends Fragment {
     private final static String TAG = SongFragment.class.getSimpleName();
     private static final double mMaxScaleFactor = 5.0;
-    private static final double mMinScaleFactor = 1.0;
+    private static final double mMinScaleFactor = .8;
     private final List<TextView> mSongPartViews = new ArrayList<>();
     private float mCurrentTextSize;
     private float mInitialTextSize;
     private double mScaleFactor = 1.0;
+    private Preferences mPrefs;
 
     public static SongFragment createInstance(Song song) {
         SongFragment fragment = new SongFragment();
@@ -48,7 +50,9 @@ public final class SongFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
+        mPrefs = new Preferences(context);
         mInitialTextSize = getResources().getDimension(R.dimen.song_part_text_size);
+        mScaleFactor = mPrefs.getSongScaleFactor();
     }
 
     @Nullable
@@ -77,19 +81,23 @@ public final class SongFragment extends Fragment {
         mSongPartViews.clear();
 
         Context context = getContext();
-        int color = ContextCompat.getColor(context, R.color.black);
+        int defaultColor = ContextCompat.getColor(context, R.color.black);
+        int commentColor = ContextCompat.getColor(context, R.color.colorPrimaryDark);
         int topMargin = context.getResources().getDimensionPixelSize(R.dimen.song_part_top_margin);
 
         for (SongPart part : parts) {
             TextView textView = new TextView(context);
             textView.setText(part.getText());
-            textView.setTextColor(color);
-            textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, mInitialTextSize);
+            textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, (float) (mInitialTextSize * mScaleFactor));
 
             if (SongPart.TYPE_COMMENT == part.getType()) {
                 textView.setTypeface(null, Typeface.ITALIC);
+                textView.setTextColor(commentColor);
             } else if (SongPart.TYPE_HEADER == part.getType()) {
                 textView.setTypeface(null, Typeface.BOLD);
+                textView.setTextColor(defaultColor);
+            } else {
+                textView.setTextColor(defaultColor);
             }
 
             LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
@@ -109,6 +117,12 @@ public final class SongFragment extends Fragment {
                 textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, mCurrentTextSize);
             }
         }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        mPrefs.setSongScaleFactor((float) mScaleFactor);
     }
 
     private void setTextIfNotEmpty(View view, int textViewId, String str) {
