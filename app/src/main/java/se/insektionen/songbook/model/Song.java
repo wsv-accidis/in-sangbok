@@ -42,6 +42,18 @@ public final class Song {
         return mName;
     }
 
+    public String getFirstLineOfSong() {
+        for (SongPart songPart : mParts) {
+            if (SongPart.TYPE_PARAGRAPH == songPart.getType()) {
+                String firstParagraph = songPart.getText();
+                int firstLineBreak = firstParagraph.indexOf('\n');
+                return (-1 == firstLineBreak ? firstParagraph : firstParagraph.substring(0, firstLineBreak));
+            }
+        }
+
+        return "";
+    }
+
     public List<SongPart> getParts() {
         return mParts;
     }

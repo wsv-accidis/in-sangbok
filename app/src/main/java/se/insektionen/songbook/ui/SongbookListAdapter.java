@@ -16,6 +16,9 @@ import se.insektionen.songbook.model.Song;
  * List adapter for the list of songs in a songbook.
  */
 public final class SongbookListAdapter extends BaseAdapter {
+    private static final String ELLIPISIS = "...";
+    private static final String[] TRIM_END = new String[]{".", ",", "!", "?"};
+    private static final String[] TRIM_START = new String[]{"*", "//:"};
     private final LayoutInflater mInflater;
     private final List<Song> mList;
 
@@ -53,6 +56,24 @@ public final class SongbookListAdapter extends BaseAdapter {
         TextView titleText = (TextView) view.findViewById(R.id.song_title);
         titleText.setText(song.getName());
 
+        TextView subTitleText = (TextView) view.findViewById(R.id.song_subtitle);
+        subTitleText.setText(formatFirstLineOfSong(song.getFirstLineOfSong()));
+
         return view;
+    }
+
+    private String formatFirstLineOfSong(String line) {
+        for (String trimStart : TRIM_START) {
+            if (line.startsWith(trimStart)) {
+                line = line.substring(trimStart.length());
+            }
+        }
+        for (String trimEnd : TRIM_END) {
+            if (line.endsWith(trimEnd)) {
+                line = line.substring(0, line.length() - trimEnd.length());
+            }
+        }
+
+        return line.trim().concat(ELLIPISIS);
     }
 }
