@@ -1,7 +1,10 @@
-package se.insektionen.songbook;
+package se.insektionen.songbook.ui;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -11,13 +14,14 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import se.insektionen.songbook.R;
 import se.insektionen.songbook.model.Songbook;
 import se.insektionen.songbook.services.Repository;
 import se.insektionen.songbook.services.RepositoryResultHandler;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private final static String TAG = MainActivity.class.getSimpleName();
+    private static final String STATE_LAST_OPENED_FRAGMENT = "openMainActivityFragment";
 
     @Override
     public void onBackPressed() {
@@ -31,7 +35,6 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
@@ -75,6 +78,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         if (null != getSupportActionBar()) {
@@ -82,30 +86,51 @@ public class MainActivity extends AppCompatActivity
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        if (null != savedInstanceState) {
+            Fragment lastFragment = getSupportFragmentManager().getFragment(savedInstanceState, STATE_LAST_OPENED_FRAGMENT);
+            openFragment(lastFragment, false);
+        } else {
+            openFragment(new SongbookFragment(), false);
+        }
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        Fragment fragment = fragmentManager.findFragmentById(R.id.container);
+        if (null != fragment) {
+            fragmentManager.putFragment(outState, STATE_LAST_OPENED_FRAGMENT, fragment);
+        }
     }
 
     @Override
     protected void onResume() {
         super.onResume();
+    }
 
-        Repository repository = new Repository();
-        repository.getSongbook(new RepositoryResultHandler<Songbook>() {
-            @Override
-            public void onError(int errorMessage) {
-                Log.d(TAG, "Got error!");
-            }
+    public void openFragment(Fragment fragment) {
+        openFragment(fragment, true);
+    }
 
-            @Override
-            public void onSuccess(Songbook songbook) {
-                Log.d(TAG, "Got songbook!");
-            }
-        }, false);
+    public void openFragment(Fragment fragment, boolean addToBackStack) {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.container, fragment);
+        transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
+
+        if (addToBackStack) {
+            transaction.addToBackStack(null);
+        }
+
+        transaction.commit();
     }
 }

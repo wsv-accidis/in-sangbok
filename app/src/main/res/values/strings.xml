@@ -9,4 +9,6 @@
 	<string name="repository_error_unspecified_network">Det gick inte att kontakta servern. Kontrollera att du har nätåtkomst och försök sedan igen.</string>
 	<string name="repository_error_unspecified_protocol">Sångboken kunde inte hämtas. Försök igen. Kontrollera att du har nätåtkomst och försök sedan igen. Om felet kvarstår, kontakta utvecklaren.</string>
 	<string name="repository_error_xml_parse_error">Sångboken kunde inte läsas in. Kontrollera att du har nätåtkomst och att du har senaste versionen av appen. Försök sedan igen. Om felet kvarstår, kontakta utvecklaren.</string>
+
+	<string name="songbook_list_empty">Inget funnet.</string>
 </resources>

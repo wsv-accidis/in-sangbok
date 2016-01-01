@@ -14,4 +14,18 @@
 
 	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+	<style name="SongListItemPrimary">
+		<item name="android:ellipsize">end</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">20sp</item>
+	</style>
+
+	<style name="SongListItemSecondary">
+		<item name="android:ellipsize">end</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:textColor">@color/darkgray</item>
+		<item name="android:textSize">14sp</item>
+	</style>
 </resources>
