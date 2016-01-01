@@ -31,20 +31,25 @@ import se.insektionen.songbook.services.Preferences;
 /**
  * Fragment which displays a single song.
  */
-public final class SongFragment extends Fragment {
+public final class SongFragment extends Fragment implements MainActivity.HasNavigationItem {
     private final static String TAG = SongFragment.class.getSimpleName();
     private static final double mMaxScaleFactor = 5.0;
     private static final double mMinScaleFactor = .8;
     private final List<TextView> mSongPartViews = new ArrayList<>();
     private float mCurrentTextSize;
     private float mInitialTextSize;
-    private double mScaleFactor = 1.0;
     private Preferences mPrefs;
+    private double mScaleFactor = 1.0;
 
     public static SongFragment createInstance(Song song) {
         SongFragment fragment = new SongFragment();
         fragment.setArguments(song.toBundle());
         return fragment;
+    }
+
+    @Override
+    public int getItemId() {
+        return R.id.nav_list_songs;
     }
 
     @Override
@@ -74,6 +79,12 @@ public final class SongFragment extends Fragment {
 
         view.setOnTouchListener(new ViewTouchListener(getContext()));
         return view;
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        mPrefs.setSongScaleFactor((float) mScaleFactor);
     }
 
     private void populateSongLayout(LinearLayout songLayout, List<SongPart> parts) {
@@ -117,12 +128,6 @@ public final class SongFragment extends Fragment {
                 textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, mCurrentTextSize);
             }
         }
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        mPrefs.setSongScaleFactor((float) mScaleFactor);
     }
 
     private void setTextIfNotEmpty(View view, int textViewId, String str) {

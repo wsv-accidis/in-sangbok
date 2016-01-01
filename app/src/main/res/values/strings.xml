@@ -5,6 +5,8 @@
 
 	<string name="navigation_drawer_close">Stäng navigation</string>
 	<string name="navigation_drawer_open">Öppna navigation</string>
+	<string name="nav_list_songs">Sök/lista sånger</string>
+	<string name="nav_about">Om sångboken</string>
 
 	<string name="repository_error_unspecified_network">Det gick inte att kontakta servern. Kontrollera att du har nätåtkomst och försök sedan igen.</string>
 	<string name="repository_error_unspecified_protocol">Sångboken kunde inte hämtas. Försök igen. Kontrollera att du har nätåtkomst och försök sedan igen. Om felet kvarstår, kontakta utvecklaren.</string>
@@ -14,4 +16,5 @@
 	<string name="song_melody_composer_format">%1$s (%2$s)</string>
 
 	<string name="songbook_list_empty">Inget funnet.</string>
+	<string name="songbook_show_all">Visa alla</string>
 </resources>

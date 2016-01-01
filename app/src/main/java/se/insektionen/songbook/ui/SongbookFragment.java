@@ -7,6 +7,7 @@ import android.os.Parcelable;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ListFragment;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -21,7 +22,7 @@ import se.insektionen.songbook.utils.AndroidUtils;
 /**
  * Fragment which displays the list of songs.
  */
-public final class SongbookFragment extends ListFragment {
+public final class SongbookFragment extends ListFragment implements MainActivity.HasNavigationItem, MainActivity.HasMenu {
     private static final String STATE_LIST_VIEW = "songbookListViewState";
     private static final String TAG = SongbookFragment.class.getSimpleName();
     private final Handler mHandler = new Handler();
@@ -29,6 +30,16 @@ public final class SongbookFragment extends ListFragment {
     private SongbookListAdapter mListAdapter;
     private Parcelable mListState;
     private Songbook mSongbook;
+
+    @Override
+    public int getItemId() {
+        return R.id.nav_list_songs;
+    }
+
+    @Override
+    public int getMenu() {
+        return R.menu.songbook;
+    }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
@@ -55,6 +66,11 @@ public final class SongbookFragment extends ListFragment {
         } else {
             Log.e(TAG, "Activity holding fragment is not MainActivity!");
         }
+    }
+
+    @Override
+    public boolean onMenuItemSelected(MenuItem item) {
+        return false;
     }
 
     @Override

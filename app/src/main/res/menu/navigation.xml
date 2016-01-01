@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:checkableBehavior="single">
+		<item
+			android:id="@+id/nav_list_songs"
+			android:icon="@drawable/ic_list_songs"
+			android:title="@string/nav_list_songs"/>
+		<item
+			android:id="@+id/nav_about"
+			android:icon="@drawable/ic_info"
+			android:title="@string/nav_about"/>
+	</group>
+</menu>

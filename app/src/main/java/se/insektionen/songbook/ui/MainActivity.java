@@ -15,19 +15,21 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import se.insektionen.songbook.R;
-import se.insektionen.songbook.model.Songbook;
-import se.insektionen.songbook.services.Repository;
-import se.insektionen.songbook.services.RepositoryResultHandler;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-    private final static String TAG = MainActivity.class.getSimpleName();
+/**
+ * The main activity.
+ */
+public final class MainActivity extends AppCompatActivity {
     private static final String STATE_LAST_OPENED_FRAGMENT = "openMainActivityFragment";
+    private final static String TAG = MainActivity.class.getSimpleName();
+    private DrawerLayout mNavigationDrawer;
+    private NavigationView mNavigationView;
+    private HasMenu mOptionsMenu;
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
+        if (mNavigationDrawer.isDrawerOpen(GravityCompat.START)) {
+            mNavigationDrawer.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
         }
@@ -35,86 +37,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        if (null != mOptionsMenu) {
+            getMenuInflater().inflate(mOptionsMenu.getMenu(), menu);
+            return true;
+        } else {
+            return false;
         }
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+        return (null != mOptionsMenu && mOptionsMenu.onMenuItemSelected(item)) || super.onOptionsItemSelected(item);
 
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        if (null != getSupportActionBar()) {
-            getSupportActionBar().setTitle(R.string.app_name);
-        }
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
-
-        if (null != savedInstanceState) {
-            Fragment lastFragment = getSupportFragmentManager().getFragment(savedInstanceState, STATE_LAST_OPENED_FRAGMENT);
-            openFragment(lastFragment, false);
-        } else {
-            openFragment(new SongbookFragment(), false);
-        }
-    }
-
-    @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        Fragment fragment = fragmentManager.findFragmentById(R.id.container);
-        if (null != fragment) {
-            fragmentManager.putFragment(outState, STATE_LAST_OPENED_FRAGMENT, fragment);
-        }
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
     }
 
     public void openFragment(Fragment fragment) {
@@ -132,5 +66,109 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
         transaction.commit();
+        updateViewFromFragment(fragment);
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        if (null != getSupportActionBar()) {
+            getSupportActionBar().setTitle(R.string.app_name);
+        }
+
+        mNavigationDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(MainActivity.this, mNavigationDrawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        mNavigationDrawer.setDrawerListener(toggle);
+        toggle.syncState();
+
+        mNavigationView = (NavigationView) findViewById(R.id.nav_view);
+        mNavigationView.setNavigationItemSelectedListener(new NavigationListener());
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.addOnBackStackChangedListener(new BackStackChangedListener());
+
+        if (null != savedInstanceState) {
+            Fragment lastFragment = fragmentManager.getFragment(savedInstanceState, STATE_LAST_OPENED_FRAGMENT);
+            openFragment(lastFragment, false);
+        } else {
+            openFragment(getFragmentByNavigationItem(R.id.nav_list_songs), false);
+        }
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        Fragment fragment = fragmentManager.findFragmentById(R.id.container);
+        if (null != fragment) {
+            fragmentManager.putFragment(outState, STATE_LAST_OPENED_FRAGMENT, fragment);
+        }
+    }
+
+    private Fragment getFragmentByNavigationItem(int navId) {
+        switch (navId) {
+            case R.id.nav_list_songs:
+                return new SongbookFragment();
+            case R.id.nav_about:
+                return new AboutFragment();
+        }
+
+        return null;
+    }
+
+    private void updateViewFromFragment(Fragment fragment) {
+        if (fragment instanceof HasNavigationItem) {
+            HasNavigationItem fragmentWithNavItem = (HasNavigationItem) fragment;
+            mNavigationView.setCheckedItem(fragmentWithNavItem.getItemId());
+        }
+
+        if (fragment instanceof HasMenu) {
+            mOptionsMenu = (HasMenu) fragment;
+            fragment.setHasOptionsMenu(true);
+        } else {
+            mOptionsMenu = null;
+            fragment.setHasOptionsMenu(false);
+        }
+    }
+
+    public interface HasMenu {
+        int getMenu();
+
+        boolean onMenuItemSelected(MenuItem item);
+    }
+
+    public interface HasNavigationItem {
+        int getItemId();
+    }
+
+    private final class BackStackChangedListener implements FragmentManager.OnBackStackChangedListener {
+        @Override
+        public void onBackStackChanged() {
+            Fragment fragment = getSupportFragmentManager().findFragmentById(R.id.container);
+            if (null != fragment) {
+                updateViewFromFragment(fragment);
+            }
+        }
+    }
+
+    private final class NavigationListener implements NavigationView.OnNavigationItemSelectedListener {
+        @Override
+        public boolean onNavigationItemSelected(MenuItem item) {
+            Fragment fragment = getFragmentByNavigationItem(item.getItemId());
+            if (null != fragment) {
+                openFragment(fragment);
+            } else {
+                Log.e(TAG, "Trying to navigate to unrecognized fragment.");
+            }
+
+            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+            drawer.closeDrawer(GravityCompat.START);
+            return true;
+        }
     }
 }
