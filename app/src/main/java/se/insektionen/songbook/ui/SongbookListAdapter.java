@@ -20,109 +20,109 @@ import se.insektionen.songbook.model.Song;
  * List adapter for the list of songs in a songbook.
  */
 public final class SongbookListAdapter extends BaseAdapter implements Filterable {
-    private static final String ELLIPISIS = "...";
-    private static final String[] TRIM_END = new String[]{".", ",", "!", "?"};
-    private static final String[] TRIM_START = new String[]{"*", "//:"};
-    private final LayoutInflater mInflater;
-    private final List<Song> mList;
-    private Filter mFilter = new SongbookListFilter();
-    private List<Song> mFilteredList;
+	private static final String ELLIPISIS = "...";
+	private static final String[] TRIM_END = new String[]{".", ",", "!", "?"};
+	private static final String[] TRIM_START = new String[]{"*", "//:"};
+	private final LayoutInflater mInflater;
+	private final List<Song> mList;
+	private Filter mFilter = new SongbookListFilter();
+	private List<Song> mFilteredList;
 
-    public SongbookListAdapter(Context context, List<Song> list) {
-        mList = list;
-        mFilteredList = list;
-        mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-    }
+	public SongbookListAdapter(Context context, List<Song> list) {
+		mList = list;
+		mFilteredList = list;
+		mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+	}
 
-    @Override
-    public int getCount() {
-        return mFilteredList.size();
-    }
+	@Override
+	public int getCount() {
+		return mFilteredList.size();
+	}
 
-    @Override
-    public Filter getFilter() {
-        return mFilter;
-    }
+	@Override
+	public Filter getFilter() {
+		return mFilter;
+	}
 
-    @Override
-    public Object getItem(int position) {
-        return mFilteredList.get(position);
-    }
+	@Override
+	public Object getItem(int position) {
+		return mFilteredList.get(position);
+	}
 
-    @Override
-    public long getItemId(int position) {
-        return position;
-    }
+	@Override
+	public long getItemId(int position) {
+		return position;
+	}
 
-    @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        View view;
-        if (null == convertView) {
-            view = mInflater.inflate(R.layout.list_item_song, parent, false);
-        } else {
-            view = convertView;
-        }
+	@Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+		View view;
+		if (null == convertView) {
+			view = mInflater.inflate(R.layout.list_item_song, parent, false);
+		} else {
+			view = convertView;
+		}
 
-        Song song = mFilteredList.get(position);
+		Song song = mFilteredList.get(position);
 
-        TextView nameText = (TextView) view.findViewById(R.id.song_list_primary);
-        nameText.setText(song.getName());
+		TextView nameText = (TextView) view.findViewById(R.id.song_list_primary);
+		nameText.setText(song.getName());
 
-        TextView firstLineText = (TextView) view.findViewById(R.id.song_list_secondary);
-        firstLineText.setText(formatFirstLineOfSong(song.getFirstLineOfSong()));
+		TextView firstLineText = (TextView) view.findViewById(R.id.song_list_secondary);
+		firstLineText.setText(formatFirstLineOfSong(song.getFirstLineOfSong()));
 
-        TextView categoryText = (TextView) view.findViewById(R.id.song_list_tertiary);
-        categoryText.setText(song.getCategory());
+		TextView categoryText = (TextView) view.findViewById(R.id.song_list_tertiary);
+		categoryText.setText(song.getCategory());
 
-        return view;
-    }
+		return view;
+	}
 
-    private String formatFirstLineOfSong(String line) {
-        for (String trimStart : TRIM_START) {
-            if (line.startsWith(trimStart)) {
-                line = line.substring(trimStart.length());
-            }
-        }
-        for (String trimEnd : TRIM_END) {
-            if (line.endsWith(trimEnd)) {
-                line = line.substring(0, line.length() - trimEnd.length());
-            }
-        }
+	private String formatFirstLineOfSong(String line) {
+		for (String trimStart : TRIM_START) {
+			if (line.startsWith(trimStart)) {
+				line = line.substring(trimStart.length());
+			}
+		}
+		for (String trimEnd : TRIM_END) {
+			if (line.endsWith(trimEnd)) {
+				line = line.substring(0, line.length() - trimEnd.length());
+			}
+		}
 
-        return line.trim().concat(ELLIPISIS);
-    }
+		return line.trim().concat(ELLIPISIS);
+	}
 
-    private final class SongbookListFilter extends Filter {
-        @Override
-        protected FilterResults performFiltering(CharSequence constraint) {
-            FilterResults results = new FilterResults();
-            List<Song> filteredList;
+	private final class SongbookListFilter extends Filter {
+		@Override
+		protected FilterResults performFiltering(CharSequence constraint) {
+			FilterResults results = new FilterResults();
+			List<Song> filteredList;
 
-            if (TextUtils.isEmpty(constraint)) {
-                filteredList = mList;
-            } else {
-                filteredList = new ArrayList<>();
-                for (Song s : mList) {
-                    if (s.getName().toLowerCase().contains(constraint)) {
-                        filteredList.add(s);
-                    }
-                }
-            }
+			if (TextUtils.isEmpty(constraint)) {
+				filteredList = mList;
+			} else {
+				filteredList = new ArrayList<>();
+				for (Song s : mList) {
+					if (s.getName().toLowerCase().contains(constraint)) {
+						filteredList.add(s);
+					}
+				}
+			}
 
-            results.values = filteredList;
-            results.count = filteredList.size();
-            return results;
-        }
+			results.values = filteredList;
+			results.count = filteredList.size();
+			return results;
+		}
 
-        @Override
-        protected void publishResults(CharSequence constraint, FilterResults results) {
-            //noinspection unchecked
-            mFilteredList = (List<Song>) results.values;
-            if (results.count > 0) {
-                notifyDataSetChanged();
-            } else {
-                notifyDataSetInvalidated();
-            }
-        }
-    }
+		@Override
+		protected void publishResults(CharSequence constraint, FilterResults results) {
+			//noinspection unchecked
+			mFilteredList = (List<Song>) results.values;
+			if (results.count > 0) {
+				notifyDataSetChanged();
+			} else {
+				notifyDataSetInvalidated();
+			}
+		}
+	}
 }

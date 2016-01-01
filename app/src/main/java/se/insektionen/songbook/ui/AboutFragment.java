@@ -13,14 +13,14 @@ import se.insektionen.songbook.R;
  * Fragment which displays information about the app and the current songbook.
  */
 public final class AboutFragment extends Fragment implements MainActivity.HasNavigationItem {
-    @Override
-    public int getItemId() {
-        return R.id.nav_about;
-    }
+	@Override
+	public int getItemId() {
+		return R.id.nav_about;
+	}
 
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_about, container, false);
-    }
+	@Nullable
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+		return inflater.inflate(R.layout.fragment_about, container, false);
+	}
 }

@@ -37,27 +37,6 @@ public final class Repository {
 		SharedHttpClient.getInstance().enqueueRequest(requestBuilder.build(), new GetSongbookCallback(resultHandler));
 	}
 
-	private final class GetSongbookCallback extends GetResultCallback<Songbook> {
-		protected GetSongbookCallback(RepositoryResultHandler<Songbook> resultHandler) {
-			super(resultHandler);
-		}
-
-		@Override
-		protected Songbook getResult(ResponseBody responseBody) throws Exception {
-			Reader streamReader = null;
-			try {
-				streamReader = responseBody.charStream();
-				Songbook songbook = SongbookXmlParser.parseSongbook(streamReader);
-				mCachedSongbook = songbook;
-				return songbook;
-			} finally {
-				if (null != streamReader) {
-					streamReader.close();
-				}
-			}
-		}
-	}
-
 	private abstract class GetResultCallback<TResult> implements Callback {
 		protected final RepositoryResultHandler<TResult> mResultHandler;
 
@@ -100,5 +79,26 @@ public final class Repository {
 		}
 
 		protected abstract TResult getResult(ResponseBody responseBody) throws Exception;
+	}
+
+	private final class GetSongbookCallback extends GetResultCallback<Songbook> {
+		protected GetSongbookCallback(RepositoryResultHandler<Songbook> resultHandler) {
+			super(resultHandler);
+		}
+
+		@Override
+		protected Songbook getResult(ResponseBody responseBody) throws Exception {
+			Reader streamReader = null;
+			try {
+				streamReader = responseBody.charStream();
+				Songbook songbook = SongbookXmlParser.parseSongbook(streamReader);
+				mCachedSongbook = songbook;
+				return songbook;
+			} finally {
+				if (null != streamReader) {
+					streamReader.close();
+				}
+			}
+		}
 	}
 }
