@@ -3,11 +3,17 @@ package se.insektionen.songbook.ui;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import se.insektionen.songbook.R;
+import se.insektionen.songbook.model.Songbook;
+import se.insektionen.songbook.services.Repository;
+import se.insektionen.songbook.services.RepositoryResultHandler;
+import se.insektionen.songbook.utils.AndroidUtils;
 
 /**
  * Fragment which displays information about the app and the current songbook.
@@ -21,6 +27,31 @@ public final class AboutFragment extends Fragment implements MainActivity.HasNav
 	@Nullable
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		return inflater.inflate(R.layout.fragment_about, container, false);
+		View view = inflater.inflate(R.layout.fragment_about, container, false);
+
+		int[] paragraphs = new int[]{R.id.about_para1, R.id.about_para2, R.id.about_para3};
+		for (int id : paragraphs) {
+			TextView textView = (TextView) view.findViewById(id);
+			textView.setMovementMethod(LinkMovementMethod.getInstance());
+		}
+
+		TextView appInfoView = (TextView) view.findViewById(R.id.about_app_info);
+		appInfoView.setText(String.format(getString(R.string.about_app_info), AndroidUtils.getAppVersionName(getContext())));
+
+		final TextView songbookInfoView = (TextView) view.findViewById(R.id.about_songbook_info);
+
+		Repository repository = new Repository();
+		repository.getSongbook(new RepositoryResultHandler<Songbook>() {
+			@Override
+			public void onError(int errorMessage) {
+			}
+
+			@Override
+			public void onSuccess(Songbook songbook) {
+				songbookInfoView.setText(String.format(getString(R.string.about_songbook_info), songbook.getDescription(), songbook.getUpdated()));
+			}
+		}, false);
+
+		return view;
 	}
 }
