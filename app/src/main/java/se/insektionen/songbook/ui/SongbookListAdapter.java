@@ -20,6 +20,7 @@ import se.insektionen.songbook.model.Song;
  * List adapter for the list of songs in a songbook.
  */
 public final class SongbookListAdapter extends BaseAdapter implements Filterable {
+	public static final String CATEGORY_QUERY = "?category=";
 	private static final String ELLIPISIS = "...";
 	private static final String[] TRIM_END = new String[]{".", ",", "!", "?"};
 	private static final String[] TRIM_START = new String[]{"*", "//:"};
@@ -98,15 +99,32 @@ public final class SongbookListAdapter extends BaseAdapter implements Filterable
 			FilterResults results = new FilterResults();
 			List<Song> filteredList;
 
-			if (TextUtils.isEmpty(constraint)) {
-				filteredList = mList;
-			} else {
+			if (!TextUtils.isEmpty(constraint)) {
+				String categoryFilter = null;
+				String nameFilter;
+
+				/*
+				 * The query is of the format {nameFilter}?category={categoryFilter}
+				 * Both parts are optional.
+				 */
+
+				String query = constraint.toString();
+				if (query.contains(CATEGORY_QUERY)) {
+					int idx = query.indexOf(CATEGORY_QUERY);
+					categoryFilter = query.substring(idx + CATEGORY_QUERY.length());
+					nameFilter = query.substring(0, idx);
+				} else {
+					nameFilter = query;
+				}
+
 				filteredList = new ArrayList<>();
 				for (Song s : mList) {
-					if (s.getName().toLowerCase().contains(constraint)) {
+					if (filter(s, nameFilter, categoryFilter)) {
 						filteredList.add(s);
 					}
 				}
+			} else {
+				filteredList = mList;
 			}
 
 			results.values = filteredList;
@@ -123,6 +141,17 @@ public final class SongbookListAdapter extends BaseAdapter implements Filterable
 			} else {
 				notifyDataSetInvalidated();
 			}
+		}
+
+		private boolean filter(Song song, String nameFilter, String categoryFilter) {
+			if (!TextUtils.isEmpty(nameFilter) && !song.getName().toLowerCase().contains(nameFilter)) {
+				return false;
+			}
+			if (!TextUtils.isEmpty(categoryFilter) && !song.getCategory().equals(categoryFilter)) {
+				return false;
+			}
+
+			return true;
 		}
 	}
 }

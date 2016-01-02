@@ -2,7 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
 	  xmlns:app="http://schemas.android.com/apk/res-auto">
 	<item
-		android:id="@+id/songbook_menu_show_all"
-		android:title="@string/songbook_show_all"
-		app:showAsAction="never"/>
+		android:id="@+id/songbook_filter_category"
+		android:icon="@drawable/ic_filter_list_white"
+		android:title="@string/songbook_filter_category"
+		app:showAsAction="always">
+		<menu/>
+	</item>
 </menu>
