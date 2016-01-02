@@ -39,7 +39,7 @@ I sista hand kan du kontakta [administratören](https://github.com/wsv-accidis) 
   använda [W3 Markup Validation Service](https://validator.w3.org/) för att enkelt testa din fil.
 
 ## Status
-Appen har inte publicerats.
+Appen har publicerats på Google Play. Aktuell version är 1.0.
 
 ## Behörigheter
 Den här appen kräver följande behörigheter:
