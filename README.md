@@ -39,7 +39,8 @@ I sista hand kan du kontakta [administratören](https://github.com/wsv-accidis) 
   använda [W3 Markup Validation Service](https://validator.w3.org/) för att enkelt testa din fil.
 
 ## Status
-Appen har publicerats på Google Play. Aktuell version är 1.0.
+Aktuell version är 1.0. Applikationen har publicerats på
+[Google Play](https://play.google.com/store/apps/details?id=se.insektionen.songbook).
 
 ## Behörigheter
 Den här appen kräver följande behörigheter:
@@ -47,12 +48,12 @@ Den här appen kräver följande behörigheter:
 * INTERNET - För att hämta sångboken från Internet.
 
 ## Licensiering
-Sångbok IN distribueras i enlighet med licensvillkoren i **Apache License version 2.0**.
+IN-sångbok distribueras i enlighet med licensvillkoren i **Apache License version 2.0**.
 
-_Sångbok IN is distributed according to the terms of the **Apache License version 2.0**._
+_IN-sångbok is distributed according to the terms of the **Apache License version 2.0**._
 
 ## Tillkännagivanden
-Sångbok IN använder följande tredjepartsbibliotek och resurser, utöver
+IN-sångbok använder följande tredjepartsbibliotek och resurser, utöver
 utvecklingsverktyg för Android utgivna av Google:
 
 * [OkHttp HTTP & SPDY client for Android and Java](https://github.com/square/okhttp)
