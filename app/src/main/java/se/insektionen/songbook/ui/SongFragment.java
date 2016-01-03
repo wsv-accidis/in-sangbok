@@ -93,7 +93,7 @@ public final class SongFragment extends Fragment implements MainActivity.HasNavi
 
 		Context context = getContext();
 		int defaultColor = ContextCompat.getColor(context, R.color.black);
-		int commentColor = ContextCompat.getColor(context, R.color.colorPrimaryDark);
+		int commentColor = ContextCompat.getColor(context, R.color.insektionen);
 		int topMargin = context.getResources().getDimensionPixelSize(R.dimen.song_part_top_margin);
 
 		for (SongPart part : parts) {

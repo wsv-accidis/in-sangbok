@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="colorPrimary">#5B8AA5</color>
-	<color name="colorPrimaryDark">#44687D</color>
-	<color name="colorAccent">#5B8AA5</color>
-
 	<color name="black">#000000</color>
 	<color name="darkgray">#808080</color>
+	<color name="insektionen">#44687D</color>
+	<color name="insektionen_light">#5B8AA5</color>
 </resources>
