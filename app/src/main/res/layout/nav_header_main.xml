@@ -12,22 +12,20 @@
 			  android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
 	<ImageView
-		android:id="@+id/imageView"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:paddingTop="@dimen/nav_header_vertical_spacing"
 		android:src="@drawable/ic_app"/>
 
 	<TextView
+		android:id="@+id/navigation_header_qotd1"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:paddingTop="@dimen/nav_header_vertical_spacing"
-		android:text="Ååååååååh TEMPO!"
 		android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
 	<TextView
-		android:id="@+id/textView"
+		android:id="@+id/navigation_header_qotd2"
 		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="- Alla, hela tiden"/>
+		android:layout_height="wrap_content"/>
 </LinearLayout>

@@ -13,6 +13,10 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
+
+import java.util.Random;
 
 import se.insektionen.songbook.R;
 
@@ -83,12 +87,14 @@ public final class MainActivity extends AppCompatActivity {
 		}
 
 		mNavigationDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-		ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(MainActivity.this, mNavigationDrawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+		ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mNavigationDrawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 		mNavigationDrawer.setDrawerListener(toggle);
 		toggle.syncState();
 
 		mNavigationView = (NavigationView) findViewById(R.id.nav_view);
 		mNavigationView.setNavigationItemSelectedListener(new NavigationListener());
+		View navigationHeader = mNavigationView.getHeaderView(0);
+		setRandomQuoteInHeader(navigationHeader);
 
 		FragmentManager fragmentManager = getSupportFragmentManager();
 		fragmentManager.addOnBackStackChangedListener(new BackStackChangedListener());
@@ -125,6 +131,26 @@ public final class MainActivity extends AppCompatActivity {
 
 	private boolean isSameFragment(Fragment oldFragment, Fragment newFragment) {
 		return null != oldFragment && oldFragment.getClass().getName().equals(newFragment.getClass().getName());
+	}
+
+	private void setRandomQuoteInHeader(View headerView) {
+		if (null == headerView) {
+			return;
+		}
+
+		TextView line1Text = (TextView) headerView.findViewById(R.id.navigation_header_qotd1);
+		TextView line2Text = (TextView) headerView.findViewById(R.id.navigation_header_qotd2);
+		String[] quotes = getResources().getStringArray(R.array.quotes_list);
+		String quote = quotes[(new Random()).nextInt(quotes.length)];
+
+		int separatorIdx = quote.indexOf('|');
+		if (-1 != separatorIdx) {
+			line1Text.setText(quote.substring(0, separatorIdx));
+			line2Text.setText("- ".concat(quote.substring(separatorIdx + 1)));
+		} else {
+			line1Text.setText(quote);
+			line2Text.setText("");
+		}
 	}
 
 	private void updateViewFromFragment(Fragment fragment) {

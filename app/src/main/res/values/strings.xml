@@ -26,4 +26,8 @@
 	<string name="songbook_search_hint">Sök namn eller text</string>
 	<string name="songbook_search_hint_with_category_format">Sök i \'%1$s\'</string>
 	<string name="songbook_show_all">Visa alla</string>
+
+	<string-array name="quotes_list">
+		<item>Ååååååååh TEMPO!|Alla, hela tiden</item>
+	</string-array>
 </resources>
