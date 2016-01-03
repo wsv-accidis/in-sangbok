@@ -101,10 +101,10 @@ public final class SongbookListAdapter extends BaseAdapter implements Filterable
 
 			if (!TextUtils.isEmpty(constraint)) {
 				String categoryFilter = null;
-				String nameFilter;
+				String textFilter;
 
 				/*
-				 * The query is of the format {nameFilter}?category={categoryFilter}
+				 * The query is of the format {textFilter}?category={categoryFilter}
 				 * Both parts are optional.
 				 */
 
@@ -112,14 +112,14 @@ public final class SongbookListAdapter extends BaseAdapter implements Filterable
 				if (query.contains(CATEGORY_QUERY)) {
 					int idx = query.indexOf(CATEGORY_QUERY);
 					categoryFilter = query.substring(idx + CATEGORY_QUERY.length());
-					nameFilter = query.substring(0, idx);
+					textFilter = query.substring(0, idx);
 				} else {
-					nameFilter = query;
+					textFilter = query;
 				}
 
 				filteredList = new ArrayList<>();
 				for (Song s : mList) {
-					if (filter(s, nameFilter, categoryFilter)) {
+					if (filter(s, textFilter, categoryFilter)) {
 						filteredList.add(s);
 					}
 				}
@@ -143,8 +143,8 @@ public final class SongbookListAdapter extends BaseAdapter implements Filterable
 			}
 		}
 
-		private boolean filter(Song song, String nameFilter, String categoryFilter) {
-			if (!TextUtils.isEmpty(nameFilter) && !song.getName().toLowerCase().contains(nameFilter)) {
+		private boolean filter(Song song, String textFilter, String categoryFilter) {
+			if (!TextUtils.isEmpty(textFilter) && !song.matches(textFilter.toLowerCase())) {
 				return false;
 			}
 			if (!TextUtils.isEmpty(categoryFilter) && !song.getCategory().equals(categoryFilter)) {

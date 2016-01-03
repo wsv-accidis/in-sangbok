@@ -1,6 +1,7 @@
 package se.insektionen.songbook.model;
 
 import android.os.Bundle;
+import android.text.TextUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +16,7 @@ public final class Song {
 	private final String mMelody;
 	private final String mName;
 	private final List<SongPart> mParts;
+	private final String mSearchText;
 
 	public Song(String author, String category, String composer, String melody, String name, List<SongPart> parts) {
 		mAuthor = author;
@@ -23,6 +25,7 @@ public final class Song {
 		mMelody = melody;
 		mName = name;
 		mParts = parts;
+		mSearchText = createSearchText();
 	}
 
 	public static Song fromBundle(Bundle bundle) {
@@ -83,6 +86,10 @@ public final class Song {
 		return mParts;
 	}
 
+	public boolean matches(String search) {
+		return mSearchText.contains(search.toLowerCase());
+	}
+
 	public Bundle toBundle() {
 		Bundle bundle = new Bundle();
 		bundle.putString(Keys.AUTHOR, mAuthor);
@@ -109,6 +116,25 @@ public final class Song {
 	@Override
 	public String toString() {
 		return mName;
+	}
+
+	private String createSearchText() {
+		StringBuilder builder = new StringBuilder();
+		builder.append(mName.toLowerCase());
+
+		if (!TextUtils.isEmpty(mMelody)) {
+			builder.append(' ');
+			builder.append(mMelody.toLowerCase());
+		}
+
+		for (SongPart songPart : mParts) {
+			if (SongPart.TYPE_PARAGRAPH == songPart.getType()) {
+				builder.append(' ');
+				builder.append(songPart.getText().toLowerCase());
+			}
+		}
+
+		return builder.toString();
 	}
 
 	public static class Keys {

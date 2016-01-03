@@ -125,7 +125,6 @@ public final class MainActivity extends AppCompatActivity {
 
 	private boolean isSameFragment(Fragment oldFragment, Fragment newFragment) {
 		return null != oldFragment && oldFragment.getClass().getName().equals(newFragment.getClass().getName());
-
 	}
 
 	private void updateViewFromFragment(Fragment fragment) {

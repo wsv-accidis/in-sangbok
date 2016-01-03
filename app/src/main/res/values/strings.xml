@@ -23,7 +23,7 @@
 
 	<string name="songbook_filter_category">Filtrera kategori</string>
 	<string name="songbook_list_empty">Inget funnet.</string>
-	<string name="songbook_search_hint">Sök namn</string>
-	<string name="songbook_search_hint_with_category_format">Sök namn i \'%1$s\'</string>
+	<string name="songbook_search_hint">Sök namn eller text</string>
+	<string name="songbook_search_hint_with_category_format">Sök i \'%1$s\'</string>
 	<string name="songbook_show_all">Visa alla</string>
 </resources>
