@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<songs description="IN-sektionens officiella sångbok, utgiven 2009" updated="2009-04-23">
+<songs description="IN-sektionens officiella sångbok från 2009 med rättelser och tillägg"
+	   updated="2016-01-03">
 	<song name="Moder Kista"
 		  author="David Larsson"
 		  category="Gasque"
@@ -405,6 +406,7 @@
 	</song>
 
 	<song name="Jag har aldrig..."
+		  author="(Handelsvisan) Team Kangaroo, 1977; (Fysikvisan) DKM, 2000; (Datavisan) Mattis Castegren, 2001"
 		  category="Gasque"
 		  melody="O hur saligt att få vandra">
 		<p>
@@ -522,6 +524,45 @@
 			Och nubbedrag! På denna dag!
 			Och nubbedrag! På denna dag!
 			Och nubbedra-a-ag! ://
+		</p>
+		<header>
+			Datavisan
+		</header>
+		<p>
+			Alla vi som går på Data
+			sitter mest och kodar Perl-script varje natt.
+			Med oss kan man inte prata
+			om man inte loggat in på någon chatt.
+		</p>
+		<p>
+			Våran hy är grå som aska
+			när solen skiner sysslar vi med webdesign
+			och när de andra börjat gasqua
+			sitter vi och spelar Ultima Online.
+		</p>
+		<p>
+			//: Datan är grå - visst är det så!
+			Datan är trist - javisst, javisst!
+			Datan är skit - man drar en nit
+			om man går di-i-it! ://
+		</p>
+		<p>
+			Vi har något tomt i blicken,
+			en hel skvadron av tomtar på vårt loft!
+			Ingen av oss har nån flickvän,
+			men vi drömmer varje natt om Lara Croft.
+		</p>
+		<p>
+			Data borde formateras,
+			systematiskt, partition för partition.
+			Nördarna dekompileras
+			och uppgraderas till en användbar version.
+		</p>
+		<p>
+			//: Datan är grå - visst är det så!
+			Datan är trist - javisst, javisst!
+			Datan är skit - man drar en nit
+			om man går di-i-it! ://
 		</p>
 		<header>
 			Extravers för Kistastudenter
@@ -781,9 +822,17 @@
 		  melody="Ritsch, ratsch, filibom">
 		<p>
 			1, 2, 75, 6, 7, 75, 6, 7, 75, 6, 7
+		</p>
+		<p>
 			1, 2, 75, 6, 7, 75, 6, 7, 73
+		</p>
+		<p>
 			107, 103, 102, 107, 6, 19, 27!
+		</p>
+		<p>
 			17, 18, 16, 15, 13, 19, 14, 17,
+		</p>
+		<p>
 			19, 16, 15, 11, 8, 47!
 		</p>
 	</song>
@@ -1739,7 +1788,7 @@
 		  category="Brännvin"
 		  melody="Internationalen">
 		<comment>
-			Ibland sjunger man bara sista hälften.
+			Ibland sjunger man bara de två sista verserna.
 		</comment>
 		<p>
 			Nu är det dags att taga supen,
@@ -1788,9 +1837,6 @@
 	<song name="Måsen"
 		  category="Brännvin"
 		  melody="När månen vandrar">
-		<comment>
-			Vers 3 förekommer även som en egen sång, "När månen vandrat sin tysta ban".
-		</comment>
 		<p>
 			Det satt en mås på en klyvarbom,
 			och tom i krävan var kräket.
@@ -1813,6 +1859,9 @@
 			han sätter storsegel den krabaten.
 			Till sjöss han far, och halvan tar.
 		</p>
+		<header>
+			När månen vandrat sin tysta ban
+		</header>
 		<p>
 			När månen vandrat sin tysta ban,
 			och tittar in genom rutan.
@@ -1954,11 +2003,9 @@
 	</song>
 
 	<song name="Vikingen"
+		  author="Sångarstriden 1981"
 		  category="Brännvin"
 		  melody="When Johnny comes marching">
-		<comment>
-			Från Sångarstriden 1981
-		</comment>
 		<p>
 			En viking älskar livets vann,
 			hurra, hurra!
@@ -2153,9 +2200,9 @@
 	<song name="Gräv ur tundran"
 		  category="Brännvin"
 		  melody="Katjuscha">
-		<header>
+		<comment>
 			Sjung tyst:
-		</header>
+		</comment>
 		<p>
 			Gräv ur tundran två dussin potäter,
 			låt dem jäsa uti fjorton dar.
@@ -2168,9 +2215,9 @@
 			Kyl sen drycken i sibiriens tjäle,
 			tappa upp på immiga små glas.
 		</p>
-		<header>
+		<comment>
 			Sjung högt:
-		</header>
+		</comment>
 		<p>
 			Höj sen glasen för fosterlandets välgång, HEJ!
 		</p>
@@ -2284,6 +2331,32 @@
 			För om jag dricker opp,
 			och inte säger stopp,
 			så slutar jag nog som ett minne blott.
+		</p>
+	</song>
+
+	<song name="Spritbolaget"
+		  author="Göran Svensson, Sångarstriden 1990, LTH"
+		  category="Brännvin"
+		  melody="Emils snickarvisa">
+		<p>
+			Till spritbolaget ränner jag
+			och bankar på dess port.
+			Jag vill ha nåt som bränner bra
+			Och gör mig skitfull fort.
+			Expediten fråga' och sa:
+			Hur gammal kan min herre va?
+			Har du nåt leg, ditt fula drägg?
+			Kom hit igen när du fått skägg!
+		</p>
+		<p>
+			Nej, detta var ju inte bra,
+			Jag ska bli full ikväll.
+			Då plötsligt en idé jag fick -
+			dom har ju sprit på Shell!
+			Många flaskor stod där på rad,
+			Så nu kan jag bli full och glad.
+			Den röda drycken åkte ner,
+			nu kan jag inte se nåt mer.
 		</p>
 	</song>
 
@@ -3721,12 +3794,12 @@
 		  author="Kjell Ahlström"
 		  category="Esoterica"
 		  melody="Vart tog den söta lilla flickan vägen">
-		<comment>
+		<p>
 			"Du Konglig?"
 			"Ja?"
 			"Ibland e groggen för stor men oftast e den för liten."
 			"Mm, så är det."
-		</comment>
+		</p>
 		<p>
 			//: Vart tog den schlema lilla nØllan vägen? :// (3x)
 			Ingen som vet, ingen som vet!
@@ -3803,9 +3876,9 @@
 			i Kongligs egen bar?
 			BOOM!
 		</p>
-		<comment>
+		<p>
 			"Så går det för den nØllan som ambrosiak tar!"
-		</comment>
+		</p>
 	</song>
 
 	<song name="Starke Arvid"
@@ -3956,9 +4029,9 @@
 	</song>
 
 	<song name="O, gamla klang- och jubeltid!"
-		  author="August Lindh, 1921 (svensk översättn.)"
+		  author="August Lindh, 1921"
 		  category="Högtidligt"
-		  composer="Eugen Höfling, 1825 (tyskt original)"
+		  composer="Eugen Höfling, 1825"
 		  melody="O alte Burschenherrlichkeit">
 		<p>
 			O gamla klang- och jubeltid
@@ -3984,12 +4057,12 @@
 			O, jerum...
 		</p>
 		<p>
-			En tämjer forsens vilda fall,
-			en annan ger oss papper.
-			En idkar maskinistens kall,
-			en mästrar volt så tapper.
-			En blandar hop mixtur så stark,
-			en ritar hus, en mäter mark.
+			Den ene vetenskap och vett
+			in i scholares mänger.
+			Den andre i sitt anlets svett
+			på paragrafer vränger.
+			En plåstrar själen som är skral,
+			en lappar hop dess trasiga fodral.
 		</p>
 		<p>
 			O, jerum...
