@@ -57,11 +57,13 @@ public final class MainActivity extends AppCompatActivity {
 
 	public void openFragment(Fragment fragment, boolean addToBackStack) {
 		FragmentManager fragmentManager = getSupportFragmentManager();
+		Fragment oldFragment = fragmentManager.findFragmentById(R.id.container);
+
 		FragmentTransaction transaction = fragmentManager.beginTransaction();
 		transaction.replace(R.id.container, fragment);
 		transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
 
-		if (addToBackStack) {
+		if (addToBackStack && !isSameFragment(oldFragment, fragment)) {
 			transaction.addToBackStack(null);
 		}
 
@@ -119,6 +121,11 @@ public final class MainActivity extends AppCompatActivity {
 		}
 
 		return null;
+	}
+
+	private boolean isSameFragment(Fragment oldFragment, Fragment newFragment) {
+		return null != oldFragment && oldFragment.getClass().getName().equals(newFragment.getClass().getName());
+
 	}
 
 	private void updateViewFromFragment(Fragment fragment) {

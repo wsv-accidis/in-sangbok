@@ -71,7 +71,7 @@ public final class SongFragment extends Fragment implements MainActivity.HasNavi
 		setTextIfNotEmpty(view, R.id.song_author, song.getAuthor());
 
 		String melodyComposer = !TextUtils.isEmpty(song.getMelody()) ?
-				(TextUtils.isEmpty(song.getComposer()) ? song.getMelody() : String.format(getString(R.string.song_melody_composer_format), song.getMelody(), song.getComposer())) : "";
+			(TextUtils.isEmpty(song.getComposer()) ? song.getMelody() : String.format(getString(R.string.song_melody_composer_format), song.getMelody(), song.getComposer())) : "";
 		setTextWithPrefixIfNotEmpty(view, R.id.song_melody, R.string.song_melody, melodyComposer);
 
 		LinearLayout songLayout = (LinearLayout) view.findViewById(R.id.song_layout);

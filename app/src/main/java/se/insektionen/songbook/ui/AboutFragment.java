@@ -54,4 +54,10 @@ public final class AboutFragment extends Fragment implements MainActivity.HasNav
 
 		return view;
 	}
+
+	@Override
+	public void onResume() {
+		super.onResume();
+		AndroidUtils.hideSoftKeyboard(getContext(), getView());
+	}
 }

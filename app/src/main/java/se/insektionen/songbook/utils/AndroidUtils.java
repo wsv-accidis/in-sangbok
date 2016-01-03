@@ -10,8 +10,6 @@ import android.view.inputmethod.InputMethodManager;
  * General system utils.
  */
 public final class AndroidUtils {
-	public static final String LINE_SEPARATOR = "\n";
-
 	private AndroidUtils() {
 	}
 
