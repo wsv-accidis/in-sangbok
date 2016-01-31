@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<songs description="IN-sektionens officiella sångbok från 2009 med rättelser och tillägg"
-	   updated="2016-01-03">
+<songs description="IN-sektionens sångbok, Strängteoretiquernas reviderade version"
+	   updated="2016-01-31">
 	<song name="Moder Kista"
 		  author="David Larsson"
 		  category="Gasque"
@@ -75,7 +75,7 @@
 
 	<song name="Porthos visa"
 		  category="Gasque"
-		  melody="You can't get a man with a gun (ungefär)">
+		  melody="You can't get a man with a gun">
 		<p>
 			Jag vill börja gasqua,
 			vart fan är min flaska?
@@ -1441,7 +1441,7 @@
 			Tuborg, Carlsberg, Stella, Åbro,
 			Spendrups, Falcon, Pripps och Sol,
 			Corona, Norrlands, TT
-			och en jätte Elefant!
+			och en jätteelefant!
 		</p>
 		<p>
 			Ölen flödat, tomglasen är många,
@@ -1533,10 +1533,10 @@
 			att vi få lida pin.
 		</p>
 		<p>
-			D: Flaskan och glaset gått i sin.
-			H: Hit med vin, mera vin!
-			D: Tror ni att vi är fyllesvin?
-			H: Ja! (Fast större!)
+			A: Flaskan och glaset gått i sin.
+			B: Hit med vin, mera vin!
+			A: Tror ni att vi är fyllesvin?
+			B: Ja! (Fast större!)
 		</p>
 	</song>
 
@@ -2361,7 +2361,7 @@
 	</song>
 
 	<song name="Punschen kommer"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Vals ur Glada änkan">
 		<p>
 			Punschen kommer,
@@ -2389,7 +2389,7 @@
 	</song>
 
 	<song name="Djungelpunsch"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Var nöjd med allt som livet ger">
 		<p>
 			Jag gillar alla tiders punsch,
@@ -2403,10 +2403,26 @@
 			rent kaffe gör ju ingen gla'.
 			Så punsch för fulla muggar jag vill ha!
 		</p>
+		<p>
+			Med konjak du lockar,
+			den bästa Renault.
+			Förlåt om jag chockar
+			och tar punsch ändå.
+			Och bjuder du på fin likör
+			får du ursäkta om det stör.
+			Jag väljer hellre Grönstedts Blå,
+			en Cederlunds eller Flaggpunsch å -
+			kanske har du ren Platin?
+		</p>
+		<p>
+			Jag gillar punsch,
+			ger du mig punsch så är jag din.
+			För evigt din!
+		</p>
 	</song>
 
 	<song name="FESTU:s punschvisa"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Tomtarnas vinternatt">
 		<p>
 			Punschen, punschen,
@@ -2419,7 +2435,7 @@
 	</song>
 
 	<song name="Jag gillar punschen"
-		  category="Punch">
+		  category="Punsch">
 		<p>
 			Länge har jag tänkt,
 			att punschen övergiva.
@@ -2441,7 +2457,7 @@
 	</song>
 
 	<song name="Guling, guling"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Tomtarnas julnatt">
 		<p>
 			Guling, guling.
@@ -2451,7 +2467,7 @@
 	</song>
 
 	<song name="När supen vandrat hädan"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Jag gick mig ut i skogen">
 		<comment>
 			Den stämma som slutar samtidigt som den andra, vinner.
@@ -2486,8 +2502,8 @@
 		</p>
 	</song>
 
-	<song name="Punsch, punsch"
-		  category="Punch"
+	<song name="Punsch, punsch, filibom"
+		  category="Punsch"
 		  melody="Ritsch, ratsch, filibom">
 		<p>
 			//: Punsch, punsch fillibombombom,
@@ -2507,7 +2523,7 @@
 	</song>
 
 	<song name="Studiemedelsrondo"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Ösa sand">
 		<p>
 			//: Vi dricker punsch, till lunch,
@@ -2518,7 +2534,7 @@
 	</song>
 
 	<song name="Punschens lov"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Rövarvisan">
 		<p>
 			Punschen är och punschen var
@@ -2536,7 +2552,7 @@
 	</song>
 
 	<song name="Tucks punschvisa"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Jag fångade en räv en dag">
 		<p>
 			Jag hällde upp en punsch en dag,
@@ -2553,7 +2569,7 @@
 	</song>
 
 	<song name="Visa vid torsdagskväll"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Visa vid midsommartid">
 		<p>
 			Du häller ur flaskan en gyllene tår,
@@ -2571,14 +2587,14 @@
 	</song>
 
 	<song name="Vädjan till punschen"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Sov du lilla videung">
 		<p>
 			Kom nu lilla punschen min,
 			följ nu efter supen.
 		</p>
 		<p>
-			Snart skall du åka in
+			Snart skall du få åka in
 			ner igenom strupen.
 			Till mitt stora magpalats,
 			där det finns så mycket plats.
@@ -2590,7 +2606,7 @@
 	</song>
 
 	<song name="P.U.S.S.:s punschvisa"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Öppna din dörr">
 		<p>
 			Den första gång jag provåt dig,
@@ -2633,7 +2649,7 @@
 	</song>
 
 	<song name="Skönheten och odjuret"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Kostervalsen">
 		<p>
 			Johansson är ful,
@@ -2653,7 +2669,7 @@
 	</song>
 
 	<song name="Änglapunsch"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Änglamark">
 		<p>
 			Kalla den gudagåva eller himlanektar, vad du vill.
@@ -2682,7 +2698,7 @@
 	</song>
 
 	<song name="När kaffet är serverat"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Mössens julafton">
 		<p>
 			När kaffet är serverat,
@@ -2707,7 +2723,7 @@
 	</song>
 
 	<song name="Sista punschvisan"
-		  category="Punch"
+		  category="Punsch"
 		  melody="Auld lang syne">
 		<p>
 			När punschen småningom är slut

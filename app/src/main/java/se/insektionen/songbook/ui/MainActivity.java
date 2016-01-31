@@ -52,7 +52,6 @@ public final class MainActivity extends AppCompatActivity {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		return (null != mOptionsMenu && mOptionsMenu.onMenuItemSelected(item)) || super.onOptionsItemSelected(item);
-
 	}
 
 	public void openFragment(Fragment fragment) {
