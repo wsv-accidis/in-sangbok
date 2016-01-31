@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<songs description="IN-sektionens sångbok, Strängteoretiquernas reviderade version"
+<songs description="IN-sektionens sångbok, Strängteoretiquernas reviderade version (2009-2015)"
 	   updated="2016-01-31">
 	<song name="Moder Kista"
 		  author="David Larsson"
@@ -1163,6 +1163,72 @@
 		</p>
 	</song>
 
+	<song name="Cidervisan"
+		  author="Strängteoretiquerna, 2015"
+		  category="Gasque"
+		  melody="Rövarnas visa">
+		<p>
+			Har ni hört, det finns en dryck
+			som görs på musterier.
+			Den kan smaka sött och torrt
+			och fyller skafferier.
+			Äpple, päron, lime och bär,
+			ja, allt som ciderns frukter är.
+			De ligger och jäser och puttrar och fräser
+			och skapar i tunnan en kärleksaffär.
+		</p>
+		<p>
+			Tomp, Tomp, Tomp,
+			Tomp-eli-Tomp, Tomp, Tomp, Tomp...
+		</p>
+		<p>
+			När cidern äntligen är klar
+			så ska den buteljeras
+			och etiketten sättas på,
+			kaspsylen appliceras.
+			Och har du tur så kan du få
+			för herregud, den säljer så.
+			De länsar butiken och stoppar trafiken,
+			för kön den går ända till Luleå.
+		</p>
+	</song>
+
+	<song name="Vi tar en enkel liten sång"
+		  author="Strängteoretiquerna, 2015"
+		  category="Gasque"
+		  melody="Med en enkel tulipan">
+		<p>
+			Vi tar en enkel liten sång
+			men den får ej bli så lång,
+			vi har så bråttom, vi har så bråttom
+			att fatta glaset.
+		</p>
+		<p>
+			Vi alla titlar har slängt bort
+			för det ska inte bli torrt,
+			ty i kväll ska vi ha det trevligt
+			uppå kalaset.
+			Tjo-hej!
+		</p>
+	</song>
+
+	<song name="Treo-comp"
+		  category="Gasque"
+		  melody="Längtan till landet">
+		<p>
+			Morgonstund med smak av döda bävrar,
+			frukostmorgonen är över oss.
+			Hur vi stretar, hur vi alla vägrar,
+			så går solen likt förbannat opp.
+		</p>
+		<p>
+			Snart är dagen här med hemska plågor
+			huvudvärk och ångest, elände men
+			det finns faktiskt ett glas som dig kan hjälpa:
+			Treo-comp, vår frälsare och vän!
+		</p>
+	</song>
+
 	<song name="En pilsnerdrickare"
 		  category="Öhl"
 		  melody="En sockerbagare">
@@ -1451,6 +1517,47 @@
 		</p>
 	</song>
 
+	<song name="Öppna en öhl"
+		  author="Carl Brengesjö, 2013"
+		  category="Öhl"
+		  melody="Öppna din dörr">
+		<p>
+			Den första gång jag öppna en
+			och kände hur den svalka' sen.
+			Bort föll allting jag trott var ballt
+			kvar stod jäst, humle, liksom malt.
+		</p>
+		<p>
+			Den var så vacker då -
+			kondenstäckt, blank och ljuv som få!
+			Och hjärtat slår ett slag för varje klunk jag tar.
+		</p>
+		<p>
+			Öppna en öhl och säg om du vill ha den här.
+			Säg om du i ovven bär med dig en återställare?
+			Och jag ska dricka min öhl, insupa varje maltarom.
+			Dricka i en källare eller på en balkong.
+			Öppna en öhl.
+		</p>
+		<p>
+			Hemsökte mig i fantasin, inspirera all möjlig drycksmani.
+			En whisky rökig, en korkad rom,
+			alla dess sorter lagrat som.
+		</p>
+		<p>
+			En brygd man ömt förtär.
+			Som värmer, visar vem man är.
+			Och hjärtat slår ett slag för varje klunk som tas.
+		</p>
+		<p>
+			Öppna en öhl och säg om den ej gyllene är.
+			Säg att du i ovven bär med dig en återställare?
+			Och du ska dricka din öhl, insupa varje maltarom.
+			Leva helt för jäsningens alla gyllene svall.
+			Så öppna din öhl.
+		</p>
+	</song>
+
 	<song name="Bordeaux, bordeaux"
 		  category="Wihn"
 		  melody="I sommarens soliga dagar">
@@ -1702,6 +1809,35 @@
 		</p>
 	</song>
 
+	<song name="Vem kan hugga"
+		  category="Wihn"
+		  melody="Vem kan segla förutan vind?">
+		<p>
+			Vem kan hugga sig själv i knät,
+			vem kan slå sig på tummen,
+			vem kan skära i vännen sin,
+			utan att dra på munnen?
+		</p>
+		<p>
+			Jag kan hugga mig själv i knät,
+			jag kan slå mig på tummen.
+			Men ej skära i vännen min
+			utan att dra på munnen.
+		</p>
+		<p>
+			Vem kan ragla förutan vin,
+			vem är nykter om våren,
+			vem kan skilja på kron och gin
+			utan att smaka på 'ren?
+		</p>
+		<p>
+			Jag kan ragla förutan vin,
+			och visst var jag nykter om våren.
+			Men ej skilja på kron och gin,
+			utan att smaka på 'ren.
+		</p>
+	</song>
+
 	<song name="Tjugotre"
 		  category="Brännvin"
 		  melody="Amanda Lundbom">
@@ -1897,6 +2033,18 @@
 			Han ville uppåt, han ville mer,
 			men planet svarte: "Jag vill nu ner,
 			mot alla hjon, på Västerbron."
+		</p>
+		<header>
+			Musen
+		</header>
+		<p>
+			Det satt en mus i en hushållsost
+			och åt och åt utan måtta.
+			Tills osten blev till en mushåls-ost
+			och han en klotformad råtta.
+			Så bra, sa musen, att va en fettboll,
+			nu kan jag rulla med hast åt rätt håll:
+			Ostindien, Ostindien.
 		</p>
 	</song>
 
@@ -2360,6 +2508,121 @@
 		</p>
 	</song>
 
+	<song name="Rackaren"
+		  author="Kårspexet Munken, 1983"
+		  category="Brännvin"
+		  melody="Hamburger Ebb und Fluth">
+		<p>
+			Nu tar vi den, vår bäste vän, nu tar vi den lille rackaren.
+			Nu tar vi den, och ännu en, och livet blir glatt igen.
+			När tålamodet tryter,
+			kan varenda bagatell bli tjat och gnat och gnäll.
+			Men strunt i små dispyter,
+			nu när vi får ta lille rackaren!
+		</p>
+	</song>
+
+	<song name="Ganska nykter"
+		  author="Strängteoretiquerna, 2015"
+		  category="Brännvin"
+		  melody="Vi äro musikanter">
+		<p>
+			Jag var ganska nykter när jag nyss kom hit,
+			men nu ska jag dricka ädel akvavit.
+			Och så fort jag fått en nubbe
+			blir jag som en sprattelgubbe.
+			Ja, av nubbar får man härlig livsaptit!
+		</p>
+	</song>
+
+	<song name="Hyllningsvisa till Absinthen"
+		  author="Sing-Sing Singers, 2000"
+		  category="Brännvin"
+		  melody="O come all ye faithful">
+		<p>
+			Var är absinten,
+			illgrön liksom minten,
+			som skänker galenskap åt var teknolog?
+		</p>
+		<p>
+			(Vi) är för banala, nästan helt normala.
+			Ja, vi vill bli unika, ja rent magnifika,
+			helt enkelt gudalika och värda en skål!
+		</p>
+		<p>
+			Här är absinten,
+			illgrön liksom minten
+			som ger oss stirrig blick och rufsigt hår.
+		</p>
+		<p>
+			Dessutom kindfärg liksom August Strindberg.
+			För att bli kreativa har vi blitt addiktiva,
+			snart blir vi högaktiva; vi tar oss en tår!
+		</p>
+	</song>
+
+	<song name="Man kan dricka vatten"
+		  author="Datas n0llespex, 1995"
+		  category="Brännvin"
+		  melody="Vi äro musikanter">
+		<p>
+			Man kan dricka vatten, mjölk,
+			och gammalt flott.
+			Men vi dricker hellre
+			sådant som är gott.
+		</p>
+		<p>
+			Vi kan dricka brännvin, öl och billigt vin.
+			Vi kan dricka olja och bensin.
+		</p>
+		<p>
+			Och vi kan svepa islandshästar,
+			mockavästar när vi festar.
+			Vi kan svepa svavelsyra på vår yra fest.
+		</p>
+		<p>
+			Vi kan häva kvicksilver och helium.
+			Vi kan häva ost och vardagsrum.
+		</p>
+		<p>
+			Och vi kan supa bomfadderalla,
+			bomfadderalla, skål på er alla!
+			Vi kan supa andra hållet, andra hållet med.
+		</p>
+	</song>
+
+	<song name="Ubåten"
+		  category="Brännvin"
+		  melody="Jazzgossen">
+		<p>
+			Å så kommer det en ångbåt,
+			och den säger tut-tut-tut!
+			Å så kommer det en ubåt,
+			och den säger...
+		</p>
+		<comment>
+			Gurgla nubben!
+		</comment>
+	</song>
+
+	<song name="Ode till halvan"
+		  author="Torgny, 1936"
+		  category="Brännvin"
+		  melody="Längtan till landet">
+		<p>
+			Helan rasat ner i våra magar,
+			skvalpar nu på botten mol allen.
+			I sin ensamhet den bittert klagar:
+			Det är inte gott att vara en!
+		</p>
+		<p>
+			Snart är halvan här, den härliga supen
+			alkoholiskt ren och silverklar.
+			Dansar som en vårbäck genom strupen.
+			Hamnar? Plask! I helans boudoir!
+		</p>
+	</song>
+
 	<song name="Punschen kommer"
 		  category="Punsch"
 		  melody="Vals ur Glada änkan">
@@ -2741,6 +3004,45 @@
 			* Ett vanligt symptom av sektionspatriotism är att man vrålar sin sektions
 			namn i mellanrummet: "båd' utanpå och i .. IN!!!"
 		</comment>
+	</song>
+
+	<song name="Nu blotas det"
+		  author="Juristspexet Ansgar, 2003"
+		  category="Punsch"
+		  melody="Nu grönskar det">
+		<p>
+			Nu blotas det i stad och land,
+			nu är midsommartid.
+			Dräp ko, dräp häst, det är jättefest
+			se blod överallt och bredvid.
+			Vart djur som dör ger bättre skörd,
+			se där har vi ju ett svin!
+			Ja, dräp nu allt, dräp ko och galt
+			och taxar och braxar och bin.
+		</p>
+		<p>
+			Rakt fram mot offrets gråa bord
+			vi glatt vår kossa styr.
+			Vi slaktar Bambi och Stampe med,
+			se upp så att Bamse ej flyr.
+			I gyllne dryck så skålar vi
+			när vi står i det blod som vi skvätt.
+			Det där det var gott, får man mer om man ber?
+			Ja, punsch uti blodet känns rätt.
+		</p>
+	</song>
+
+	<song name="Imperial punsch"
+		  author="DKM, 2000"
+		  category="Punsch"
+		  melody="Imperial march, Star Wars">
+		<p>
+			Punsch, punsch, punsch, mera punsch, mera punsch!
+			Punsch, punsch, punsch, mera punsch, mera punsch!
+			Punsch, punsch, punsch, mera, mera punsch!
+			Mer punsch, mera, mera punsch,
+			mer punsch, mera punsch, punsch, punsch!
+		</p>
 	</song>
 
 	<song name="Barrett's Privateers"
@@ -3180,6 +3482,52 @@
 		</p>
 	</song>
 
+	<song name="My heart will go on"
+		  author="Celine Dion"
+		  category="Utländskt">
+		<p>
+			Every night in my dreams
+			I see you, I feel you.
+			That is how I know you go on.
+		</p>
+		<p>
+			Far across the distance
+			and spaces between us
+			you have come to show you go on.
+		</p>
+		<p>
+			Near, far, wherever you are,
+			I believe that the heart does go on.
+			Once more you open the door,
+			and you're here in my heart and
+			my heart will go on and on.
+		</p>
+		<p>
+			Love can touch us one time
+			and last for a lifetime.
+			And never let go 'til we're gone.
+		</p>
+		<p>
+			Love was when I loved you
+			one true time I hold to.
+			In my life we'll always go on.
+		</p>
+		<p>
+			Near, far, wherever you are,
+			I believe that the heart does go on.
+			Once more you open the door
+			And you're here in my heart and
+			my heart will go on and on.
+		</p>
+		<p>
+			You're here, there's nothing I fear,
+			and I know that my heart will go on.
+			We'll stay forever this way.
+			You are safe in my heart and
+			my heart will go on and on.
+		</p>
+	</song>
+
 	<song name="En matematiker"
 		  category="Nördigt"
 		  melody="En sockerbagare">
@@ -3363,6 +3711,34 @@
 			finn en gnu som motorn vevar.
 			Den drar Emacs runt för hand!
 			Klart att det går trögt ibland!
+		</p>
+	</song>
+
+	<song name="Ostkaka"
+		  category="Nördigt"
+		  melody="Dovahkin, Skyrim theme">
+		<p>
+			Ostkaka! Det var gott.
+			På mitt bord, klockan tolv.
+			En stor stark, diskotek.
+			Marcus!
+		</p>
+		<p>
+			Fast den starke får slut på thaimat, igår!
+		</p>
+		<p>
+			Var är din galna ding?
+			Ska va Simbas familj!
+			Vad är värst? På vårt torn.
+			Han vill ha ett glas saft.
+			Han förstår på ett nafs
+			och du måst' in på dass!
+			Skala din Aladdin!
+			På en naken dag.
+		</p>
+		<p>
+			HA HA HA HA!
+			HA HA HA HA!
 		</p>
 	</song>
 
@@ -3981,6 +4357,47 @@
 		</comment>
 	</song>
 
+	<song name="Osqvik"
+		  author="Strängteoretiquerna, 2015"
+		  category="Esoterica"
+		  melody="Vi äro musikanter">
+		<p>
+			På Wermdö står en stuga,
+			rätt liten och rätt kass.
+			Och vattnet smakar illa,
+			man går på utedass.
+		</p>
+		<p>
+			Men på Osqvik kan man festa natten lång,
+			bada, basta, sjunga massa sång.
+		</p>
+		<p>
+			Och vi kan dricka rom-fadderalla,
+			rom-fadderalla, rom-fadderalla.
+			Vi kan drick rom-fadderalla.
+			Rom åt alla, hej!
+		</p>
+	</song>
+
+	<song name="Kaffe"
+		  category="Esoterica"
+		  melody="She'll be coming 'round the mountain">
+		<p>
+			Vi har ätit och nu mår vi väldans bra
+			och nu vill vi alla säkert kaffe ha.
+			Snart så får vi höra stönen
+			när vi sjunger kaffebönen,
+			alla stämmer i - refrängen nu vi ta:
+		</p>
+		<p>
+			Kaffe, kaffe, kaffe, konjak och likör
+			ger åt alla här ett glatt humör.
+			Och det kan ni ge er katten,
+			vi ska sitta hela natten,
+			dricka kaffe, kaffe, konjak och likör!
+		</p>
+	</song>
+
 	<song name="invITensången"
 		  author="Daniel Byström"
 		  category="Högtidligt"
@@ -4020,6 +4437,57 @@
 			gör kronan på Hans hjässa lätt,
 			och all din tro till Honom sätt,
 			du folk av frejdad stam!
+		</p>
+	</song>
+
+	<song name="Stockholm i mitt hjärta"
+		  author="Lasse Berghagen"
+		  category="Högtidligt">
+		<p>
+			Solljuset stiger ur havet,
+			spelar i koppar och glas.
+			Stockholm i gryningen strålar
+			som var hon en gyllene vas.
+			Med blommor från Östersjöns stränder,
+			med ängsört från ekarnas sal,
+			en skönhet på urbergets stränder,
+			Mälarens ljuva vestal.
+		</p>
+		<p>
+			Stockholm i mitt hjärta,
+			låt mig besjunga dig nu,
+			åldrad i ungdomlig grönska,
+			öarnas stad, det är du!
+			Av städer jag känner i världen
+			är du den stad som fått allt.
+			Genom Mälarens kärlek till havet
+			är du en blandning av sött och salt.
+		</p>
+		<p>
+			Solljuset dansar på fjärden,
+			det glittrar för stort och för smått.
+			För träkåken uppe på Söder
+			men även för Konungens slott.
+			Det porlar i fiskrika strömmar,
+			det valsar i Mälarens famn,
+			det skymmer och skänker oss drömmar
+			sjungandes sjöstadens namn.
+		</p>
+		<p>
+			Stockholm i mitt hjärta...
+		</p>
+		<p>
+			Skymningen kom i en smekning
+			av kvällsbrisens skälvande hand.
+			Nu rodnar solen i fönstren
+			på Söder och Norr Mälarstrand.
+			Säj, hör du musiken och skratten
+			från Djurgården och Gröna Lund,
+			en lovsång till Stockholm i natten
+			från skärgårdens vikar och sund.
+		</p>
+		<p>
+			Stockholm i mitt hjärta...
 		</p>
 	</song>
 
