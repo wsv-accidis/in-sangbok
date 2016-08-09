@@ -2,11 +2,12 @@ package se.insektionen.songbook.services;
 
 import android.util.Log;
 
-import com.squareup.okhttp.CacheControl;
-import com.squareup.okhttp.Callback;
-import com.squareup.okhttp.Request;
-import com.squareup.okhttp.Response;
-import com.squareup.okhttp.ResponseBody;
+import okhttp3.CacheControl;
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.Request;
+import okhttp3.Response;
+import okhttp3.ResponseBody;
 
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -29,12 +30,11 @@ public final class Repository {
 			return;
 		}
 
-		Request.Builder requestBuilder = new Request.Builder()
-				.url(SongbookConfig.SONGBOOK_DEFAULT_URL);
+		Request.Builder requestBuilder = new Request.Builder().url(SongbookConfig.SONGBOOK_DEFAULT_URL);
 		if (noCache) {
 			requestBuilder.cacheControl(CacheControl.FORCE_NETWORK);
 		}
-		SharedHttpClient.getInstance().enqueueRequest(requestBuilder.build(), new GetSongbookCallback(resultHandler));
+		SharedHttpClient.getInstance().newCall(requestBuilder.build()).enqueue(new GetSongbookCallback(resultHandler));
 	}
 
 	private abstract class GetResultCallback<TResult> implements Callback {
@@ -45,13 +45,13 @@ public final class Repository {
 		}
 
 		@Override
-		public void onFailure(Request request, IOException e) {
+		public void onFailure(Call call, IOException e) {
 			Log.e(TAG, "Downloading data failed due to an IO error.", e);
 			mResultHandler.onError(R.string.repository_error_unspecified_network);
 		}
 
 		@Override
-		public void onResponse(Response response) throws IOException {
+		public void onResponse(Call call, Response response) throws IOException {
 			Log.i(TAG, "Download response received with HTTP status = " + response.code() + ", cached = " + (null == response.networkResponse()) + ".");
 
 			if (!response.isSuccessful()) {

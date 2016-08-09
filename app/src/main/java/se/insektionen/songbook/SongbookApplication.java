@@ -14,6 +14,6 @@ public final class SongbookApplication extends Application {
 	public void onCreate() {
 		super.onCreate();
 		Locale.setDefault(new Locale("sv", "SE"));
-		SharedHttpClient.initializeCache(getApplicationContext());
+		SharedHttpClient.initialize(getApplicationContext());
 	}
 }
