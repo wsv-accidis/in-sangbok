@@ -19,6 +19,7 @@ import android.widget.TextView;
 import java.util.Random;
 
 import se.insektionen.songbook.R;
+import se.insektionen.songbook.utils.AndroidUtils;
 
 /**
  * The main activity.
@@ -88,6 +89,7 @@ public final class MainActivity extends AppCompatActivity {
 		mNavigationDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 		ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mNavigationDrawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 		mNavigationDrawer.addDrawerListener(toggle);
+		mNavigationDrawer.addDrawerListener(new NavigationDrawerListener());
 		toggle.syncState();
 
 		mNavigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -184,6 +186,25 @@ public final class MainActivity extends AppCompatActivity {
 			if (null != fragment) {
 				updateViewFromFragment(fragment);
 			}
+		}
+	}
+
+	private final class NavigationDrawerListener implements DrawerLayout.DrawerListener {
+		@Override
+		public void onDrawerClosed(View drawerView) {
+		}
+
+		@Override
+		public void onDrawerOpened(View drawerView) {
+			AndroidUtils.hideSoftKeyboard(MainActivity.this, getCurrentFocus());
+		}
+
+		@Override
+		public void onDrawerSlide(View drawerView, float slideOffset) {
+		}
+
+		@Override
+		public void onDrawerStateChanged(int newState) {
 		}
 	}
 

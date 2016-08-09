@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="about_app_info">Appens version: %1$s</string>
+	<string name="about_app_info">v%1$s</string>
 	<string name="about_para1">Det här en sångbok främst avsedd för studenter vid <a href="http://www.insektionen.se">Sektionen för Informations- och Nanoteknik</a> på Kungliga Tekniska Högskolan i Kista. Sångerna är utvalda och korrekturlästa av frivilliga. Alla sånger följer <a href="http://ths.kth.se/om-ths/styrdokument-och-moteshandlingar/">THS Sångpolicy</a>.</string>
 	<string name="about_para2">Både appen och sångerna är öppen källkod; du kan hämta källkoden, rapportera buggar och lämna synpunkter på <a href="https://github.com/wsv-accidis/in-sangbok">GitHub</a>. Appen är utvecklad av <a href="http://se.linkedin.com/in/wilhelmsvenselius">Wilhelm Svenselius</a>.</string>
 	<string name="about_para3">Om du vill lägga till sånger eller rätta något fel, <a href="https://github.com/wsv-accidis/in-sangbok/blob/master/README.md">läs mer här om hur du kan bidra</a>.</string>

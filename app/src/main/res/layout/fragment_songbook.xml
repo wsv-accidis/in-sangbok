@@ -9,6 +9,7 @@
 		android:layout_height="45dp"
 		android:layout_alignParentRight="true"
 		android:layout_marginRight="5dp"
+		android:background="@android:color/transparent"
 		android:src="@drawable/ic_clear"/>
 
 	<EditText
