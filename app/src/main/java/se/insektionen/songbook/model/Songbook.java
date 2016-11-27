@@ -1,45 +1,32 @@
 package se.insektionen.songbook.model;
 
+import com.google.auto.value.AutoValue;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Data model for a songbook.
  */
-public final class Songbook {
-	private final List<String> mCategories;
-	private final String mDescription;
-	private final List<Song> mSongs;
-	private final String mUpdated;
-
-	public Songbook(String description, String updated, List<Song> songs) {
-		mDescription = description;
-		mUpdated = updated;
-		mSongs = songs;
-		mCategories = findCategories(songs);
+@AutoValue
+public abstract class Songbook {
+	public static Songbook create(String description, String updated, List<Song> songs) {
+		return new AutoValue_Songbook(findCategories(songs), description, songs, updated);
 	}
 
-	public List<String> getCategories() {
-		return mCategories;
-	}
+	public abstract List<String> categories();
 
-	public String getDescription() {
-		return mDescription;
-	}
+	public abstract String description();
 
-	public List<Song> getSongs() {
-		return mSongs;
-	}
+	public abstract List<Song> songs();
 
-	public String getUpdated() {
-		return mUpdated;
-	}
+	public abstract String updated();
 
 	private static List<String> findCategories(List<Song> songs) {
 		List<String> categories = new ArrayList<>();
 		for (Song song : songs) {
-			if (!categories.contains(song.getCategory())) {
-				categories.add(song.getCategory());
+			if (!categories.contains(song.category())) {
+				categories.add(song.category());
 			}
 		}
 

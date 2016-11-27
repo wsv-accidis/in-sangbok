@@ -65,7 +65,7 @@ public final class Repository {
 					ResponseBody responseBody = response.body();
 					TResult result = getResult(responseBody);
 					mResultHandler.onSuccess(result);
-					Log.e(TAG, "Downloading data completed.");
+					Log.d(TAG, "Downloading data completed.");
 				} else {
 					mResultHandler.onError(R.string.repository_error_unspecified_protocol);
 				}
@@ -95,8 +95,11 @@ public final class Repository {
 				mCachedSongbook = songbook;
 				return songbook;
 			} finally {
-				if (null != streamReader) {
-					streamReader.close();
+				try {
+					if (null != streamReader) {
+						streamReader.close();
+					}
+				} catch (IOException ignored) {
 				}
 			}
 		}

@@ -20,7 +20,7 @@ import se.insektionen.songbook.model.Songbook;
  * Parses XML into model objects.
  */
 public final class SongbookXmlParser {
-	public static final String LINE_BREAK_REGEX = "\\s*\\r?\\n\\s*";
+	private static final String LINE_BREAK_REGEX = "\\s*\\r?\\n\\s*";
 	private static final String TAG = SongbookXmlParser.class.getSimpleName();
 	private XmlPullParser mXml;
 
@@ -62,7 +62,7 @@ public final class SongbookXmlParser {
 			Song song = tryParseSong();
 			if (null != song) {
 				songs.add(song);
-				Log.d(TAG, "Read a song \"" + song.getName() + "\".");
+				Log.d(TAG, "Read a song \"" + song.name() + "\".");
 			}
 
 			mXml.next();
@@ -71,7 +71,7 @@ public final class SongbookXmlParser {
 		} while (!isAtEndOfDocument());
 
 		Log.i(TAG, "Finished parsing songbook, got " + songs.size() + " song(s).");
-		return new Songbook(description, updated, songs);
+		return Songbook.create(description, updated, songs);
 	}
 
 	private List<SongPart> doParseSongParts() throws XmlPullParserException, IOException {
@@ -153,7 +153,7 @@ public final class SongbookXmlParser {
 			}
 
 			List<SongPart> parts = doParseSongParts();
-			return new Song(author, category, composer, melody, name, parts);
+			return Song.create(author, category, composer, melody, name, parts);
 		} catch (Exception ex) {
 			Log.e(TAG, "Exception while parsing song: " + ex);
 			return null;
@@ -196,28 +196,28 @@ public final class SongbookXmlParser {
 			text = text.replaceAll(LINE_BREAK_REGEX, " ");
 		}
 
-		return new SongPart(type, text);
+		return SongPart.create(type, text);
 	}
 
 	private static class Attributes {
-		public static final String AUTHOR = "author";
-		public static final String CATEGORY = "category";
-		public static final String COMPOSER = "composer";
-		public static final String DESCRIPTION = "description";
-		public static final String MELODY = "melody";
-		public static final String NAME = "name";
-		public static final String UPDATED = "updated";
+		static final String AUTHOR = "author";
+		static final String CATEGORY = "category";
+		static final String COMPOSER = "composer";
+		static final String DESCRIPTION = "description";
+		static final String MELODY = "melody";
+		static final String NAME = "name";
+		static final String UPDATED = "updated";
 
 		private Attributes() {
 		}
 	}
 
 	private static class Elements {
-		public static final String COMMENT = "comment";
-		public static final String HEADER = "header";
-		public static final String P = "p";
-		public static final String SONG = "song";
-		public static final String SONGS = "songs";
+		static final String COMMENT = "comment";
+		static final String HEADER = "header";
+		static final String P = "p";
+		static final String SONG = "song";
+		static final String SONGS = "songs";
 
 		private Elements() {
 		}

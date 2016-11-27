@@ -67,13 +67,13 @@ public final class SongbookListAdapter extends BaseAdapter implements Filterable
 		Song song = mFilteredList.get(position);
 
 		TextView nameText = (TextView) view.findViewById(R.id.song_list_primary);
-		nameText.setText(song.getName());
+		nameText.setText(song.name());
 
 		TextView firstLineText = (TextView) view.findViewById(R.id.song_list_secondary);
-		firstLineText.setText(formatFirstLineOfSong(song.getFirstLineOfSong()));
+		firstLineText.setText(formatFirstLineOfSong(song.firstLineOfSong()));
 
 		TextView categoryText = (TextView) view.findViewById(R.id.song_list_tertiary);
-		categoryText.setText(song.getCategory());
+		categoryText.setText(song.category());
 
 		return view;
 	}
@@ -147,7 +147,7 @@ public final class SongbookListAdapter extends BaseAdapter implements Filterable
 			if (!TextUtils.isEmpty(textFilter) && !song.matches(textFilter.toLowerCase())) {
 				return false;
 			}
-			if (!TextUtils.isEmpty(categoryFilter) && !song.getCategory().equals(categoryFilter)) {
+			if (!TextUtils.isEmpty(categoryFilter) && !song.category().equals(categoryFilter)) {
 				return false;
 			}
 

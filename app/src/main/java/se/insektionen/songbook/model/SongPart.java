@@ -1,25 +1,21 @@
 package se.insektionen.songbook.model;
 
+import com.google.auto.value.AutoValue;
+
 /**
  * Data model for part of a song.
  */
-public final class SongPart {
+@AutoValue
+public abstract class SongPart {
 	public static final int TYPE_COMMENT = 1;
 	public static final int TYPE_HEADER = 2;
 	public static final int TYPE_PARAGRAPH = 0;
-	private final String mText;
-	private final int mType;
 
-	public SongPart(int type, String text) {
-		mType = type;
-		mText = text;
+	public static SongPart create(int type, String text) {
+		return new AutoValue_SongPart(text, type);
 	}
 
-	public String getText() {
-		return mText;
-	}
+	public abstract String text();
 
-	public int getType() {
-		return mType;
-	}
+	public abstract int type();
 }

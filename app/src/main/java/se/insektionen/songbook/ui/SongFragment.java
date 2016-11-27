@@ -66,16 +66,16 @@ public final class SongFragment extends Fragment implements MainActivity.HasNavi
 		View view = inflater.inflate(R.layout.fragment_song, container, false);
 		Song song = Song.fromBundle(getArguments());
 
-		setTextIfNotEmpty(view, R.id.song_category, song.getCategory());
-		setTextIfNotEmpty(view, R.id.song_name, song.getName());
-		setTextIfNotEmpty(view, R.id.song_author, song.getAuthor());
+		setTextIfNotEmpty(view, R.id.song_category, song.category());
+		setTextIfNotEmpty(view, R.id.song_name, song.name());
+		setTextIfNotEmpty(view, R.id.song_author, song.author());
 
-		String melodyComposer = !TextUtils.isEmpty(song.getMelody()) ?
-			(TextUtils.isEmpty(song.getComposer()) ? song.getMelody() : String.format(getString(R.string.song_melody_composer_format), song.getMelody(), song.getComposer())) : "";
+		String melodyComposer = !TextUtils.isEmpty(song.melody()) ?
+			(TextUtils.isEmpty(song.composer()) ? song.melody() : String.format(getString(R.string.song_melody_composer_format), song.melody(), song.composer())) : "";
 		setTextWithPrefixIfNotEmpty(view, R.id.song_melody, R.string.song_melody, melodyComposer);
 
 		LinearLayout songLayout = (LinearLayout) view.findViewById(R.id.song_layout);
-		populateSongLayout(songLayout, song.getParts());
+		populateSongLayout(songLayout, song.parts());
 
 		view.setOnTouchListener(new ViewTouchListener(getContext()));
 		return view;
@@ -98,13 +98,13 @@ public final class SongFragment extends Fragment implements MainActivity.HasNavi
 
 		for (SongPart part : parts) {
 			TextView textView = new TextView(context);
-			textView.setText(part.getText());
+			textView.setText(part.text());
 			textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, (float) (mInitialTextSize * mScaleFactor));
 
-			if (SongPart.TYPE_COMMENT == part.getType()) {
+			if (SongPart.TYPE_COMMENT == part.type()) {
 				textView.setTypeface(null, Typeface.ITALIC);
 				textView.setTextColor(commentColor);
-			} else if (SongPart.TYPE_HEADER == part.getType()) {
+			} else if (SongPart.TYPE_HEADER == part.type()) {
 				textView.setTypeface(null, Typeface.BOLD);
 				textView.setTextColor(defaultColor);
 			} else {
