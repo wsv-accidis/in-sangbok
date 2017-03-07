@@ -2565,9 +2565,6 @@
 		  author="Datas n0llespex, 1995"
 		  category="Brännvin"
 		  melody="Vi äro musikanter">
-		<comment>
-			"helium" sjunges tyst.
-		</comment>
 		<p>
 			Man kan dricka vatten, mjölk,
 			och gammalt flott.
@@ -2583,6 +2580,9 @@
 			mockavästar när vi festar.
 			Vi kan svepa svavelsyra på vår yra fest.
 		</p>
+		<comment>
+			"helium" sjunges ljust.
+		</comment>
 		<p>
 			Vi kan häva kvicksilver och helium.
 			Vi kan häva ost och vardagsrum.
