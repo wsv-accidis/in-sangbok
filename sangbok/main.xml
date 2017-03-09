@@ -356,6 +356,23 @@
 		</p>
 	</song>
 
+	<song name="Kopparslagaren 1"
+		  category="Gasque"
+		  melody="En sockerbagare">
+		<p>
+			En kopparslagare jag har i knoppen
+			jag har försökt att på den få stopp, men
+			det hjälper inte med magnecyl
+			ej heller treo eller albyl.
+		</p>
+		<p>
+			Och i mitt barskåp finns blott tomma burkar
+			det blev helt länsat i natt av skurkar
+			som lämnat mig här i hemmet torrt
+			med värk i huvud jag vill få bort.
+		</p>
+	</song>
+	
 	<song name="Köttet kommer"
 		  category="Gasque"
 		  melody="Punschen kommer">
@@ -1881,6 +1898,22 @@
 			så slår man sig jävligt hårt! :// (in abs.)
 		</p>
 	</song>
+	
+	<song name="Nu tar vi vår lilla nubbe"
+		  category="Brännvin"
+		  melody="Höga berg och djupa dalar">
+		<p>
+			Nu tar vi vår lilla nubbe
+			som är gjord utav granens stubbe.
+			Den botar alla sorters värk,
+			sätter fart i skjorta och i särk.
+			//: Vi gynnar staten
+			var gång vi tar en sup till maten :// 
+		</p>
+		<comment>
+			(De som bränner hemma lurar staten.)
+		</comment>
+	</song>
 
 	<song name="Mitt lilla lån"
 		  category="Brännvin"
@@ -2398,9 +2431,7 @@
 		<p>
 			Uti mitt hjärta en längtan mig tär.
 			Kom hjärtans fröjd!
-			Där råder en hunger som ropar så här:
-		</p>
-		<p>
+			Där råder hunger som ropar så här:
 			Kom famnande lena armar,
 			kom läppar och sköna barmar,
 			kom fagraste kvinnor,
@@ -2697,6 +2728,18 @@
 			där med supen, där med supen.
 			Gula droppar, stärker våra kroppar,
 			punsch, punsch, punsch!
+		</p>
+	</song>
+	
+	<song name="Härlig är punschen"
+		  category="Punsch"
+		  melody="Härlig är jorden">
+		<p>
+			Härlig är punschen,
+			härlig är dess konsistens.
+			Skönt är att taga den än en gång.
+			Genom att taga punschen av daga
+			gå vi till paradis med sång.
 		</p>
 	</song>
 
@@ -3358,6 +3401,17 @@
 		</p>
 		<p>
 			And it's no, nay, never ...
+		</p>
+	</song>
+	
+	<song name="Alle Fugler"
+		  category="Utländskt"
+		  melody="Alla fåglar kommit re'n">
+		<p>
+			Alle fugler små de er, noen mer enn andre.
+			Fuglene de bor i trær sammen med hverandre.
+			Fuglene de legger egg, for eksempel ugler.
+			Det gjør også mygg og klegg, men de er ikke fugler!
 		</p>
 	</song>
 
@@ -4360,6 +4414,23 @@
 		</comment>
 	</song>
 
+	<song name="Visa vid Osqvik"
+		  category="Esoterica"
+		  melody="Vårvindar friska">
+		<p>
+			Kom till min sida, kom låt oss skrida,
+			nerför en sluttning, stenig och hal.
+			Öronen ringa, timmarna springa,
+			där i vår heta bastulokal.
+		</p>
+		<p>
+			Ta dig en liten, du står nog pall.
+			Bryggan är sliten sjön é så kall.
+			Vattnet é fruset. Fan, var é ljuset?
+			Milde, vad jag é knall!
+		</p>
+	</song>
+	
 	<song name="Osqvik"
 		  author="Strängteoretiquerna, 2015"
 		  category="Esoterica"
