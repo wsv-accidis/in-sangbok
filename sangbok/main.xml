@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <songs description="IN-sektionens sångbok, Strängteoretiquernas reviderade version (2009-2015)"
-	   updated="2016-01-31">
+	   updated="2017-11-27">
 	<song name="Moder Kista"
 		  author="David Larsson"
 		  category="Gasque"
@@ -1614,19 +1614,23 @@
 		</p>
 	</song>
 
-	<song name="Festen kan börja"
+	<song name="Festen kan börja (till vinet)"
 		  category="Wihn"
 		  melody="Vårvindar friska">
 		<p>
-			Festen kan börja, ingen får sörja
+			Festen kan börja,
+			ingen får sörja,
 			här finns ju både rödvin och mat.
-			Vinet skall tömmas, sorgerna glömmas,
+			Vinet skall tömmas,
+			sorgerna glömmas,
 			ingen får vara tråkig kamrat.
 		</p>
 		<p>
-			Klappa mitt hjärta, fröjdas min själ,
-			vinet serveras genast nåväl.
-			Fatta nu glaset, börja kalaset,
+			Klappa mitt hjärta,
+			fröjdas min själ,
+			vinet serveras genast, nåväl.
+			Fatta nu glaset,
+			börja kalaset,
 			skål allesammans, skål!
 		</p>
 	</song>
@@ -2656,6 +2660,27 @@
 			Hamnar? Plask! I helans boudoir!
 		</p>
 	</song>
+	
+	<song name="Festen kan börja (till nubben)"
+		  category="Brännvin"
+		  melody="Vårvindar friska">
+		<p>
+			Festen kan börja,
+			ingen får sörja,
+			här finns det både brännvin och mat.
+			Helan skall tömmas,
+			sorgerna glömmas,
+			ingen får vara tråkig kamrat.
+		</p>
+		<p>
+			Klappa mitt hjärta,
+			fröjdas min själ,
+			nubben serveras genast, nåväl.
+			Nu tar vi supen,
+			öppna upp strupen,
+			gästernas välkomstskål!
+		</p>
+	</song>
 
 	<song name="Punschen kommer"
 		  category="Punsch"
@@ -3088,6 +3113,50 @@
 			Punsch, punsch, punsch, mera, mera punsch!
 			Mer punsch, mera, mera punsch,
 			mer punsch, mera punsch, punsch, punsch!
+		</p>
+	</song>
+
+	<song name="Arrak"
+		  author="André Mabande"
+		  category="Punsch"
+		  melody="Only you">
+		<p>
+			//: Arra ra rak, arra ra rak,
+			arra ra rak, arra ra rak ://
+		</p>
+		<p>
+			På en resa är det ej lätt,
+			att beställa rätt rätt,
+			till en måltid.
+		</p>
+		<p>
+			Frukost, middag, lunch och supé,
+			nej, se det krävs något mer,
+			för en skål i.
+		</p>
+		<p>
+			Punschen passar bra till mat, min vän.
+			Punschen går fint till matlagningen.
+			För min ingrediens,
+			det är punsch.
+		</p>
+		<p>
+			Punsch punsch, punsch punsch, punsch punsch.
+		</p>
+		<p>
+			Utomrikes är allting svårt,
+			inte som hemma hos vårt.
+			Jag förstår ej.
+		</p>
+		<p>
+			Kan ju inte tala vårt språk,
+			försöker få dem förstå.
+			Men det går ej.
+		</p>
+		<p>
+			Ska det va' så svårt få vad man beställt,
+			snart så har ju efterrätten smällt.
+			//: Det enda jag vill ha, det är punsch. ://
 		</p>
 	</song>
 
@@ -3583,6 +3652,63 @@
 			You are safe in my heart and
 			my heart will go on and on.
 		</p>
+	</song>
+	
+	<song name="In the trade of jester"
+		  author="Jauvet"
+		  category="Utländskt">
+		<p>
+			In the trade of jester,
+			we're fools that play our part.
+			In an act sworn by folklore,
+			where the lines are made by heart.
+		</p>
+		<p>
+			Getting gold from the nobles
+			and mockin' from ye all.
+			But we drink with the greatest warriors,
+			and we dance in every hall.
+		</p>
+		<p>
+			We travel through the country,
+			we go from town to town.
+			We're the sworn kings of jester
+			but we've never worn a crown.
+		</p>
+		<p>
+			Getting gold ...
+		</p>
+		<p>
+			I've never had a family,
+			nor have I had a wife.
+			It's a high cost of living,
+			it's the price I pay for life.
+		</p>
+		<p>
+			Getting gold ...
+		</p>
+		<p>
+			We meet the fairest ladies,
+			but we never had a chance.
+			So we play our bagpipes
+			as the common people dance.
+		</p>
+		<comment>
+			"Säckpipor"
+		</comment>
+		<p>
+			To die without a nickel
+			is a scare for anyone.
+			So we work until our last day,
+			and we die like common man.
+		</p>
+		<p>
+			Getting gold ...
+		</p>
+		<comment>
+			Skriven av en gycklargrupp från Norrköping och
+			därmed inte precis utländsk.
+		</comment>
 	</song>
 
 	<song name="En matematiker"
