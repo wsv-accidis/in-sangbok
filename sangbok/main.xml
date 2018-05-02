@@ -4647,27 +4647,27 @@
 	</song>
 
 	<song name="Satanvisan"
-				category="Esotorica"
-				melody="Staffan var en stalledräng">
-			<p>
-				En elak man från Helsingfors 
-				Han åkallade Satan
-				Med blåvitt inverterat kors
-				Men han var för lat, han 
-				Stackars lille djävulspräst 
-				Finska Necronomicon är svårläst
-			</p>
-			<p>
-				Gillar du att äta lik?
-				Ond bråd död, ditt levebröd
-				Ja, då är varje kyrkogård ett fik 
-				Ingen tid för griftefrid
-				Offerbål i natten vi tända
-				Kom och låt oss gravarna skända 
-				Varje natt i detta land
-				En kyrka blir satt i brand
-			</p>
-		</song>
+		  category="Esotorica"
+		  melody="Staffan var en stalledräng">
+		<p>
+			En elak man från Helsingfors 
+			Han åkallade Satan
+			Med blåvitt inverterat kors
+			Men han var för lat, han 
+			Stackars lille djävulspräst 
+			Finska Necronomicon är svårläst
+		</p>
+		<p>
+			Gillar du att äta lik?
+			Ond bråd död, ditt levebröd
+			Ja, då är varje kyrkogård ett fik 
+			Ingen tid för griftefrid
+			Offerbål i natten vi tända
+			Kom och låt oss gravarna skända 
+			Varje natt i detta land
+			En kyrka blir satt i brand
+		</p>
+	</song>
 	
 	<song name="invITensången"
 		  author="Daniel Byström"
