@@ -4705,33 +4705,6 @@
 			kommer aldrig mer igen. Tjo!
 		</p>
 	</song>
-<<<<<<< HEAD
-
-	<song name="Satanvisan"
-		  author="J. Strauss, Strauss ex Machina"
-		  category="Esoterica"
-		  melody="Staffan var en stalledräng">
-		<p>
-			En elak man från Helsingfors 
-			Han åkallade Satan
-			Med blåvitt inverterat kors
-			Men han var för lat, han 
-			Stackars lille djävulspräst 
-			Finska Necronomicon är svårläst
-		</p>
-		<p>
-			Gillar du att äta lik?
-			Ond bråd död, ditt levebröd
-			Ja, då är varje kyrkogård ett fik 
-			Ingen tid för griftefrid
-			Offerbål i natten vi tända
-			Kom och låt oss gravarna skända 
-			Varje natt i detta land
-			En kyrka blir satt i brand
-		</p>
-	</song>
-=======
->>>>>>> amended satansvisan to have correct name, a listed author, and to contain the full song with all its verses. Also placed it in the right category, ordered it within said category, and fixed issues with character encoding of swedish letters.
 	
 	<song name="invITensången"
 		  author="Daniel Byström"
