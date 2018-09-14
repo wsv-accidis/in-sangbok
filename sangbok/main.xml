@@ -1094,9 +1094,15 @@
 
 	<song name="Hederssång"
 		  category="Gasque">
+		<comment>
+			Vid de/dom nu kan man också sjunga Hon/Henne och Han/Honom,
+			### sjunger man personens eller gruppens namn.
+		</comment>
 		<p>
-			För det var i vår ungdoms fagraste vår,
-			vi drack varandra till och vi sade: "Gutår!"
+			Det där det gjorde de fan så bra, hej!
+			En skål uti botten för dom nu vi ta.
+			Hugg i och dra, hej! Hugg i och dra, hej!
+			En skål uti botten för dom nu vi ta.
 		</p>
 		<p>
 			Och alla så dricka vi nu ### till...
@@ -1108,7 +1114,8 @@
 			Och ### säger inte nej därtill!
 		</p>
 		<p>
-			För det var i vår ungdoms...
+			För det var i vår ungdoms fagraste vår,
+			vi drack varandra till och vi sade: "Gutår!"
 		</p>
 	</song>
 
