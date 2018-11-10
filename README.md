@@ -39,7 +39,7 @@ I sista hand kan du kontakta [administratören](https://github.com/wsv-accidis) 
   använda [W3 Markup Validation Service](https://validator.w3.org/) för att enkelt testa din fil.
 
 ## Status
-Aktuell version är 1.1. Applikationen har publicerats på
+Aktuell version är 1.3. Applikationen har publicerats på
 [Google Play](https://play.google.com/store/apps/details?id=se.insektionen.songbook).
 
 ## Behörigheter
