@@ -1187,6 +1187,23 @@
 		</p>
 	</song>
 
+	<song name="Anti-snapsvisa"
+		  category="Brännvin"
+		  melody="Sjösala vals">
+		<p>
+			Huvudet vi lyfter med ett stön ur vår säng,
+			tvättmaskin i buken, kanoner i huvudet.
+			Tungan som en plyschsoffa och yrseln i sväng,
+			i ångesten vi svettas kom sjung din refräng:
+		</p>
+		<p>
+			Varför finns det aldrig nå'n nykter karneval?
+			O, låt oss somna om så vi slipper våra kval.
+			Men se, så många supar vi redan kastat upp i sängen
+			Renat och Skåne, Svart Vinbär och fager Bäsk!
+		</p>
+	</song>
+
 	<song name="Cidervisan"
 		  author="Strängteoretiquerna, 2015"
 		  category="Gasque"
@@ -1250,6 +1267,63 @@
 			huvudvärk och ångest, elände men
 			det finns faktiskt ett glas som dig kan hjälpa:
 			Treo-comp, vår frälsare och vän!
+		</p>
+	</song>
+
+	<song name="Förkröksvisa"
+		  category="Gasque"
+		  melody="Indiana Jones theme">
+		<p>
+			Dricka cider, hiva bärs
+			hinka OP, pimpa niv⁻¹
+			Börja smörja sitt system
+			Inför kvällen, för kvällen
+			för kvällen ikväll
+		</p>
+	</song>
+
+	<song name="Flaskan är djup"
+		  category="Gasque"
+		  melody="Havet är djupt">
+		<p>
+			Här är teknologer glada
+			som fiskar i etanol
+			Där fisken i vätska bada
+			fyller vi på dess skål
+			SIK, bleka, ålar sej och
+			Hoftorsken letar drag
+			Korken är bra som flöte
+			men flaskan den gör min dag
+		</p>
+		<p>
+			Flaskan är djup
+			Flaskan är djup
+			När du nått botten
+			då mår du toppen
+			ta dig en sup!
+			Var inte sparsam med din bål
+			Det finns alltid skäl att ta en skål
+			Så ta dig en sval en, sänk nu pokalen
+			Flaskan är djup
+		</p>
+	</song>
+
+	<song name="Vit vecka"
+		  category="Gasque"
+		  melody="White Christmas">
+		<p>
+			Jag drömmer om en vit vecka,
+			sju dagar utan alkohol.
+			Tänk att bara skåla,
+			i juice och cola
+			och sedan minnas allt man gjort.
+		</p>
+		<p>
+			Jag drömmer om en vit vecka,
+			det finns en gräns för vad jag tål.
+			Jag vill inte dricka
+			mer sprit!
+			Så låt nästa vecka vara vit.
 		</p>
 	</song>
 
