@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <songs description="IN-sektionens sångbok, Strängteoretiquernas reviderade version (2009-2015)"
-	   updated="2018-05-02">
+	   updated="2022-05-22">
 	<song name="Moder Kista"
 		  author="David Larsson, IT00"
 		  category="Gasque"
@@ -1196,25 +1196,6 @@
 		</p>
 	</song>
 
-	<song name="Ode till Treo"
-		  author="Lundakarnevalen, 1986"
-		  category="Gasque"
-		  melody="Längtan till landet"
-		  composer="Otto Lindblad">
-		<p>
-			Morgonstund med smak av döda bävrar,
-			frukostmorgonen är över oss.
-			Hur vi stretar, hur vi alla vägrar,
-			så går solen likt förbannat opp.
-		</p>
-		<p>
-			Snart är dagen här med hemska plågor,
-			huvudvärk och ångest, elände, men
-			det finns faktiskt ett glas som dig kan rädda:
-			Treo-comp, vår frälsare och vän.
-		</p>
-	</song>
-
 	<song name="Anti-snapsvisa"
 		  author="Lundakarnevalen, 1986"
 		  category="Brännvin"
@@ -1299,7 +1280,7 @@
 		<p>
 			Snart är dagen här med hemska plågor
 			huvudvärk och ångest, elände men
-			det finns faktiskt ett glas som dig kan hjälpa:
+			det finns faktiskt ett glas som dig kan rädda:
 			Treo-comp, vår frälsare och vän!
 		</p>
 	</song>
@@ -1364,6 +1345,60 @@
 			Så låt nästa vecka vara vit.
 		</p>
 	</song>
+
+	<song name="Hallen lutar"
+		  category="Gasque"
+		  melody="Halleluja"
+      composer="Leonard Cohen">
+		<p>
+			Jag minns knappt hur jag tog mig hem.
+			Klockan var minst kvart i fem
+			när jag stod utanför min egen våning.
+			Jag lyfte upp min nyckelring
+			och haja nästan ingenting,
+			när dörren öppnas står min hall å lutar.
+		</p>
+		<p>
+			Hallen lutar, hallen lutar
+			hallen lutar, hallen lutar.
+		</p>
+		<p>
+			Jag minns knappt julen nittiotre
+			min bror var där å syster me'
+			å snyggingen i rött satt alld'les breve'.
+			Vi drack vår glögg och pratade,
+			min dejt blev trött och schappade.
+			Så jag fick ännu mer tid för den röde.
+		</p>
+		<p>
+			Han i luva, han i luva
+			han i luva, han i luva.
+		</p>
+		<p>
+			Gasquen var sen länge stängd.
+			Jag supit bort varenda peng
+			och vill nu bara hem till min säng.
+			Jag vandra hem genom en natt
+			kall och trött jag såg en katt
+			den satt där utanför på min gata.
+		</p>
+		<p>
+			Katten lutar, katten lutar
+			katten lutar, katten lutar.
+		</p>
+		<p>
+			Fredagar har mer att ge,
+			än räkor snask och en TV.
+			En kan ju hyra film och DVD.
+			Å vill en ha något riktigt bra
+			så kan en faktiskt bara ta
+			en film som vunnit Oscar åt en Berry.
+		</p>
+		<p>
+			Halle Berry, Halle Berry
+			Halle Berry, Halle Berry.
+		</p>
+	</song>	
 
 	<song name="En pilsnerdrickare"
 		  category="Öhl"
