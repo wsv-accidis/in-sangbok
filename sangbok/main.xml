@@ -392,7 +392,7 @@
 		</p>
 		<p>
 			Gnäggar inte, springer inte,
-			det är dörr. [sic]
+			det är dött.
 		</p>
 		<p>
 			Skål för alla oxar, skål för varje säl!
@@ -1363,8 +1363,8 @@
 			hallen lutar, hallen lutar.
 		</p>
 		<p>
-			Jag minns knappt julen nittiotre
-			min bror var där å syster me'
+			Jag minns knappt julen nittiotre.
+			Min bror var där å syster me',
 			å snyggingen i rött satt alld'les breve'.
 			Vi drack vår glögg och pratade,
 			min dejt blev trött och schappade.
@@ -1378,8 +1378,8 @@
 			Gasquen var sen länge stängd.
 			Jag supit bort varenda peng
 			och vill nu bara hem till min säng.
-			Jag vandra hem genom en natt
-			kall och trött jag såg en katt
+			Jag vandra hem genom en natt,
+			kall och trött jag såg en katt,
 			den satt där utanför på min gata.
 		</p>
 		<p>
@@ -1388,7 +1388,7 @@
 		</p>
 		<p>
 			Fredagar har mer att ge,
-			än räkor snask och en TV.
+			än räkor, snask och en TV.
 			En kan ju hyra film och DVD.
 			Å vill en ha något riktigt bra
 			så kan en faktiskt bara ta
@@ -3358,6 +3358,23 @@
 			Ska det va' så svårt få vad man beställt,
 			snart så har ju efterrätten smällt.
 			//: Det enda jag vill ha, det är punsch. ://
+		</p>
+	</song>
+
+	<song name="Sveriges arraktionalhymn"
+		  category="Punsch"
+		  melody="Du gamla, du fria">
+		<p>
+			Du ädla, du friska, du livselixir,
+			med dig vill jag mina läppar blöta.
+			Den svenskaste drycken, på jorden den förblir.
+			//: Den gyllene, den underbara söta. ://
+		</p>
+		<p>
+			Som iskall till kaffet du ställs på vårt bord
+			och även som varm till torsdagslunchen.
+			Jag halsar dig, lenaste dryck upp på jord.
+			//: Ja, jag vill leva, jag vill dö iáv punschen. ://
 		</p>
 	</song>
 
