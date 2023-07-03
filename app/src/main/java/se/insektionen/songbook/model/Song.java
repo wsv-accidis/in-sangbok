@@ -1,8 +1,9 @@
 package se.insektionen.songbook.model;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
+
+import androidx.annotation.Nullable;
 
 import com.google.auto.value.AutoValue;
 

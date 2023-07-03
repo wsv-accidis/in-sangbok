@@ -1,12 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-	compileSdkVersion 28
+	compileSdkVersion 33
+	namespace 'se.insektionen.songbook'
 
 	defaultConfig {
 		applicationId 'se.insektionen.songbook'
 		minSdkVersion 16
-		targetSdkVersion 28
+		targetSdkVersion 33
 		versionCode 5
 		versionName '1.4'
 		resConfigs 'en', 'sv'
@@ -20,17 +21,9 @@ android {
 }
 
 dependencies {
-	implementation 'com.android.support:appcompat-v7:28.0.0'
-	implementation 'com.android.support:design:28.0.0'
+	implementation 'androidx.appcompat:appcompat:1.6.1'
+	implementation 'com.google.android.material:material:1.9.0'
 	implementation 'com.squareup.okhttp3:okhttp:3.11.0'
 	compileOnly 'com.google.auto.value:auto-value-annotations:1.6.2'
 	annotationProcessor 'com.google.auto.value:auto-value:1.6.2'
-}
-
-allprojects {
-	gradle.projectsEvaluated {
-		tasks.withType(JavaCompile) {
-			options.compilerArgs << '-Xlint:deprecation'
-		}
-	}
 }
