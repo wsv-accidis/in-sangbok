@@ -21,6 +21,7 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.ListFragment;
 
@@ -65,15 +66,7 @@ public final class SongbookFragment extends ListFragment implements MainActivity
 	}
 
 	@Override
-	public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-		super.onActivityCreated(savedInstanceState);
-		if (savedInstanceState != null) {
-			mListState = savedInstanceState.getParcelable(STATE_LIST_VIEW);
-		}
-	}
-
-	@Override
-	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+	public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
 		super.onCreateOptionsMenu(menu, inflater);
 
 		MenuItem filterItem = menu.findItem(R.id.songbook_filter_category);
@@ -93,7 +86,7 @@ public final class SongbookFragment extends ListFragment implements MainActivity
 	}
 
 	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+	public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		ViewGroup root = (ViewGroup) super.onCreateView(inflater, container, savedInstanceState);
 		assert (root != null);
 
@@ -128,7 +121,7 @@ public final class SongbookFragment extends ListFragment implements MainActivity
 	}
 
 	@Override
-	public void onListItemClick(ListView l, View v, int position, long id) {
+	public void onListItemClick(@NonNull ListView l, @NonNull View v, int position, long id) {
 		if (null == mListAdapter || position < 0 || position >= mListAdapter.getCount()) {
 			return;
 		}
@@ -175,7 +168,7 @@ public final class SongbookFragment extends ListFragment implements MainActivity
 	}
 
 	@Override
-	public void onSaveInstanceState(Bundle outState) {
+	public void onSaveInstanceState(@NonNull Bundle outState) {
 		super.onSaveInstanceState(outState);
 		if (null != getView()) {
 			mListState = getListView().onSaveInstanceState();
@@ -189,11 +182,19 @@ public final class SongbookFragment extends ListFragment implements MainActivity
 		}
 	}
 
+	@Override
+	public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+		super.onViewCreated(view, savedInstanceState);
+		if (savedInstanceState != null) {
+			mListState = savedInstanceState.getParcelable(STATE_LIST_VIEW);
+		}
+	}
+
 	private void initializeList() {
 		mSearchText.setEnabled(true);
 		mClearSearchButton.setEnabled(true);
 
-		mListAdapter = new SongbookListAdapter(getContext(), mSongbook.songs());
+		mListAdapter = new SongbookListAdapter(requireContext(), mSongbook.songs());
 		setListAdapter(mListAdapter);
 
 		if (null != mListState) {
@@ -202,7 +203,7 @@ public final class SongbookFragment extends ListFragment implements MainActivity
 		}
 
 		refreshFilter();
-		getActivity().invalidateOptionsMenu();
+		requireActivity().invalidateOptionsMenu();
 	}
 
 	private void onClearFilterSelected() {
@@ -270,12 +271,9 @@ public final class SongbookFragment extends ListFragment implements MainActivity
 	private final class SongbookLoadedHandler implements RepositoryResultHandler<Songbook> {
 		@Override
 		public void onError(final int errorMessage) {
-			mHandler.post(new Runnable() {
-				@Override
-				public void run() {
-					Toast toast = Toast.makeText(getContext(), errorMessage, Toast.LENGTH_LONG);
-					toast.show();
-				}
+			mHandler.post(() -> {
+				Toast toast = Toast.makeText(getContext(), errorMessage, Toast.LENGTH_LONG);
+				toast.show();
 			});
 		}
 
@@ -284,12 +282,9 @@ public final class SongbookFragment extends ListFragment implements MainActivity
 			mSongbook = songbook;
 			mIsLoaded = true;
 
-			mHandler.post(new Runnable() {
-				@Override
-				public void run() {
-					if (null != getActivity()) {
-						initializeList();
-					}
+			mHandler.post(() -> {
+				if (null != getActivity()) {
+					initializeList();
 				}
 			});
 		}

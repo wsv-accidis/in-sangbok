@@ -8,7 +8,6 @@ import android.content.SharedPreferences;
  */
 public final class Preferences {
 	private static final String PREFERENCES_FILE = "SongbookPreferences";
-	private static final String TAG = Preferences.class.getSimpleName();
 	private final SharedPreferences mPrefs;
 
 	public Preferences(Context context) {

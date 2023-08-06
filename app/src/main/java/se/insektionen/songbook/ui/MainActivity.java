@@ -112,7 +112,7 @@ public final class MainActivity extends AppCompatActivity {
 	}
 
 	@Override
-	protected void onSaveInstanceState(Bundle outState) {
+	protected void onSaveInstanceState(@NonNull Bundle outState) {
 		super.onSaveInstanceState(outState);
 
 		FragmentManager fragmentManager = getSupportFragmentManager();
@@ -123,13 +123,11 @@ public final class MainActivity extends AppCompatActivity {
 	}
 
 	private Fragment getFragmentByNavigationItem(int navId) {
-		switch (navId) {
-			case R.id.nav_list_songs:
-				return new SongbookFragment();
-			case R.id.nav_about:
-				return new AboutFragment();
+		if (navId == R.id.nav_list_songs) {
+			return new SongbookFragment();
+		} else if (navId == R.id.nav_about) {
+			return new AboutFragment();
 		}
-
 		return null;
 	}
 
@@ -194,16 +192,16 @@ public final class MainActivity extends AppCompatActivity {
 
 	private final class NavigationDrawerListener implements DrawerLayout.DrawerListener {
 		@Override
-		public void onDrawerClosed(View drawerView) {
+		public void onDrawerClosed(@NonNull View drawerView) {
 		}
 
 		@Override
-		public void onDrawerOpened(View drawerView) {
+		public void onDrawerOpened(@NonNull View drawerView) {
 			AndroidUtils.hideSoftKeyboard(MainActivity.this, getCurrentFocus());
 		}
 
 		@Override
-		public void onDrawerSlide(View drawerView, float slideOffset) {
+		public void onDrawerSlide(@NonNull View drawerView, float slideOffset) {
 		}
 
 		@Override

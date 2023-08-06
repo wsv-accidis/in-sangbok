@@ -19,6 +19,7 @@
 		android:layout_marginLeft="5dp"
 		android:layout_toLeftOf="@id/songbook_search_clear"
 		android:hint="@string/songbook_search_hint"
+		android:importantForAutofill="no"
 		android:inputType="textNoSuggestions"
 		android:textColorHint="@color/darkgray"/>
 

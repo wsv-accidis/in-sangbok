@@ -3,6 +3,7 @@ package se.insektionen.songbook.model;
 import android.os.Bundle;
 import android.text.TextUtils;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.auto.value.AutoValue;
@@ -98,6 +99,7 @@ public abstract class Song {
 		return bundle;
 	}
 
+	@NonNull
 	@Override
 	public String toString() {
 		return name();

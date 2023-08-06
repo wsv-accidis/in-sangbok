@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import se.insektionen.songbook.R;
@@ -25,7 +25,7 @@ public final class AboutFragment extends Fragment implements MainActivity.HasNav
 		return R.id.nav_about;
 	}
 
-	@Nullable
+	@NonNull
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_about, container, false);

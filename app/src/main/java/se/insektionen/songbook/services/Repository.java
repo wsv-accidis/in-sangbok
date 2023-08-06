@@ -37,7 +37,7 @@ public final class Repository {
 		SharedHttpClient.getInstance().newCall(requestBuilder.build()).enqueue(new GetSongbookCallback(resultHandler));
 	}
 
-	private abstract class GetResultCallback<TResult> implements Callback {
+	private abstract static class GetResultCallback<TResult> implements Callback {
 		protected final RepositoryResultHandler<TResult> mResultHandler;
 
 		protected GetResultCallback(RepositoryResultHandler<TResult> resultHandler) {
@@ -81,26 +81,17 @@ public final class Repository {
 		protected abstract TResult getResult(ResponseBody responseBody) throws Exception;
 	}
 
-	private final class GetSongbookCallback extends GetResultCallback<Songbook> {
-		protected GetSongbookCallback(RepositoryResultHandler<Songbook> resultHandler) {
+	private static final class GetSongbookCallback extends GetResultCallback<Songbook> {
+		private GetSongbookCallback(RepositoryResultHandler<Songbook> resultHandler) {
 			super(resultHandler);
 		}
 
 		@Override
 		protected Songbook getResult(ResponseBody responseBody) throws Exception {
-			Reader streamReader = null;
-			try {
-				streamReader = responseBody.charStream();
+			try (Reader streamReader = responseBody.charStream()) {
 				Songbook songbook = SongbookXmlParser.parseSongbook(streamReader);
 				mCachedSongbook = songbook;
 				return songbook;
-			} finally {
-				try {
-					if (null != streamReader) {
-						streamReader.close();
-					}
-				} catch (IOException ignored) {
-				}
 			}
 		}
 	}

@@ -22,7 +22,7 @@ import se.insektionen.songbook.model.Songbook;
 public final class SongbookXmlParser {
 	private static final String LINE_BREAK_REGEX = "\\s*\\r?\\n\\s*";
 	private static final String TAG = SongbookXmlParser.class.getSimpleName();
-	private XmlPullParser mXml;
+	private final XmlPullParser mXml;
 
 	private SongbookXmlParser(XmlPullParser xml) {
 		mXml = xml;

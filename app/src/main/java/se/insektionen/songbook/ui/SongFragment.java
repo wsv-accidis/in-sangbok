@@ -17,7 +17,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
+import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
@@ -54,18 +54,18 @@ public final class SongFragment extends Fragment implements MainActivity.HasNavi
 	}
 
 	@Override
-	public void onAttach(Context context) {
+	public void onAttach(@NonNull Context context) {
 		super.onAttach(context);
 		mPrefs = new Preferences(context);
 		mInitialTextSize = getResources().getDimension(R.dimen.song_part_text_size);
 		mScaleFactor = mPrefs.getSongScaleFactor();
 	}
 
-	@Nullable
+	@NonNull
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_song, container, false);
-		Song song = Song.fromBundle(getArguments());
+		Song song = Song.fromBundle(requireArguments());
 
 		setTextIfNotEmpty(view, R.id.song_category, song.category());
 		setTextIfNotEmpty(view, R.id.song_name, song.name());
@@ -92,7 +92,7 @@ public final class SongFragment extends Fragment implements MainActivity.HasNavi
 		songLayout.removeAllViews();
 		mSongPartViews.clear();
 
-		Context context = getContext();
+		Context context = requireContext();
 		int defaultColor = ContextCompat.getColor(context, R.color.black);
 		int commentColor = ContextCompat.getColor(context, R.color.insektionen);
 		int topMargin = context.getResources().getDimensionPixelSize(R.dimen.song_part_top_margin);
@@ -144,7 +144,7 @@ public final class SongFragment extends Fragment implements MainActivity.HasNavi
 	private void setTextWithPrefix(TextView textView, int prefixResId, String str) {
 		String prefixStr = getString(prefixResId);
 		SpannableString spanStr = new SpannableString(prefixStr + " " + str);
-		int foregroundColor = ContextCompat.getColor(getContext(), R.color.darkgray);
+		int foregroundColor = ContextCompat.getColor(requireContext(), R.color.darkgray);
 		spanStr.setSpan(new ForegroundColorSpan(foregroundColor), 0, prefixStr.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 		textView.setText(spanStr);
 	}
@@ -176,7 +176,7 @@ public final class SongFragment extends Fragment implements MainActivity.HasNavi
 	}
 
 	private final class ViewTouchListener implements View.OnTouchListener {
-		private ScaleGestureDetector mGestureDetector;
+		private final ScaleGestureDetector mGestureDetector;
 
 		public ViewTouchListener(Context context) {
 			mGestureDetector = new ScaleGestureDetector(context, new ScaleGestureListener());

@@ -26,7 +26,7 @@ public final class SongbookListAdapter extends BaseAdapter implements Filterable
 	private static final String[] TRIM_START = new String[]{"*", "//:"};
 	private final LayoutInflater mInflater;
 	private final List<Song> mList;
-	private Filter mFilter = new SongbookListFilter();
+	private final Filter mFilter = new SongbookListFilter();
 	private List<Song> mFilteredList;
 
 	public SongbookListAdapter(Context context, List<Song> list) {
@@ -147,11 +147,7 @@ public final class SongbookListAdapter extends BaseAdapter implements Filterable
 			if (!TextUtils.isEmpty(textFilter) && !song.matches(textFilter.toLowerCase())) {
 				return false;
 			}
-			if (!TextUtils.isEmpty(categoryFilter) && !song.category().equals(categoryFilter)) {
-				return false;
-			}
-
-			return true;
+			return TextUtils.isEmpty(categoryFilter) || song.category().equals(categoryFilter);
 		}
 	}
 }
