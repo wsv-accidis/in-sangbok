@@ -25,8 +25,8 @@ kräver inga särskilda kunskaper, men du behöver ett Github-konto.
 I sista hand kan du kontakta [administratören](https://github.com/wsv-accidis) direkt via e-post.
 
 ### Riktlinjer för sångbokens innehåll
-* Alla sångtexter skall följa [THS Sångpolicy](http://ths.kth.se/om-ths/styrdokument-och-moteshandlingar/)
-  och övriga tillämpliga regelverk.
+* Alla sångtexter skall följa relevanta policies och regelverk för sånger som framförs på
+  IN-sektionens evenemang.
 * Kontrollera stavning och grammatik (sångtexter förväntas naturligtvis inte vara helt grammatiskt
   perfekta, men i möjligaste mån). Det är tråkigt att sjunga sånger med stavfel och särskrivningar.
 * Om sångtexten innehåller könade uttryck (herrar/damer, systrar/bröder, osv) se gärna till att
