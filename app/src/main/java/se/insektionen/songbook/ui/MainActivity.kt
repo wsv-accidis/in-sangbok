@@ -49,14 +49,16 @@ class MainActivity : AppCompatActivity() {
 
     fun openFragment(fragment: Fragment, addToBackStack: Boolean = true) {
         val oldFragment = supportFragmentManager.findFragmentById(R.id.container)
-        val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.container, fragment)
-        transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
-        if (addToBackStack && !isSameFragment(oldFragment, fragment)) {
-            transaction.addToBackStack(null)
+        if (!isSameFragment(oldFragment, fragment)) {
+            val transaction = supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.container, fragment)
+            transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+            if (addToBackStack) {
+                transaction.addToBackStack(null)
+            }
+            transaction.commit()
+            updateViewFromFragment(fragment)
         }
-        transaction.commit()
-        updateViewFromFragment(fragment)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
