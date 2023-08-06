@@ -21,7 +21,7 @@ import se.insektionen.songbook.model.Song;
  */
 public final class SongbookListAdapter extends BaseAdapter implements Filterable {
 	public static final String CATEGORY_QUERY = "?category=";
-	private static final String ELLIPISIS = "...";
+	private static final String ELLIPSIS = "...";
 	private static final String[] TRIM_END = new String[]{".", ",", "!", "?"};
 	private static final String[] TRIM_START = new String[]{"*", "//:"};
 	private final LayoutInflater mInflater;
@@ -67,13 +67,13 @@ public final class SongbookListAdapter extends BaseAdapter implements Filterable
 		Song song = mFilteredList.get(position);
 
 		TextView nameText = (TextView) view.findViewById(R.id.song_list_primary);
-		nameText.setText(song.name());
+		nameText.setText(song.getName());
 
 		TextView firstLineText = (TextView) view.findViewById(R.id.song_list_secondary);
 		firstLineText.setText(formatFirstLineOfSong(song.firstLineOfSong()));
 
 		TextView categoryText = (TextView) view.findViewById(R.id.song_list_tertiary);
-		categoryText.setText(song.category());
+		categoryText.setText(song.getCategory());
 
 		return view;
 	}
@@ -90,7 +90,7 @@ public final class SongbookListAdapter extends BaseAdapter implements Filterable
 			}
 		}
 
-		return line.trim().concat(ELLIPISIS);
+		return line.trim().concat(ELLIPSIS);
 	}
 
 	private final class SongbookListFilter extends Filter {
@@ -147,7 +147,7 @@ public final class SongbookListAdapter extends BaseAdapter implements Filterable
 			if (!TextUtils.isEmpty(textFilter) && !song.matches(textFilter.toLowerCase())) {
 				return false;
 			}
-			return TextUtils.isEmpty(categoryFilter) || song.category().equals(categoryFilter);
+			return TextUtils.isEmpty(categoryFilter) || song.getCategory().equals(categoryFilter);
 		}
 	}
 }

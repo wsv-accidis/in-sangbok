@@ -62,7 +62,7 @@ public final class SongbookXmlParser {
 			Song song = tryParseSong();
 			if (null != song) {
 				songs.add(song);
-				Log.d(TAG, "Read a song \"" + song.name() + "\".");
+				Log.d(TAG, "Read a song \"" + song.getName() + "\".");
 			}
 
 			mXml.next();
@@ -71,7 +71,7 @@ public final class SongbookXmlParser {
 		} while (!isAtEndOfDocument());
 
 		Log.i(TAG, "Finished parsing songbook, got " + songs.size() + " song(s).");
-		return Songbook.create(description, updated, songs);
+		return new Songbook(description, updated, songs);
 	}
 
 	private List<SongPart> doParseSongParts() throws XmlPullParserException, IOException {
@@ -118,6 +118,10 @@ public final class SongbookXmlParser {
 		return XmlPullParser.END_DOCUMENT == parsingEvent || (XmlPullParser.END_TAG == parsingEvent && Elements.SONGS.equals(mXml.getName()));
 	}
 
+	private static String notNull(String value) {
+		return null == value ? "" : value;
+	}
+
 	private void skip() throws XmlPullParserException, IOException {
 		if (XmlPullParser.START_TAG != mXml.getEventType()) {
 			return;
@@ -142,18 +146,18 @@ public final class SongbookXmlParser {
 			mXml.require(XmlPullParser.START_TAG, null, Elements.SONG);
 
 			// Read and validate attributes
-			String author = mXml.getAttributeValue(null, Attributes.AUTHOR);
-			String category = mXml.getAttributeValue(null, Attributes.CATEGORY);
-			String composer = mXml.getAttributeValue(null, Attributes.COMPOSER);
-			String melody = mXml.getAttributeValue(null, Attributes.MELODY);
-			String name = mXml.getAttributeValue(null, Attributes.NAME);
+			String author = notNull(mXml.getAttributeValue(null, Attributes.AUTHOR));
+			String category = notNull(mXml.getAttributeValue(null, Attributes.CATEGORY));
+			String composer = notNull(mXml.getAttributeValue(null, Attributes.COMPOSER));
+			String melody = notNull(mXml.getAttributeValue(null, Attributes.MELODY));
+			String name = notNull(mXml.getAttributeValue(null, Attributes.NAME));
 
 			if (TextUtils.isEmpty(name) || TextUtils.isEmpty(category)) {
 				throw new XmlPullParserException("Missing required attribute " + Attributes.NAME + " and/or " + Attributes.CATEGORY + ".");
 			}
 
 			List<SongPart> parts = doParseSongParts();
-			return Song.create(author, category, composer, melody, name, parts);
+			return new Song(author, category, composer, melody, name, parts);
 		} catch (Exception ex) {
 			Log.e(TAG, "Exception while parsing song: " + ex);
 			return null;
@@ -196,7 +200,7 @@ public final class SongbookXmlParser {
 			text = text.replaceAll(LINE_BREAK_REGEX, " ");
 		}
 
-		return SongPart.create(type, text);
+		return new SongPart(type, text);
 	}
 
 	private static class Attributes {

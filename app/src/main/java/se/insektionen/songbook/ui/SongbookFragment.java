@@ -77,7 +77,7 @@ public final class SongbookFragment extends ListFragment implements MainActivity
 			if (null != mSongbook) {
 				subMenu.add(Menu.NONE, MENU_CLEAR_FILTER_ID, Menu.NONE, R.string.songbook_show_all);
 
-				List<String> categories = mSongbook.categories();
+				List<String> categories = mSongbook.getCategories();
 				for (int i = 0; i < categories.size(); i++) {
 					subMenu.add(MENU_CATEGORIES_ID, MENU_CATEGORIES_ID + i, Menu.NONE, categories.get(i));
 				}
@@ -194,7 +194,7 @@ public final class SongbookFragment extends ListFragment implements MainActivity
 		mSearchText.setEnabled(true);
 		mClearSearchButton.setEnabled(true);
 
-		mListAdapter = new SongbookListAdapter(requireContext(), mSongbook.songs());
+		mListAdapter = new SongbookListAdapter(requireContext(), mSongbook.getSongs());
 		setListAdapter(mListAdapter);
 
 		if (null != mListState) {
@@ -217,7 +217,7 @@ public final class SongbookFragment extends ListFragment implements MainActivity
 			return;
 		}
 
-		List<String> categories = mSongbook.categories();
+		List<String> categories = mSongbook.getCategories();
 		int categoryIdx = item.getItemId() - MENU_CATEGORIES_ID;
 		if (categoryIdx >= 0 && categoryIdx < categories.size()) {
 			mFilterCategory = categories.get(categoryIdx);

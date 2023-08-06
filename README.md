@@ -58,4 +58,3 @@ utvecklingsverktyg för Android utgivna av Google:
 
 * [OkHttp HTTP & SPDY client for Android and Java](https://github.com/square/okhttp)
 * [Material Design Icons från Google](https://github.com/google/material-design-icons)
-* [AutoValue från Google](https://github.com/google/auto)

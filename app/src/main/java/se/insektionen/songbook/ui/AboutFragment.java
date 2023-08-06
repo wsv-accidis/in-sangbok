@@ -49,7 +49,7 @@ public final class AboutFragment extends Fragment implements MainActivity.HasNav
 
 			@Override
 			public void onSuccess(Songbook songbook) {
-				songbookInfoView.setText(String.format(getString(R.string.about_songbook_info), songbook.description(), songbook.updated()));
+				songbookInfoView.setText(String.format(getString(R.string.about_songbook_info), songbook.getDescription(), songbook.getUpdated()));
 			}
 		}, false);
 
