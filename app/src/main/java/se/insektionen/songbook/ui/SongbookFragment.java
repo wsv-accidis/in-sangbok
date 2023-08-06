@@ -26,6 +26,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.ListFragment;
 
 import java.util.List;
+import java.util.Locale;
 
 import se.insektionen.songbook.R;
 import se.insektionen.songbook.model.Song;
@@ -263,7 +264,7 @@ public final class SongbookFragment extends ListFragment implements MainActivity
 
 		@Override
 		public void onTextChanged(CharSequence s, int start, int before, int count) {
-			mSearchQuery = s.toString().toLowerCase();
+			mSearchQuery = s.toString().toLowerCase(Locale.getDefault());
 			refreshFilter();
 		}
 	}

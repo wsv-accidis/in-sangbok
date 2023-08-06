@@ -1,6 +1,7 @@
 package se.insektionen.songbook.model
 
 import android.os.Bundle
+import java.util.Locale
 
 /**
  * Data model for a song.
@@ -23,7 +24,8 @@ data class Song(
         else firstParagraph.substring(0, firstLineBreak)
     }
 
-    fun matches(search: String): Boolean = searchText.contains(search.lowercase())
+    fun matches(search: String): Boolean =
+        searchText.contains(search.lowercase(Locale.getDefault()))
 
     fun toBundle(): Bundle =
         with(Bundle()) {
@@ -41,15 +43,15 @@ data class Song(
 
     private fun createSearchText(name: String, melody: String, parts: List<SongPart>): String {
         val builder = StringBuilder()
-        builder.append(name.lowercase())
+        builder.append(name.lowercase(Locale.getDefault()))
         if (melody.isNotEmpty()) {
             builder.append(' ')
-            builder.append(melody.lowercase())
+            builder.append(melody.lowercase(Locale.getDefault()))
         }
         parts.filter { SongPart.TYPE_PARAGRAPH == it.type }
             .forEach {
                 builder.append(' ')
-                builder.append(it.text.lowercase())
+                builder.append(it.text.lowercase(Locale.getDefault()))
             }
         return builder.toString()
     }
