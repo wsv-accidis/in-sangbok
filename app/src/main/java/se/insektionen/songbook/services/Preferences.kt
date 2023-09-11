@@ -19,8 +19,17 @@ class Preferences(context: Context) {
             prefs.edit().putFloat(SONG_SCALE_FACTOR, scaleFactor).apply()
         }
 
+    var songbookSelection: SongbookSelection
+        get() = SongbookSelection.fromInt(
+            prefs.getInt(SONGBOOK_SELECTION, SongbookSelection.DEFAULT.value)
+        )
+        set(selection) {
+            prefs.edit().putInt(SONGBOOK_SELECTION, selection.value).apply()
+        }
+
     companion object {
         private const val PREFERENCES_FILE = "SongbookPreferences"
         private const val SONG_SCALE_FACTOR = "songScaleFactor"
+        private const val SONGBOOK_SELECTION = "songbookSelection"
     }
 }

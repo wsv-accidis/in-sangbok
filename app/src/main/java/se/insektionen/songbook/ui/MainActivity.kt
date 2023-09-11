@@ -18,6 +18,7 @@ import com.google.android.material.navigation.NavigationView
 import se.insektionen.songbook.R
 import se.insektionen.songbook.utils.hideSoftKeyboard
 import java.util.Random
+import kotlin.reflect.KClass
 
 /**
  * The main activity.
@@ -31,7 +32,15 @@ class MainActivity : AppCompatActivity() {
         if (navigationDrawer.isDrawerOpen(GravityCompat.START)) {
             navigationDrawer.closeDrawer(GravityCompat.START)
         } else {
-            super.onBackPressed()
+            // Pressing back from About/Selection ALWAYS opens and reloads the song list
+            val fragment = supportFragmentManager.findFragmentById(R.id.container)
+            if (isFragment(fragment, AboutFragment::class) ||
+                isFragment(fragment, SelectionFragment::class)
+            ) {
+                openFragment(SongbookFragment())
+            } else {
+                super.onBackPressed()
+            }
         }
     }
 
@@ -47,16 +56,28 @@ class MainActivity : AppCompatActivity() {
         null != optionsMenu && optionsMenu!!.onMenuItemSelected(item)
                 || super.onOptionsItemSelected(item)
 
-    fun openFragment(fragment: Fragment, addToBackStack: Boolean = true) {
+    fun openFragment(fragment: Fragment) {
         val oldFragment = supportFragmentManager.findFragmentById(R.id.container)
         if (!isSameFragment(oldFragment, fragment)) {
-            val transaction = supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.container, fragment)
-            transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
-            if (addToBackStack) {
-                transaction.addToBackStack(null)
+            // When we go to the song list, clear the back stack so pressing Back leaves the app
+            if (isFragment(fragment, SongbookFragment::class)) {
+                supportFragmentManager.popBackStackImmediate(
+                    null,
+                    FragmentManager.POP_BACK_STACK_INCLUSIVE
+                )
             }
-            transaction.commit()
+
+            with(supportFragmentManager.beginTransaction()) {
+                replace(R.id.container, fragment)
+                setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+
+                // Only the song fragment uses back stack (no need to reload song list on return)
+                if (isFragment(fragment, SongFragment::class)) {
+                    addToBackStack(null)
+                }
+                commit()
+            }
+
             updateViewFromFragment(fragment)
         }
     }
@@ -92,9 +113,9 @@ class MainActivity : AppCompatActivity() {
         if (null != savedInstanceState) {
             val lastFragment =
                 supportFragmentManager.getFragment(savedInstanceState, STATE_LAST_OPENED_FRAGMENT)
-            openFragment(lastFragment!!, false)
+            openFragment(lastFragment!!)
         } else {
-            openFragment(getFragmentByNavigationItem(R.id.nav_list_songs), false)
+            openFragment(getFragmentByNavigationItem(R.id.nav_list_songs))
         }
     }
 
@@ -108,6 +129,8 @@ class MainActivity : AppCompatActivity() {
     private fun getFragmentByNavigationItem(navId: Int): Fragment =
         if (navId == R.id.nav_list_songs) {
             SongbookFragment()
+        } else if (navId == R.id.nav_selection) {
+            SelectionFragment()
         } else if (navId == R.id.nav_about) {
             AboutFragment()
         } else {
@@ -115,7 +138,10 @@ class MainActivity : AppCompatActivity() {
         }
 
     private fun isSameFragment(oldFragment: Fragment?, newFragment: Fragment): Boolean =
-        null != oldFragment && oldFragment::class == newFragment::class
+        isFragment(oldFragment, newFragment::class)
+
+    private fun isFragment(fragment: Fragment?, clazz: KClass<out Fragment>): Boolean =
+        null != fragment && fragment::class == clazz
 
     private fun setRandomQuoteInHeader(headerView: View) {
         val line1Text = headerView.findViewById<TextView>(R.id.navigation_header_qotd1)

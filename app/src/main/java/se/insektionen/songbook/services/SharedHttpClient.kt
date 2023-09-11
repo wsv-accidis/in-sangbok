@@ -14,7 +14,6 @@ import java.io.File
 object SharedHttpClient {
     private const val CACHE_SIZE = 1024 * 1024
 
-    @JvmStatic
     lateinit var instance: OkHttpClient
 
     fun initialize(context: Context) = with(OkHttpClient.Builder()) {

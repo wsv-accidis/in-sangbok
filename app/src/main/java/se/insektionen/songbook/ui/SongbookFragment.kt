@@ -24,6 +24,7 @@ import androidx.fragment.app.ListFragment
 import se.insektionen.songbook.R
 import se.insektionen.songbook.model.Song
 import se.insektionen.songbook.model.Songbook
+import se.insektionen.songbook.services.Preferences
 import se.insektionen.songbook.services.Repository
 import se.insektionen.songbook.services.RepositoryException
 import se.insektionen.songbook.ui.MainActivity.HasMenu
@@ -148,7 +149,8 @@ class SongbookFragment : ListFragment(), HasNavigationItem, HasMenu {
         searchText.isEnabled = false
         clearSearchButton.isEnabled = false
         if (!isLoaded) {
-            Repository.getSongbook(this::onSongbookLoaded, false)
+            val prefs = Preferences(requireContext())
+            Repository.getSongbook(prefs.songbookSelection, this::onSongbookLoaded, false)
         } else {
             initializeList()
         }

@@ -17,16 +17,20 @@ import java.io.IOException
  * Repository which provides an abstraction layer against the underlying web requests.
  */
 object Repository {
+    private var cachedSelection: SongbookSelection = SongbookSelection.DEFAULT
     private var cachedSongbook: Songbook? = null
 
-    @JvmStatic
-    fun getSongbook(resultHandler: (Result<Songbook>) -> Unit, noCache: Boolean) {
-        if (!noCache && null != cachedSongbook) {
+    fun getSongbook(
+        selection: SongbookSelection,
+        resultHandler: (Result<Songbook>) -> Unit,
+        noCache: Boolean
+    ) {
+        if (!noCache && null != cachedSongbook && selection == cachedSelection) {
             resultHandler(Result.success(cachedSongbook!!))
             return
         }
 
-        val requestBuilder: Request.Builder = Request.Builder().url(SONGBOOK_DEFAULT_URL)
+        val requestBuilder: Request.Builder = Request.Builder().url(selection.url)
         if (noCache) {
             requestBuilder.cacheControl(CacheControl.FORCE_NETWORK)
         }
@@ -72,6 +76,7 @@ object Repository {
                 responseBody.charStream().use { streamReader ->
                     val songbook = SongbookXmlParser.parseSongbook(streamReader)
                     cachedSongbook = songbook
+                    cachedSelection = selection
                     return songbook
                 }
             }

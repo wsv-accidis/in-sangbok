@@ -65,7 +65,6 @@ data class Song(
         private const val PARTS_TEXTS = "partsTexts"
         private const val PARTS_TYPES = "partsTypes"
 
-        @JvmStatic
         fun fromBundle(bundle: Bundle): Song {
             val author = bundle.getString(AUTHOR) ?: ""
             val category = bundle.getString(CATEGORY) ?: ""
