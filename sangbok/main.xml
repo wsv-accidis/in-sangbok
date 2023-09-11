@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <songs description="IN-sektionens sångbok, Strängteoretiquernas reviderade version (2009-2015)"
-	   updated="2022-05-22">
+	   updated="2023-09-11">
 	<song name="Moder Kista"
 		  author="David Larsson, IT00"
 		  category="Gasque"
@@ -1352,7 +1352,7 @@
 		  composer="Leonard Cohen">
 		<p>
 			Jag minns knappt hur jag tog mig hem.
-			Klockan var minst kvart i fem
+			Klockan var minst kvart i fem,
 			när jag stod utanför min egen våning.
 			Jag lyfte upp min nyckelring
 			och haja nästan ingenting,
@@ -1390,7 +1390,7 @@
 			Fredagar har mer att ge,
 			än räkor, snask och en TV.
 			En kan ju hyra film och DVD.
-			Å vill en ha något riktigt bra
+			Å vill en ha något riktigt bra,
 			så kan en faktiskt bara ta
 			en film som vunnit Oscar åt en Berry.
 		</p>
@@ -2004,7 +2004,7 @@
 	</song>
 
 	<song name="Vem kan hugga"
-		  category="Wihn"
+		  category="Brännvin"
 		  melody="Vem kan segla förutan vind?">
 		<p>
 			Vem kan hugga sig själv i knät,
@@ -2539,9 +2539,9 @@
 		  category="Brännvin"
 		  melody="Byssan lull">
 		<p>
-			Byssan lull,
-			utav brännvin blir man full,
-			och slipsen man doppar i smöret.
+			//: Byssan lull, utav brännvin blir man full,
+			och slipsen man doppar i smöret. ://
+
 			Och näsan den blir röd,
 			och ögonen får glöd,
 			men tusan så bra blir humöret!
@@ -2912,7 +2912,7 @@
 		<p>
 			Jag gillar punsch för vet du va'
 			rent kaffe gör ju ingen gla'.
-			Så punsch för fulla muggar jag vill ha!
+			Så punsch för fulla muggar vill jag ha!
 		</p>
 		<p>
 			Med konjak du lockar,
