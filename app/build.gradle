@@ -8,12 +8,16 @@ android {
 
 	defaultConfig {
 		applicationId 'se.insektionen.songbook'
-		compileSdk 33
+		compileSdk 34
 		minSdkVersion 16
 		targetSdkVersion 33
 		versionCode 7
 		versionName '1.6'
-		resConfigs 'en', 'sv'
+		resourceConfigurations += ['en', 'sv']
+	}
+
+	buildFeatures {
+		buildConfig true
 	}
 
 	buildTypes {
@@ -35,6 +39,6 @@ android {
 
 dependencies {
 	implementation 'androidx.appcompat:appcompat:1.6.1'
-	implementation 'com.google.android.material:material:1.9.0'
+	implementation 'com.google.android.material:material:1.11.0'
 	implementation 'com.squareup.okhttp3:okhttp:4.10.0'
 }
