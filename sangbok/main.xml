@@ -1756,7 +1756,7 @@
 			och sedan blev det stort kalas.
 			Och vi små glin, ja vi drack vin,
 			som första klassens fyllesvin.
-			Och vi dansade runt där på golvet,
+			Och vi dansade runt där på bordet,
 			och skrek så vi blev blå:
 			"Bordeaux, Bordeaux!"
 		</p>
@@ -2710,8 +2710,8 @@
 			och bankar på dess port.
 			Jag vill ha nåt som bränner bra
 			Och gör mig skitfull fort.
-			Expediten fråga' och sa:
-			Hur gammal kan min herre va?
+			Expediten sade "Goddag,
+			Hur gammal kan min herre va?"
 			Har du nåt leg, ditt fula drägg?
 			Kom hit igen när du fått skägg!
 		</p>
@@ -2866,6 +2866,26 @@
 			Nu tar vi supen,
 			öppna upp strupen,
 			gästernas välkomstskål!
+		</p>
+	</song>
+
+	<song
+		name="Regalskeppet Vasa"
+		author="Den Kongliga INviten 2022"
+		category="Brännvin"
+		melody="Ser du stjärnan i det blå"
+		composer="Leigh Harline">
+		<p>
+			Ser du skeppet i vår hamn?
+			Ner i Mälar'n det försvann!
+			Hur sjönk Vasa? Ve och fasa!
+			Botten upp.
+		</p>
+		<p>
+			Full besättning fanns ombord.
+			Hälften hoppa' överbord.
+			Skeppet sjunka, alla drunkna!
+			Botten upp!
 		</p>
 	</song>
 
