@@ -2,6 +2,6 @@
 <resources>
 	<color name="black">#000000</color>
 	<color name="darkgray">#808080</color>
-	<color name="insektionen">#44687D</color>
-	<color name="insektionen_light">#5B8AA5</color>
+	<color name="insektionen">#2A2136</color>
+	<color name="insektionen_light">#604878</color>
 </resources>

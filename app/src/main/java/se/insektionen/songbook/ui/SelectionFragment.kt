@@ -47,7 +47,7 @@ class SelectionFragment : Fragment(), MainActivity.HasNavigationItem {
     private fun radioButtonFromSelectionId(selection: SongbookSelection) =
         if (SongbookSelection.DEFAULT == selection) {
             R.id.selection_radio_default
-        } else if (SongbookSelection.INSEKTIONEN == selection) {
+        } else if (SongbookSelection.ITSEKTIONEN == selection) {
             R.id.selection_radio_insektionen
         } else {
             Log.e(TAG, "No radio button for current songbook selection.")
@@ -58,7 +58,7 @@ class SelectionFragment : Fragment(), MainActivity.HasNavigationItem {
         if (R.id.selection_radio_default == id) {
             SongbookSelection.DEFAULT
         } else if (R.id.selection_radio_insektionen == id) {
-            SongbookSelection.INSEKTIONEN
+            SongbookSelection.ITSEKTIONEN
         } else {
             Log.e(TAG, "Unknown radio button selected.")
             SongbookSelection.DEFAULT

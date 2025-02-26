@@ -1,13 +1,14 @@
-IN-sektionens Sångbok
+IT-sektionens Sångbok
 =====================
 
 _This application is currently only available in Swedish. International visitors, please contact
 the administrator if you have any questions._
 
-Det här är en mobilapp som låter användaren bläddra i IN-sektionens Sångbok. Den riktar sig främst
-till studenter på Kungliga Tekniska Högskolan (KTH) i Kista. Det finns dock inget som hindrar andra
+Det här är en mobilapp som låter användaren bläddra i IT-sektionens Sångbok. Den riktar sig främst
+till studenter på Kungliga Tekniska Högskolan (KTH). Det finns dock inget som hindrar andra
 från att använda appen för nytta eller nöje. Syftet är att fungera som en ersättning eller
-komplement till den tryckta sångboken.
+komplement till den tryckta sångboken. IT-sektionen hette tidigare IN-sektionen och denna app har
+bytt namn för att reflektera detta.
 
 Både appen och sångernas texter är öppen källkod (samtliga omfattas dock av upphovsrätt). Det betyder
 att vem som helst kan hjälpa till att bidra med fler sånger och rättelser.
@@ -26,7 +27,7 @@ I sista hand kan du kontakta [administratören](https://github.com/wsv-accidis) 
 
 ### Riktlinjer för sångbokens innehåll
 * Alla sångtexter skall följa relevanta policies och regelverk för sånger som framförs på
-  IN-sektionens evenemang.
+  IT-sektionens evenemang.
 * Kontrollera stavning och grammatik (sångtexter förväntas naturligtvis inte vara helt grammatiskt
   perfekta, men i möjligaste mån). Det är tråkigt att sjunga sånger med stavfel och särskrivningar.
 * Om sångtexten innehåller könade uttryck (herrar/damer, systrar/bröder, osv) se gärna till att
@@ -39,7 +40,7 @@ I sista hand kan du kontakta [administratören](https://github.com/wsv-accidis) 
   använda [W3 Markup Validation Service](https://validator.w3.org/) för att enkelt testa din fil.
 
 ## Status
-Aktuell version är 1.7. Applikationen har publicerats på
+Aktuell version är 1.8. Applikationen har publicerats på
 [Google Play](https://play.google.com/store/apps/details?id=se.insektionen.songbook).
 
 ## Behörigheter
@@ -48,12 +49,12 @@ Den här appen kräver följande behörigheter:
 * INTERNET - För att hämta sångboken från Internet.
 
 ## Licensiering
-IN-sångbok distribueras i enlighet med licensvillkoren i **Apache License version 2.0**.
+IT-sångbok distribueras i enlighet med licensvillkoren i **Apache License version 2.0**.
 
-_IN-sångbok is distributed according to the terms of the **Apache License version 2.0**._
+_IT-sångbok is distributed according to the terms of the **Apache License version 2.0**._
 
 ## Tillkännagivanden
-IN-sångbok använder följande tredjepartsbibliotek och resurser, utöver
+IT-sångbok använder följande tredjepartsbibliotek och resurser, utöver
 utvecklingsverktyg för Android utgivna av Google:
 
 * [OkHttp HTTP & SPDY client for Android and Java](https://github.com/square/okhttp)

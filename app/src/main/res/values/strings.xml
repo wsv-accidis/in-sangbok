@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="about_app_info">Appens version: %1$s</string>
-	<string name="about_para1">Det här en sångbok främst avsedd för studenter vid <a href="http://www.insektionen.se">Sektionen för Informations- och Nanoteknik</a> på Kungliga Tekniska Högskolan i Kista. Sångerna är utvalda och korrekturlästa av frivilliga.</string>
+	<string name="about_para1">Det här en sångbok främst avsedd för studenter vid <a href="https://www.kth.it/">Sektionen för Informationsteknik</a> på Kungliga Tekniska Högskolan. Sångerna är utvalda och korrekturlästa av frivilliga.</string>
 	<string name="about_para2">Både appen och sångerna är öppen källkod; du kan hämta källkoden, rapportera buggar och lämna synpunkter på <a href="https://github.com/wsv-accidis/in-sangbok">GitHub</a>. Appen är utvecklad av <a href="http://se.linkedin.com/in/wilhelmsvenselius">Wilhelm Svenselius</a>.</string>
 	<string name="about_para3">Om du vill lägga till sånger eller rätta något fel, <a href="https://github.com/wsv-accidis/in-sangbok/blob/master/README.md">läs mer här om hur du kan bidra</a>.</string>
 	<string name="about_songbook_info">Laddad sångbok: %1$s (uppdaterad %2$s)</string>
 	<string name="about_songbook_source">Källa: %1$s</string>
 
-	<string name="app_name">IN-sektionens sångbok</string>
-	<string name="app_short_name">IN-sångbok</string>
+	<string name="app_name">IT-sektionens sångbok</string>
+	<string name="app_short_name">IT-sångbok</string>
 
 	<string name="navigation_drawer_close">Stäng navigation</string>
 	<string name="navigation_drawer_open">Öppna navigation</string>
@@ -25,7 +25,7 @@
 
 	<string name="selection_para1">Du kan välja mellan olika sångböcker att ladda i appen. Dessa har varierande urval och kan vara sammanställda av olika personer. Observera att för andra sångböcker än standard tar apputvecklaren inget ansvar för innehållet.</string>
 	<string name="selection_songbook_default">Sångbok från wsv-accidis/in-sangbok (standard)</string>
-	<string name="selection_songbook_insektionen">Sångbok från insektionen/songlist</string>
+	<string name="selection_songbook_insektionen">Sångbok från itsektionen/songlist</string>
 
 	<string name="songbook_filter_category">Filtrera kategori</string>
 	<string name="songbook_list_empty">Inget funnet.</string>
