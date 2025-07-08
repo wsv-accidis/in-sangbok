@@ -2,6 +2,7 @@ build
 captures
 
 .idea
+.kotlin
 *.iml
 .gradle
 

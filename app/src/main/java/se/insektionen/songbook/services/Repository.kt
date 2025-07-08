@@ -49,13 +49,9 @@ object Repository {
 
                 if (response.isSuccessful) {
                     try {
-                        if (null != response.body) {
-                            val result = parseSongbook(response.body!!)
-                            resultHandler(Result.success(result))
-                            Log.d(TAG, "Downloading data completed.")
-                        } else {
-                            resultHandler(RepositoryException(R.string.repository_error_unspecified_protocol).asResult())
-                        }
+                        val result = parseSongbook(response.body)
+                        resultHandler(Result.success(result))
+                        Log.d(TAG, "Downloading data completed.")
                     } catch (e: XmlPullParserException) {
                         Log.e(TAG, "Downloading data failed due to an XML parsing error.", e)
                         resultHandler(RepositoryException(R.string.repository_error_xml_parse_error).asResult())
