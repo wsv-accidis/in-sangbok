@@ -13,8 +13,8 @@ android {
 		compileSdk 35
 		minSdkVersion 26
 		targetSdkVersion 35
-		versionCode 10
-		versionName '1.9'
+		versionCode 11
+		versionName '1.10'
 		resourceConfigurations += ['en', 'sv']
 	}
 
@@ -37,8 +37,8 @@ android {
 
 dependencies {
 	implementation 'androidx.appcompat:appcompat:1.7.1'
-	implementation 'com.google.android.material:material:1.12.0'
-	implementation 'com.squareup.okhttp3:okhttp:5.1.0'
+	implementation 'com.google.android.material:material:1.13.0'
+	implementation 'com.squareup.okhttp3:okhttp:5.3.2'
 }
 
 java {
